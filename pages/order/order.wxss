@@ -1,0 +1,106 @@
+
+
+
+/* 订单列表 */
+.top_nav{
+  position: fixed;
+}
+.orderlist .ul .li{
+  background: #fff;
+  margin: 20rpx auto 0;
+  width: 95%;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.orderlist .ul .li .adress{
+  display: flex;
+  font-size: 28rpx;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 0 0 20rpx;
+}
+.orderlist .ul .li .adress .tags{
+  font-size: 22rpx;
+  line-height: 1.85;
+  background: #bfa278;
+  color: #fff;
+  padding:0 10rpx;
+  border-radius: 5rpx;
+}
+.orderlist .ul .li .adress .text{
+  margin-left: 20rpx;
+  width: 500rpx;
+}
+.orderlist .ul .li .adress .state{
+  color: #5d5d5d;
+}
+.orderproItem{
+  margin: 20rpx 0;
+}
+.orderP_I_img image{
+  width: 70px;
+  height: 70px;
+  border-radius:50% ;
+}
+.orderproItem{
+  display: flex;
+  align-items:center;
+}
+.orderProText{
+  padding: 0 20rpx;
+  width: 520rpx;
+}
+.orderProText .h3{
+  font-size: 34rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.orderProText .text{
+  font-size: 24rpx;
+  color: #9a9899;
+}
+.orderProNum{
+  font-size: 26rpx;
+  color: #9e9e9e;
+}
+.orderInfo{
+  display: flex;
+  padding: 20rpx 0 0;
+}
+.orderInfoItem{
+  flex: 1;
+  font-size: 24rpx;
+}
+.orderInfoPrice{
+  text-align: right;
+}
+.orderpro{
+  border-bottom: 1px solid #f3f3f3;
+}
+.orderInfoPrice text{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.again {
+  text-align: right;
+}
+.again navigator{
+  border: 1px solid #051d97;
+  display: inline-block;
+  color: #051d97;
+  margin: 25rpx 0 15rpx;
+  padding: 10rpx 35rpx;
+  border-radius: 100rpx;
+}
+
+.wait .again navigator{
+  border: none;
+  color: #fff;
+  background: rgb(255, 102, 0);
+}
+
+
+
+

@@ -1,0 +1,18 @@
+<view class="joinin">
+    <image src="/images/joinin.jpg" mode="aspectFit"></image>
+    <view class="joininText">
+        <view class="p">招商加盟是企业发展的一种手段，主要是寻找加盟商，让他们付款进货。企业需要招商，营销企业也需要招商，招商是企业营销过程中的关键环节之一，是企业将产品推向市场的必经之路。
+        </view>
+        <view class="p">很多连锁企业总是过分夸大自己，例如号称“年初投资3万，年底回报30万”，加盟商一看就想，招商很可能就是为了骗点加盟费。 当然，这也并不是说招商广告不需要华丽的语言，语言煽动并不表示华而不实；角度丰富并不表示没有重心。如果语言太平实，确实不能引起多数人的关注，但文字过度华丽又容易喧宾夺主，让人看了顿生疑虑。实际上，合理引用调查数据或权威论点都能为文章增加可信度。</view>
+    </view>
+    <view class="ul">
+        <view class="li">招商联系人：张丰文</view>
+        <view class="li">招商联系方式：15185070538 <button catchtap='freeTell'>拨打</button></view>
+    </view>
+</view>
+
+
+
+
+
+

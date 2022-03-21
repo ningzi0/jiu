@@ -1,0 +1,159 @@
+/* pages/complete/complete.wxss */
+.c_header{
+  text-align: center;
+  padding: 70rpx 0 0;
+}
+.c_header .p{
+  font-size: 28rpx;
+  color: #878787;
+}
+.c_aglin{
+  padding: 20rpx 100rpx;
+  border: 1px solid #062578;
+  display: inline-block;
+  border-radius: 100rpx;
+  color: #062578;
+  margin: 30rpx 0;
+  background-color: #fff;
+}
+.adv{
+  width: 95%;
+  height: 123rpx;
+  margin: 0 auto;
+}
+.adv navigator{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.adv image{
+  width: 100%;
+  height: 100%;
+}
+
+.c_add{
+  width: 95%;
+  margin: 15rpx auto;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+}
+.c_add .c_h3{
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.c_add .c_span{
+  font-size: 28rpx;
+  color: #a7a7a7;
+  margin-top: 10rpx;
+}
+
+
+.c_orderInfo{
+  width: 95%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.c_o_tit{
+  font-size: 24rpx;
+  color: #9fa3a6;
+  border-left: 10rpx solid #062578;
+  padding-left: 13rpx;
+}
+.c_orderInfo .c_o_con .img image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.c_orderInfo .c_o_con .ul .li{
+  margin: 20rpx 0;
+}
+.c_orderInfo .c_o_con .img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.c_orderInfo .c_o_con .c_o_info{
+  display: inline-block;
+  vertical-align: middle;
+  width: 410rpx;
+  font-size: 30rpx;
+  padding: 0 15rpx;
+}
+.c_orderInfo .c_o_con .c_o_info .h3{
+  font-weight: bold;
+}
+.c_orderInfo .c_o_con .c_o_info .span{
+  font-size: 28rpx;
+  color: #878787;
+  line-height: 1.75;
+}
+.c_orderInfo .c_o_con .c_o_num{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  line-height: 1.5;
+}
+.c_orderInfo .c_o_con .c_o_num .c_o_price{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.c_orderInfo .c_o_con .c_o_num .c_o_num{
+  font-size: 28rpx;
+  color: #878787;
+}
+
+.priceInfoItem{
+  border-bottom: 1px dashed #eaeaea;
+  padding: 10rpx 0;
+}
+.priceInfoItem:last-child{
+  border: 0;
+}
+.priceInfoItemLi{
+  display: flex;
+  padding: 15rpx 0;
+  font-size: 28rpx;
+}
+.priceInfoItemLi text{
+  flex: 1;
+}
+.priceInfoprice{
+  text-align: right;
+}
+.completePrice{
+  font-weight: bold;
+  font-size: 34rpx;
+}
+.time{
+  background-color: #fff;
+  width: 95%;
+  margin: 15rpx auto;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+
+
+/* 联系商家  联系骑手 */
+.c_header .btn{
+  display: flex;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.c_header .btn button{
+  width: 100%;
+}
+
+
+
+
+/* 订单核销码 */
+.erweima image{
+    width: 300rpx;
+    height: 300rpx;
+}
+

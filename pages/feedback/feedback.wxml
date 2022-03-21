@@ -1,0 +1,10 @@
+<view class="feedback">
+    <view class="feedbackWrap">
+        <view class="ul">
+            <view class="li">
+                <textarea name="" id="" placeholder="请输入反馈内容" placeholder-style="color:#999"></textarea>
+            </view>
+            <button class="submit">提交</button>
+        </view>
+    </view>
+</view>

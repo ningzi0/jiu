@@ -1,0 +1,45 @@
+.top_nav{
+  position: fixed;
+}
+.detailedCon{
+  margin-top: 100rpx;
+}
+.detailedCon .ul{
+  background: #fff;
+}
+.date{
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.detailedCon .ul .li{
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.detailedCon .ul .li .title {
+  font-size: 34rpx;
+  font-weight: bold;
+  display: flex;
+}
+.detailedCon .ul .li .title .h3{
+  flex: 2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.detailedCon .ul .li .title .num{
+  flex: 1;
+  text-align: right;
+}
+.detailedCon .ul .li .info{
+  display: flex;
+  margin-top: 10rpx;
+}
+.detailedCon .ul .li .info .span{
+  flex: 1;
+  font-size: 30rpx;
+  color: #949494;
+}
+.detailedCon .ul .li .info .span:last-child{
+  text-align: right;
+}
+

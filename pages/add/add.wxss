@@ -1,0 +1,8 @@
+/* pages/add/add.wxss */
+.DeliveryCon{
+  margin: 20rpx;
+}
+.DeliveryCon .ul{
+  background-color: #fff;
+  padding: 20rpx;
+}

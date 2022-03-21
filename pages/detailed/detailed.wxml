@@ -1,0 +1,70 @@
+<!-- 导航 -->
+<view class='top_nav'>
+  <view class="nav-name {{item.typeId == currentId ? 'nav-hover':''}}" wx:for="{{section}}" wx:key="id" id='{{item.typeId}}' catchtap='handleTap'>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+
+<view hidden='{{currentId!=1}}'>
+    <view class="detailedCon">
+        <view class="date">
+          <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+            <view class="picker">
+              {{multiArray[0][multiIndex[0]]}}{{multiArray[1][multiIndex[1]]}} ↓
+            </view>
+          </picker>
+        </view>
+        <view class="ul">
+            <block wx:for="{{all}}">
+                <view class="li">
+                    <view class="title">
+                        <view class="h3">{{item.tit}}</view>
+                        <view class="num">{{item.num}}</view>
+                    </view>
+                    <view class="info">
+                        <view class="span">{{item.date}}</view>
+                        <view class="span">{{item.surplus}}</view>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+
+
+      <!-- 无订单状态 -->
+      <view class="nothing" style="display: none;">
+        <view class="nothingImg">
+            <image src="/images/nothing.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">暂无记录</view>
+        <navigator hover-class="none" open-type="switchTab" url="/pages/menu/menu">去喝一杯</navigator>
+      </view>
+</view>
+
+
+
+<view hidden='{{currentId!=2}}'>
+      <!-- 无订单状态 -->
+      <view class="nothing">
+        <view class="nothingImg">
+            <image src="/images/nothing.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">暂无记录</view>
+        <navigator hover-class="none" open-type="switchTab" url="/pages/menu/menu">去喝一杯</navigator>
+      </view>
+</view>
+
+
+
+<view hidden='{{currentId!=3}}'>
+      <!-- 无订单状态 -->
+      <view class="nothing">
+        <view class="nothingImg">
+            <image src="/images/nothing.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">暂无记录</view>
+        <navigator hover-class="none" open-type="switchTab" url="/pages/menu/menu">去喝一杯</navigator>
+      </view>
+</view>
+
+

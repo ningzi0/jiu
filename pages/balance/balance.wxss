@@ -1,0 +1,57 @@
+.balance{
+  background: linear-gradient(to bottom right ,#214776 , #2dc388);
+}
+.balanceNum{
+  text-align: center;
+  color: #fff;
+  padding: 100rpx 0;
+}
+.balanceNum .number{
+  font-size: 100rpx;
+  font-weight: bold;
+}
+.balanceNum .text{
+  font-size: 28rpx;
+}
+.balanceInfo{
+  display: flex;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.balanceInfo navigator{
+  flex: 1;
+  text-align: center;
+  font-size: 28rpx;
+  padding: 30rpx 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+.balanceInfo navigator text{
+  display: block;
+  font-size: 24rpx;
+}
+.balanceInfo navigator text:first-child{
+  font-size: 42rpx;
+}
+
+.detailed navigator{
+  padding: 30rpx 0;
+  text-align: center;
+  border: 1px solid #eee;
+  background-color: #fff;
+  margin: 15rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

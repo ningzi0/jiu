@@ -1,0 +1,124 @@
+<!-- 导航 -->
+<view class='top_nav'>
+  <view class="nav-name {{item.typeId == currentId ? 'nav-hover':''}}" wx:for="{{section}}" wx:key="id" id='{{item.typeId}}' catchtap='handleTap'>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+
+
+<view class="orderContent">
+    <!-- 全部-->
+    <view hidden='{{currentId!=1}}'>
+      <!-- 订单列表 -->
+      <view class="orderlist">
+        <view class="ul">
+            <block wx:for="{{orderList}}">
+                <view class="li">
+                    <view class="adress">
+                        <view class="tags">{{item.tags}}</view>
+                        <view class="text">{{item.add}}</view>
+                        <view class="state">{{item.state}}</view>
+                    </view>
+                    <navigator hover-class="none" class="orderpro" url="/pages/complete/complete">
+                        <block wx:for="{{item.orderPro}}">
+                            <view class="orderproItem">
+                                <view class="orderP_I_img">
+                                    <image src="{{item.imgSrc}}" mode="aspectFill"></image>
+                                </view>
+                                <view class="orderProText">
+                                    <view class="h3">{{item.title}}</view>
+                                    <view class="text">{{item.text}}</view>
+                                </view>
+                                <view class="orderProNum">x{{item.num}}</view>
+                            </view>
+                        </block>
+                    </navigator>
+                    <view class="orderInfo">
+                        <view class="orderInfoItem orderInfoTime">2021-06-18 16:35</view>
+                        <view class="orderInfoItem orderInfoPrice">
+                            共5件商品 合计：<text>￥98</text>
+                        </view>
+                    </view>
+                    <view class="again">
+                        <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">再来一单</navigator>
+                    </view>
+                </view>
+            </block>
+        </view>
+      </view>
+      <!-- 无订单状态 -->
+      <view class="nothing" style="display: none;">
+        <view class="nothingImg">
+            <image src="/images/nothing.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">您还没有订单哦</view>
+        <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">去喝一杯</navigator>
+      </view>
+
+
+
+    </view>
+    <!-- 待收货订单 -->
+    <view hidden='{{currentId!=2}}'>
+      <!-- 订单列表 -->
+      <view class="orderlist wait">
+        <view class="ul">
+            <block wx:for="{{orderList2}}">
+                <view class="li">
+                    <view class="adress">
+                        <view class="tags">{{item.tags}}</view>
+                        <view class="text">{{item.add}}</view>
+                        <view class="state">{{item.state}}</view>
+                    </view>
+                    <navigator hover-class="none" class="orderpro" url="/pages/complete/complete">
+                        <block wx:for="{{item.orderPro}}">
+                            <view class="orderproItem">
+                                <view class="orderP_I_img">
+                                    <image src="{{item.imgSrc}}" mode="aspectFill"></image>
+                                </view>
+                                <view class="orderProText">
+                                    <view class="h3">{{item.title}}</view>
+                                    <view class="text">{{item.text}}</view>
+                                </view>
+                                <view class="orderProNum">x{{item.num}}</view>
+                            </view>
+                        </block>
+                    </navigator>
+                    <view class="orderInfo">
+                        <view class="orderInfoItem orderInfoTime">2021-06-18 16:35</view>
+                        <view class="orderInfoItem orderInfoPrice">
+                            共5件商品 合计：<text>￥98</text>
+                        </view>
+                    </view>
+                    <view class="again">
+                        <navigator hover-class="none" url="/pages/complete/complete">确认收货</navigator>
+                    </view>
+                </view>
+            </block>
+        </view>
+      </view>
+
+      <!-- 无订单状态 -->
+      <view class="nothing" style="display: none;">
+        <view class="nothingImg">
+            <image src="/images/nothing.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">您还没有订单哦</view>
+        <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">去喝一杯</navigator>
+      </view>
+    </view>
+    <!-- 预约订单 -->
+    <view hidden='{{currentId!=3}}'>
+      
+
+      <!-- 无订单状态 -->
+      <view class="nothing">
+        <view class="nothingImg">
+            <image src="/images/nothing.png" mode="aspectFit"></image>
+        </view>
+        <view class="text">您还没有订单哦</view>
+        <navigator hover-class="none" open-type="switchTab" url="/pages/menu/menu">去喝一杯</navigator>
+      </view>
+    </view>
+
+</view>

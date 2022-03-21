@@ -1,0 +1,93 @@
+<view class="newAddress">
+    <view class="ul">
+        <view class="li">
+            <text class="span">联系人</text>
+            <input type="text" placeholder="用于取酒时对您的称呼" placeholder-style="color:#cbcbcb"/>
+        </view>
+        <view class="li">
+            <text class="span">性别</text>
+            <view class="weui-cells weui-cells_after-title">
+                <radio-group bindchange="radioChange">
+                        <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+                            <view class="weui-cell__hd">
+                                <radio value="{{item.value}}"/>
+                            </view>
+                            <view class="weui-cell__bd">{{item.name}}</view>
+                        </label>
+                </radio-group>
+            </view>
+        </view>
+        <view class="li">
+            <text class="span">手机号</text>
+            <input type="number" placeholder="请输入您的手机号" placeholder-style="color:#cbcbcb"/>
+        </view>
+        <view class="li">
+          <view class="box2">
+            <text class="span">地址</text>
+            <input type="text" class="box2_right" placeholder="请选择收货地址" placeholder-style="color:#cbcbcb" disabled="true" bindtap="onChangeAddress" value='{{chooseAddress}}'></input>
+            <view class="fuhao" bindtap="onChangeAddress">
+                <image mode="aspectFill" src="/images/right_arr.png"></image>
+            </view>
+          </view>
+        </view>
+        <view class="li">
+            <text class="span">门牌号</text>
+            <input type="text" placeholder="如：5号楼208室" placeholder-style="color:#cbcbcb"/>
+        </view>
+        <view class="li">
+            <text class="span">标签</text>
+            <view class="tags">
+                <view class="ICONBOX {{viewId == 0 ? 'selected':''}} " bindtap="select" data-index= '0'>
+                  <view class="iconfont icon-haoping ic" ></view>公司
+                </view>
+                <view class="ICONBOX {{viewId == 1 ? 'selected':''}}" bindtap="select" data-index = '1'> 
+                    <view class="iconfont icon-zhongping ic"></view>家
+                </view>
+                <view class="ICONBOX {{viewId == 2 ? 'selected':''}}" bindtap="select" data-index = '2'> 
+                    <view class="iconfont icon-zhongping ic"></view>学校
+                </view>
+            </view>
+        </view>
+        <view class="li">
+            <text class="span">默认地址</text>
+            <view class="body-view">
+                <switch checked="{{switch1Checked}}" bindchange="switch1Change"/>
+            </view>
+        </view>
+    </view>
+
+
+
+    <view class="preservation">
+        <navigator hover-class="none">保存</navigator>
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

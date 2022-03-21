@@ -1,0 +1,311 @@
+<swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="aspectFit"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 头像 -->
+<view class="head">
+    <view class="headImg headItem" >
+        <image src="/images/headimg.jpg" mode="aspectFill"></image>
+    </view>
+    <view class="headText headItem">Lucky you 跟幸运打个招呼！！！</view>
+    <view class="btn headItem" style="display: none;">
+        <navigator>登录/注册</navigator>
+    </view>
+</view>
+<!-- 卡片 -->
+<view class="card boxshadow">
+    <view class="cardContent">
+      <view class="bigCard card_share">
+          <view class="bigcardItem card_shareItem">
+              <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">
+                  <image src="/images/bigcard1.png" ></image>
+                  <view class="h3">到店取</view>
+                  <view class="span">提前下单自取</view>
+              </navigator>
+          </view>
+          <view class="bigcardItem card_shareItem">
+            <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">
+                  <image src="/images/bigcard2.png" ></image>
+                  <view class="h3">幸运送</view>
+                  <view class="span">外卖及时送达</view>
+              </navigator>
+          </view>
+          <view class="bigcardItem card_shareItem">
+            <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">
+                  <image src="/images/bigcard3.png" ></image>
+                  <view class="h3">逛酒仓</view>
+                  <view class="span">好酒等你发现</view>
+              </navigator>
+          </view>
+      </view>
+      <view class="smallCard card_share">
+        <view class="smallcardItem card_shareItem">
+              <navigator hover-class="none" url="/pages/wallet/wallet">
+                  <image src="/images/smallcard1.png" ></image>
+                  <view class="h3">充4赠3</view>
+                  <view class="span">酒仓钱包</view>
+              </navigator>
+          </view>
+          <!-- <view class="smallcardItem card_shareItem">
+            <navigator hover-class="none">
+                  <image src="/images/smallcard2.png" ></image>
+                  <view class="h3">礼品卡</view>
+                  <view class="span">传情达意</view>
+              </navigator>
+          </view> -->
+          <view class="smallcardItem card_shareItem">
+            <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">
+                  <image src="/images/smallcard3.png" ></image>
+                  <view class="h3">福利中心</view>
+                  <view class="span">天天得福利</view>
+              </navigator>
+          </view>
+          <view class="smallcardItem card_shareItem">
+            <navigator hover-class="none" url="/pages/Spell/Spell">
+                  <image src="/images/smallcard4.png" ></image>
+                  <view class="h3">拼单满减</view>
+                  <view class="span">一起点更划算</view>
+              </navigator>
+          </view>
+      </view>
+    </view>
+</view>
+
+<!-- 广告位 -->
+<view class="ad">
+    <navigator hover-class="none">
+        <image src="/images/ad.png" mode="aspectFit"></image>
+    </navigator>
+</view>
+
+
+<!-- 新人专区 -->
+<view class="newpeople boxshadow">
+    <!-- 标题 -->
+    <view class="title">
+        <view class="h3 tit_flex">新人专区</view>
+        <view class="tit_flex tit_navigator">
+            <navigator hover-class="none" url="/pages/newpeople/newpeople">查看全部</navigator>
+        </view>
+    </view>
+    <!-- 新人福利券 -->
+    <view class="Coupons">
+        <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">
+            <image src="/images/new_Coupons.png" mode="aspectFit"></image>
+        </navigator>
+        <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">
+            <image src="/images/new_Coupons2.png" mode="aspectFit"></image>
+        </navigator>
+    </view>
+    <!-- 新人福利产品 -->
+    <view class="new_coupons_pro">
+        <view class="new_c_p_item new_c_p_Left">
+            <view class="new_c_p_Content">
+                <navigator hover-class="none" url="/pages/pro/pro">
+                    <view class="new_c_p_c_info">
+                        <view class="new_c_p_c_title">朝日啤酒</view>
+                        <view class="new_c_p_c_price">
+                            <view class="new_c_p_c_price_text">新人价</view>
+                            <view class="new_c_p_c_price_text2">
+                                <text class="Now"><text>￥</text>69</text><text class="old">￥29</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="new_c_p_c_img">
+                        <image src="/images/new_pro1.png" mode="aspectFit"></image>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+        <view class="new_c_p_item new_C_p_Right">
+            <view class="new_c_p_Content">
+                <navigator hover-class="none" url="/pages/pro/pro">
+                    <view class="new_c_p_c_info">
+                        <view class="new_c_p_c_title">札幌拉格</view>
+                        <view class="new_c_p_c_price">
+                            <view class="new_c_p_c_price_text">新人价</view>
+                            <view class="new_c_p_c_price_text2">
+                                <text class="Now"><text>￥</text>69</text><text class="old">￥29</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="new_c_p_c_img">
+                        <image src="/images/new_pro2.png" mode="aspectFit"></image>
+                    </view>
+                </navigator>
+            </view>
+
+            <view class="new_c_p_Content">
+                <navigator hover-class="none" url="/pages/pro/pro">
+                    <view class="new_c_p_c_info">
+                        <view class="new_c_p_c_title">麒麟一番榨</view>
+                        <view class="new_c_p_c_price">
+                            <view class="new_c_p_c_price_text">新人价</view>
+                            <view class="new_c_p_c_price_text2">
+                                <text class="Now"><text>￥</text>69</text><text class="old">￥29</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="new_c_p_c_img">
+                        <image src="/images/new_pro1.png" mode="aspectFit"></image>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
+
+<!-- 福利中心 -->
+<view class="welfare boxshadow">
+    <!-- 标题 -->
+    <view class="title">
+        <view class="h3 tit_flex">福利中心</view>
+        <view class="tit_flex tit_navigator">
+            <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">查看全部</navigator>
+        </view>
+    </view>
+    <!-- 福利券 -->
+    <view class="welfare_Coupons">
+        <view class="welfare_con">
+            <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">
+                <view class="h3">5折优惠券</view>
+                <view class="span">全场咖啡</view>
+            </navigator>
+            <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">
+                <view class="h3">5.5折优惠券</view>
+                <view class="span">双杯快乐</view>
+            </navigator>
+            <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">
+                <view class="h3">本月品鉴酒师</view>
+                <view class="span">马上冲榜</view>
+            </navigator>
+        </view>
+    </view>
+</view>
+
+<!-- 本月销售榜 -->
+<view class="list">
+    <image class="listbg" src="/images/listbg.png" mode="aspectFit"></image>
+    <view class="listContent">
+        <view class="listTitle">
+            <view class="h3">本月销售榜</view>
+            <view class="text">跟着大家选，款款都不错</view>
+        </view>
+        <view class="listCon">
+            <view class="ul">
+                <view class="li">
+                    <navigator hover-class="none" url="/pages/pro/pro">
+                        <view class="img">
+                            <image src="/images/list-pro1.png" mode="aspectFit"></image>
+                            <view class="tags">TOP1</view>
+                        </view>
+                        <view class="list_info">
+                            <view class="list_pro_tit">玛莎诺娅骑士古堡半甜型红酒葡萄酒</view>
+                            <view class="list_pro_price">
+                                <text class="now">￥126</text><text class="old">￥186</text>
+                            </view>
+                        </view>
+                        <view hover-class="none" class="add_shopCart">+</view>
+                    </navigator>
+                </view>
+                <view class="li">
+                    <navigator hover-class="none" url="/pages/pro/pro">
+                        <view class="img">
+                            <image src="/images/list-pro1.png" mode="aspectFit"></image>
+                            <view class="tags">TOP2</view>
+                        </view>
+                        <view class="list_info">
+                            <view class="list_pro_tit">玛莎诺娅骑士古堡半甜型红酒葡萄酒</view>
+                            <view class="list_pro_price">
+                                <text class="now">￥126</text><text class="old">￥186</text>
+                            </view>
+                        </view>
+                        <view hover-class="none" class="add_shopCart">+</view>
+                    </navigator>
+                </view>
+                <view class="li">
+                    <navigator hover-class="none" url="/pages/pro/pro">
+                        <view class="img">
+                            <image src="/images/list-pro1.png" mode="aspectFit"></image>
+                            <view class="tags">TOP3</view>
+                        </view>
+                        <view class="list_info">
+                            <view class="list_pro_tit">玛莎诺娅骑士古堡半甜型红酒葡萄酒</view>
+                            <view class="list_pro_price">
+                                <text class="now">￥126</text><text class="old">￥186</text>
+                            </view>
+                        </view>
+                        <view hover-class="none" class="add_shopCart">+</view>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+<!-- 今日推荐 -->
+<view class="recommend">
+    <!-- 标题 -->
+    <view class="title">
+        <view class="h3">
+            <!-- <view class="h3 tit_flex">今日推荐</view> -->
+            <view class="nav-name {{item.typeId == currentId ? 'nav-hover':''}}" wx:for="{{section}}" wx:key="id" id='{{item.typeId}}' catchtap='handleTap'>
+                <text>{{item.name}}</text>
+            </view>
+        </view>
+
+        <view class="tit_navigator">
+            <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">更多</navigator>
+        </view>
+    </view>
+
+    <view class="recommend_con">
+        <view class="ul">
+            <view class="li boxshadow">
+                <navigator hover-class="none"  url="/pages/pro/pro">
+                    <view class="re_img">
+                        <image src="/images/re_proimg.png" mode="aspectFit"></image>
+                    </view>
+                    <view class="re_info">
+                        <view class="re_title">14度法国进口AOP红酒整箱</view>
+                        <view class="re_price">
+                            <text class="now">￥99</text><text class="old">￥129</text>
+                        </view>
+                        <view class="re_tags">
+                            <text>满减</text>
+                            <text>赠品</text>
+                        </view>
+                        <view class="re_buyNum">已售卖24700+件</view>
+                    </view>
+                     <view hover-class="none" class="add_shopCart">+</view>
+                </navigator>
+            </view>
+            <view class="li">
+                <navigator hover-class="none" url="/pages/pro/pro">
+                    <view class="re_img">
+                        <image src="/images/re_proimg.png" mode="aspectFit"></image>
+                    </view>
+                    <view class="re_info">
+                        <view class="re_title">14度法国进口AOP红酒整箱</view>
+                        <view class="re_price">
+                            <text class="now">￥99</text><text class="old">￥129</text>
+                        </view>
+                        <view class="re_tags">
+                            <text>满减</text>
+                            <text>赠品</text>
+                        </view>
+                        <view class="re_buyNum">已售卖24700+件</view>
+                    </view>
+                    <view hover-class="none" class="add_shopCart">+</view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
+
+
+

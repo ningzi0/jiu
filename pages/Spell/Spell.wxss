@@ -1,0 +1,221 @@
+/* pages/Spell/Spell.wxss */
+.spellTop{
+  background-color: #2d34a6;
+  padding: 100rpx 50rpx 0;
+  position: relative;
+}
+.process .ul{
+  display: flex;
+  text-align: center;
+}
+.process .ul .li{
+  flex: 1;
+}
+.process .ul .li .bgcolor{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 20rpx;
+  position: relative;
+}
+.process .ul .li .bgcolor::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 60rpx;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.459);
+  top: 50%;
+  margin-top: -1px;
+  left: 100%;
+}
+
+
+.process .ul .li .bgcolor .num{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  line-height: 60rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #2f339e;
+}
+.process .ul .li:last-child .bgcolor::after{
+  display: none;
+}
+.process .ul .li .text{
+  font-size: 28rpx;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 20rpx 0;
+}
+.process .ul .li.active .bgcolor{
+  background: rgba(255, 255, 255, 0.1);
+}
+.process .ul .li.active .bgcolor .num{
+  background: #fff;
+}
+.process .ul .li.active .bgcolor::after{
+  background: #fff;
+  left: 112%;
+}
+.process .ul .li.active .text{
+  color: #fff;
+  font-weight: bold;
+}
+
+.invitation{
+  background:linear-gradient(#fff , #c1c3fe);
+  width: 500rpx !important;
+  border-radius: 200rpx;
+  margin: 20rpx 0 0;
+  color: #3e3993;
+}
+.invitationText{
+  position: relative;
+  text-align: center;
+  padding: 30rpx 0;
+  color: #fff;
+  font-size: 28rpx;
+}
+.guize{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0,-50%);
+  background: rgba(0, 0, 0, 0.384);
+  padding: 5rpx 20rpx;
+  border-radius: 200rpx;
+}
+.spellContent{
+  background: #fff;
+  margin: 15rpx 0 120rpx;
+}
+.s_C_item{
+  padding: 20rpx 20rpx 0;
+  display: flex;
+}
+.s_C_item .left {
+  width: 70%;
+}
+.s_C_item .right{
+  width: 29%;
+  text-align: right;
+  padding: 18rpx 0;
+}
+.s_C_item .right text{
+  font-size: 24rpx;
+  color: #999;
+}
+.gobuy {
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+.gobuy navigator{
+  border: 1px solid #8899c5;
+  color: #2d34a6;
+  text-align: center;
+  border-radius: 200rpx;
+  padding: 8rpx 20rpx;
+  margin-right: 10rpx;  
+  font-size: 26rpx;
+  display: inline-block;
+}
+.s_C_item .left image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  display: inline-block;
+  vertical-align: middle;
+}
+.s_C_item .left text.name{
+  padding: 0 20rpx;
+}
+.s_C_item .left text.tag{
+  font-size: 24rpx;
+  color: #c86347;
+  border: 1px solid #f3c4ba;
+  padding: 5rpx;
+}
+
+
+
+.manjian{
+  background: #fbdfd4;
+  color: #dd5b2a;
+  text-align: center;
+  font-size: 26rpx;
+  padding: 10rpx 0;
+  margin-top: 15rpx;
+}
+
+.btn{
+  text-align: right;
+}
+.btn button{
+  width: 230rpx;
+  display: inline-block;
+  margin-right: 10rpx;
+  background: none;
+  font-weight: 300;
+  font-size: 28rpx;
+  border-radius: 200rpx;
+}
+.btn button.empty{
+  border: 1px solid #e2e4e3;
+  color: #666263;
+}
+.btn button.modify{
+  border: 1px solid #8a96c8;
+  color: #122895;
+}
+.s_C_itemWrap{
+  border-bottom: 20rpx solid #fafafa;
+}
+
+.footer{
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 20rpx rgba(0,0,0,0.1);
+  bottom: 0;
+  padding: 20rpx;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.footer_item{
+  flex: 1;
+}
+.footer_btn{
+  text-align: right;
+}
+.footer_btn navigator{
+  display: inline-block;
+  background: #353897;
+  color: #fff;
+  padding: 20rpx 70rpx;
+  border-radius: 200rpx;
+}
+.footer_item .total{
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.footer_item .old{
+  font-size: 24rpx;
+  color: #999;
+  text-decoration: line-through;
+}
+.myorder{
+  font-size: 24rpx;
+  color: #ef6729;
+}
+
+/* 模态框  */
+.show-btn {
+  margin-top: 100rpx;
+  color: #22cc22;
+}

@@ -1,0 +1,91 @@
+/* pages/WelfareCenter/WelfareCenter.wxss */
+.Coupons-item{
+  background-color: #fff;
+  margin: 20rpx;
+  border-radius: 8rpx;
+  padding: 20rpx;
+}
+.Coupons-item .title{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.Coupons-item .item{
+  background-color: #f2f3f7;
+  margin: 20rpx 0;
+}
+.Coupons-item .item .left{
+  width: 25%;
+  background-color: #9db1e3;
+  padding: 10rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.Coupons-item .item .right{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20rpx;
+  width: 37%;
+}
+.Coupons-item .item .right .h3{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.Coupons-item .item .right .p{
+  font-size: 25rpx;
+  padding: 10rpx 0;
+  color: #999;
+}
+.left_bg{
+  background:linear-gradient(to bottom right ,#637ac6 , #8fa5ee);
+  height: 100%;
+  color: #fff;
+  font-size: 42rpx;
+  font-weight: bold;
+  text-align: center;
+  padding: 40rpx 0;
+  box-sizing: border-box;
+}
+
+.Coupons-item .item .btn{
+  display: inline-block;
+  vertical-align: middle;
+  width: 25%;
+}
+.Coupons-item .item .btn button{
+  width: 100%;
+  background:linear-gradient(to bottom right ,#fde4bb , #febe74);
+  color: #a02408;
+  padding: 10rpx;
+}
+.Coupons-item .item .btn button:active{
+  background:linear-gradient(to bottom right ,#f8deb4 , #f5b56b);
+}
+.already{
+  width: 150rpx;
+  height: 150rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.godrink{
+  background-color: #0123ab;
+  color: #fff;
+  text-align: center;
+  border-radius: 100rpx;
+  padding: 20rpx 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

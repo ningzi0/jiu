@@ -1,0 +1,101 @@
+<view class="return" bindtap="return">
+    <image mode="aspectFill" src="/images/return.png"></image>
+</view>
+<view class="pro" >
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+          <swiper-item>
+              <image src="{{item}}" class="slide-image" mode="aspectFit"/>
+          </swiper-item>
+      </block>
+  </swiper>
+
+  <view class="headerInfo">
+      <view class="p_title">朝日啤酒</view>
+      <view class="p_info">
+          <view class="specs">
+              选择规格：
+              <view class="ICONBOX {{viewId == 0 ? 'selected':''}} " bindtap="select" data-index= '0'>
+                  <view class="iconfont icon-haoping ic" ></view>单瓶750ml
+              </view>
+              <view class="ICONBOX {{viewId == 1 ? 'selected':''}}" bindtap="select" data-index = '1'> 
+                  <view class="iconfont icon-zhongping ic"></view>整箱6瓶装（750ml*6）
+              </view>
+          </view>
+          <view class="specs2">
+            <text>销量：已售卖100+件</text>
+            <text>运费：免运费</text>
+            <text>温馨提示：·不支持7天无理由退货 ·未满18周岁的用户请勿购买本商品</text>
+          </view>
+      </view>
+      <!-- 收藏 -->
+      <view class="Collection">
+            <view class="collectionCon">❤</view>
+            <view class="text">收藏口味</view>
+      </view>
+  </view>
+
+  <!-- 产品信息 -->
+  <view class="proinfo">
+        <view class="ul">
+            <block wx:for="{{proinfo}}">
+                <view class="li">
+                    <view class="h3">{{item.p_infoTit}}</view>
+                    <view class="span">{{item.p_infoSpan}}</view>
+                </view>
+            </block>
+        </view>
+  </view>
+
+
+
+  <!-- 优惠信息 -->
+  <view class="Discount">
+      <text class="span">优惠</text>
+      <view class="p">
+          <text class="tags">赠品</text>
+          <text class="font">满1件赠50ml同款试饮装一瓶</text>
+      </view>
+  </view>
+
+  <!-- 商品详情 -->
+  <view class="proshow">
+      <view class="proTitle">商品详情</view>
+      <view class="proimg">
+          <image src="/images/pro.jpg" mode="aspectFill"></image>
+      </view>
+  </view>
+
+  <!-- 底部 -->
+  <view class="pro_footer boxshadow">
+    <view class="p_price_num">
+        <view class="p_price_num_item p_price_num_l">
+            <view class="p_price">
+                    <text class="now">￥269</text>
+                    <text class="old">￥389</text>
+                    <text class="tags">首杯价</text>
+            </view>
+            <view class="p_p_span">单瓶750ml 免运费</view>
+        </view>
+        <view class="p_price_num_item p_price_num_r">
+            <view class="p_price_num_r_con">
+                <view class='row item-center'>
+                    <view class="buy-num-btn btn-minus" disabled="{{minusStatus}}" plain='ture' bindtap='minusNum'>-</view><input class='buy-num-txt' disabled type='number' value='{{courseCount}}'></input><view class="buy-num-btn btn-add" plain='ture' bindtap='addNum'>+</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="p_btn">
+        <navigator url="/pages/payment/payment" hover-class="none" class="buy">立即购买</navigator>
+        <navigator hover-class="none" class="car">加入购物车</navigator>
+    </view>
+  </view>
+
+
+</view>
+
+
+
+
+

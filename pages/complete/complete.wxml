@@ -1,0 +1,103 @@
+<view class="complete">
+    <view class="c_header">
+        <view class="erweima">
+            <image src="/images/erweima.png"></image>
+        </view>
+        <view class="p">订单核销码：00154564538676435354</view>
+        <view class="c_aglin">
+            <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">再来一单</navigator>
+        </view>
+        <view class="btn">
+            <button>联系商家</button>
+        </view>
+    </view>
+
+    <!-- 广告位 -->
+    <view class="adv">
+        <navigator hover-class="none">
+            <image src="/images/adv2.png" mode="aspectFill"></image>
+        </navigator>
+    </view>
+
+    <!-- 收货地址 -->
+    <view class="c_add">
+        <view class="c_h3">首开紫郡紫香堤14栋2单元601</view>
+        <view class="c_span">张丰文先生 15185070538</view>
+    </view>
+
+    <!-- 订单信息 -->
+    <view class="c_orderInfo">
+        <view class="c_o_tit">外卖订单：00012022030443371220</view>
+        <view class="c_o_con">
+            <view class="ul">
+              <block wx:for="{{orderInfo}}">
+                  <view class="li">
+                      <navigator hover-class="none" url="/pages/pro/pro">
+                          <view class="img">
+                              <image src="{{item.img}}"></image>
+                          </view>
+                          <view class="c_o_info">
+                              <view class="h3">{{item.infoH3}}</view>
+                              <view class="span">{{item.infoSpan}}</view>
+                          </view>
+                          <view class="c_o_num">
+                              <view class="c_o_price">￥{{item.infoPrice}}</view>
+                              <view class="c_o_num">x{{item.infoNum}}</view>
+                          </view>
+                      </navigator>
+                  </view>
+              </block>
+              <!-- 价格信息 -->
+              <view class="priceInfo">
+                  <view class="priceInfoItem">
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">打包费</text>
+                          <text class="priceInfoprice">￥0</text>
+                      </view>
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">配送费</text>
+                          <text class="priceInfoprice">￥3</text>
+                      </view>
+                  </view>
+                  <view class="priceInfoItem">
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">优惠减免合计</text>
+                          <text class="priceInfoprice">-￥63</text>
+                      </view>
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">优惠券</text>
+                          <text class="priceInfoprice">-￥13</text>
+                      </view>
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">商品直减</text>
+                          <text class="priceInfoprice">-￥49</text>
+                      </view>
+                  </view>
+                  <view class="priceInfoItem">
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">共5件商品</text>
+                          <text class="priceInfoprice">实付 <text class="completePrice">￥98</text></text>
+                      </view>
+                  </view>
+              </view>
+            </view>
+        </view>
+    </view>
+
+    <!-- 送达时间 -->
+    <view class="time">
+      <view class="priceInfoItem">
+          <view class="priceInfoItemLi">
+              <text class="priceInfoName">送达时间</text>
+              <text class="priceInfoprice">2021-06-18 17:09</text>
+          </view>
+      </view>
+    </view>
+
+
+
+
+</view>
+
+
+

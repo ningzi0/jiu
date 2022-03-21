@@ -1,0 +1,80 @@
+<!-- 导航 -->
+<view class='top_nav'>
+  <view class="nav-name {{item.typeId == currentId ? 'nav-hover':''}}" wx:for="{{section}}" wx:key="id" id='{{item.typeId}}' catchtap='handleTap'>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+
+<view class="distributionCon">
+    <!-- 门店自提 -->
+    <view hidden='{{currentId!=1}}' style="height: 100%;">
+      <view class="ul">
+          <view class="li">
+            <view class="dis_tit">
+                <text class="tags">酒精研究所</text>
+                <text class="h3">首开紫郡店</text>
+                <text class="distance">325m</text>
+            </view>
+            <view class="dis_time">
+                <image mode="aspectFill" src="/images/shijian.png"></image><text>07:30 - 20:00</text>
+            </view>
+            <view class="dis_time">
+                <image mode="aspectFill" src="/images/shouhuodizhi.png"></image><text>南明区机场路8号首开紫郡紫香堤14栋2单元</text>
+                <view class="map">地图导航</view>
+            </view>
+          </view>
+      </view>
+    </view>
+
+    <!-- 送货上门 -->
+    <view hidden='{{currentId!=2}}' style="height: 100%;">
+        <view class="DeliveryCon">
+            <view class="addTit">收货地址</view>
+            <view class="ul">
+                <view class="li">
+                    <view class="Delivery_content">
+                        <view class="de_con_add">首开紫郡紫香堤 三岔河路30号(14栋2单元601)</view>
+                        <view class="de_con_tags">
+                            <text class="tags1">默认地址</text>
+                            <text class="tags2">公司</text>
+                            <text class="name">李宁先生</text>
+                            <text class="number">18798829360</text>
+                        </view>
+                    </view>
+                    <view class="bianji">
+                        <navigator hover-class="none" url="/pages/Newaddress/Newaddress">
+                            <image src="/images/bianji.png" mode="aspectFill"></image>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+
+            <view class="newadd">
+                <navigator hover-class="none" url="/pages/Newaddress/Newaddress">新增地址</navigator>
+            </view>
+        </view>
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

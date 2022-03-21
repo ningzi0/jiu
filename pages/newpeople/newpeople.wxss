@@ -1,0 +1,15 @@
+/* pages/newpeople/newpeople.wxss */
+.n_title{
+  padding: 20rpx;
+  font-weight: bold;
+}
+
+.re_price .now{
+  color: rgb(255, 94, 0);
+  letter-spacing: -1px;
+}
+
+
+
+
+

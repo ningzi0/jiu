@@ -1,0 +1,45 @@
+<view class="welfare">
+    <view class="Coupons">
+        <view class="Coupons-item">
+            <view class="item">
+                <view class="left">
+                    <view class="left_bg">5折</view>
+                </view>
+                <view class="right">
+                    <view class="h3">全场酒类</view>
+                    <view class="p">有效期至2022-05-12</view>
+                </view>
+                <view class="btn" style="display: none;">
+                    <button>领取</button>
+                </view>
+                <image class="already" alt="已领取" src="/images/already.png"></image>
+            </view>
+            <view class="item">
+                <view class="left">
+                    <view class="left_bg">5.5折</view>
+                </view>
+                <view class="right">
+                    <view class="h3">双杯快乐</view>
+                    <view class="p">满两杯可用，有效期至2022-05-12</view>
+                </view>
+                <view class="btn">
+                    <button>领取</button>
+                </view>
+            </view>
+            <navigator class="godrink" open-type="switchTab" url="/pages/menu/menu">去喝一杯</navigator>
+        </view>
+
+    </view>
+
+    <!-- 广告位 -->
+    <view class="myadv">
+        <navigator hover-class="none">
+            <image src="/images/myadv.jpg" mode="aspectFit"></image>
+        </navigator>
+    </view>
+</view>
+
+
+
+
+

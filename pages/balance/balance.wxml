@@ -1,0 +1,34 @@
+<view class="balance">
+    <view class="balanceNum">
+        <view class="number">0</view>
+        <view class="text">总余额（元）</view>
+    </view>
+    <view class="balanceInfo">
+        <navigator hover-class="none">
+            <text>0</text>
+            <text>可用余额（元）</text>
+        </navigator>
+        <navigator hover-class="none">
+            <text>0</text>
+            <text>冻结余额（元）</text>
+        </navigator>
+    </view>
+</view>
+
+
+<view class="detailed">
+    <navigator hover-class="none" url="/pages/detailed/detailed">查看余额明细</navigator>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+

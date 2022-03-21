@@ -1,0 +1,33 @@
+/* pages/Joinin/Joinin.wxss */
+.joinin{
+  padding: 20rpx;
+}
+.joinin image{
+  width: 100%;
+  height: 266rpx;
+}
+.joininText{
+  margin: 15rpx 0;
+}
+.joininText .p{
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+  color: #666;
+  text-align: justify;
+  line-height: 1.75;
+}
+.joinin .ul .li{
+  border: 1px solid #eee;
+  padding: 25rpx;
+  margin: 15rpx 0;
+  background-color: #fff;
+}
+.joinin .ul .li button{
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  background-color: rgb(255, 94, 0);
+  color: #fff;
+  padding: 10rpx 0;
+}
+

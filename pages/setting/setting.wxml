@@ -1,0 +1,91 @@
+<view class="setting">
+    <view class="s_content">
+        <view class="ul">
+            <view class="li">
+                <text class="list-name list-first set_item">头像</text>
+                <view class="edit-righr-bar set_item">
+                    <view class="img">
+                      <image class="head-portrait" src="{{avatar}}" bindtap='changeAvatar'></image>
+                    </view>
+                    <image src="/images/right_arr.png" class="right_arr"></image>
+                </view>
+            </view>
+            <view class="li">
+                <text class="list-name list-first set_item">用户名</text>
+                <view class="edit-righr-bar set_item">
+                    <view class="input">
+                        <input type="text" value="一弹倒" />
+                    </view>
+                    <image src="/images/right_arr.png" class="right_arr"></image>
+                </view>
+            </view>
+            <view class="li">
+                <text class="list-name list-first set_item">性别</text>
+                <view class="edit-righr-bar set_item">
+                    <view class="input">
+                      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                          <view class="picker">
+                            {{array[index]}}
+                          </view>
+                      </picker>
+                    </view>
+                    <image src="/images/right_arr.png" class="right_arr"></image>
+                </view>
+            </view>
+            <view class="li">
+                <text class="list-name list-first set_item">生日</text>
+                <view class="edit-righr-bar set_item">
+                    <view class="input birthday">
+                      <picker mode="date" value="{{date}}" start="2015-09-01" end="9999-09-01" bindchange="bindDateChange">
+                        <view class="picker">
+                           {{date}}
+                        </view>
+                      </picker>
+                    </view>
+                    <image src="/images/right_arr.png" class="right_arr"></image>
+                </view>
+            </view>
+            <view class="li">
+                <text class="list-name list-first set_item">绑定手机号</text>
+                <view class="edit-righr-bar set_item">
+                    <view class="input">
+                      <text>187****9360</text>
+                    </view>
+                    <image src="" class="right_arr"></image>
+                </view>
+            </view>
+            <view class="li">
+                <text class="list-name list-first set_item">收货地址</text>
+                <view class="edit-righr-bar set_item">
+                    <view class="input">
+                      <navigator hover-class="none" url="/pages/add/add"></navigator>
+                    </view>
+                    <image src="/images/right_arr.png" class="right_arr"></image>
+                </view>
+            </view>
+            <view class="li">
+                <text class="list-name list-first set_item">会员编号</text>
+                <view class="edit-righr-bar set_item">
+                    <view class="input">
+                      <text>202203180001</text>
+                    </view>
+                    <image src="" class="right_arr"></image>
+                </view>
+            </view>
+            <view class="li">
+                <text class="list-name list-first set_item">协议与说明</text>
+                <view class="edit-righr-bar set_item">
+                    <view class="input">
+                      <navigator hover-class="none" url=""></navigator>
+                    </view>
+                    <image src="/images/right_arr.png" class="right_arr"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+<!-- 退出登录 -->
+<view class="newadd">
+    <navigator hover-class="none" url="/pages/my/my" open-type="switchTab">退出登录</navigator>
+</view>

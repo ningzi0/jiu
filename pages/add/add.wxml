@@ -1,0 +1,24 @@
+<view class="DeliveryCon">
+    <view class="ul">
+        <view class="li">
+            <view class="Delivery_content">
+                <view class="de_con_add">首开紫郡紫香堤 三岔河路30号(14栋2单元601)</view>
+                <view class="de_con_tags">
+                    <text class="tags1">默认地址</text>
+                    <text class="tags2">公司</text>
+                    <text class="name">李宁先生</text>
+                    <text class="number">18798829360</text>
+                </view>
+            </view>
+            <view class="bianji">
+                <navigator hover-class="none" url="/pages/Newaddress/Newaddress">
+                    <image src="/images/bianji.png" mode="aspectFill"></image>
+                </navigator>
+            </view>
+        </view>
+    </view>
+
+    <view class="newadd">
+        <navigator hover-class="none" url="/pages/Newaddress/Newaddress">新增地址</navigator>
+    </view>
+</view>

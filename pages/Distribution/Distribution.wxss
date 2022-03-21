@@ -1,0 +1,58 @@
+
+/* =========================================== */
+.top_nav{
+  position: fixed;
+}
+.distributionCon{
+  margin-top: 115rpx;
+}
+.distributionCon .ul .li{
+  background-color: #fff;
+  width: 95%;
+  margin: 0 auto;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.dis_tit .tags{
+  font-size: 24rpx;
+  background-color: #051d97;
+  color: #fff;
+  padding: 7rpx 10rpx;
+  border-radius: 5rpx;
+}
+.dis_tit .h3{
+  font-size: 32rpx;
+  font-weight: bold;
+  width: 460rpx;
+  display: inline-block;
+  padding: 0 15rpx;
+  box-sizing: border-box;
+}
+.distance{
+  font-size: 24rpx;
+  color: #999;
+}
+.dis_time{
+  margin: 15rpx 0;
+}
+.dis_time image{
+  width: 40rpx;
+  height: 40rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.dis_time text{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 28rpx;
+  color: #666;
+  margin-left: 10rpx;
+  width: 490rpx;
+}
+.distributionCon .ul .li .map{
+  font-size: 28rpx;
+  color: #051d97;
+  display: inline-block;
+  vertical-align: top;
+}
+

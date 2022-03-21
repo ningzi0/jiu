@@ -1,0 +1,170 @@
+/* pages/payment/payment.wxss */
+.payment{
+  margin-bottom: 170rpx;
+}
+.p_top{
+  background: #fff;
+  margin: 20rpx;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+}
+.p_top .h3{
+  color: #313131;
+}
+.p_top .span{
+  font-size: 26rpx;
+  color: #8b8b8b;
+  margin-top: 10rpx;
+}
+.prolist{
+  background: #fff;
+  margin: 20rpx;
+  position: relative;
+  padding-top: 50rpx;
+}
+.top_tags{
+  background-color: #fdf0e8;
+  color: #e76f4a;
+  position: absolute;
+  top: 0;
+  font-size: 24rpx;
+  padding: 8rpx 20rpx;
+  right: 0;
+  border-radius: 0 0 0 20rpx;
+}
+.youhui text{
+  font-size: 24rpx;
+  border: 1px solid #f9c3b9;
+  color: #e76f4a;
+  padding: 5rpx 10rpx;
+  border-radius: 8rpx;
+}
+.prolist .ul{
+  border-bottom: 1px dashed #eee;
+}
+.tips{
+  font-size: 24rpx;
+  padding: 20rpx;
+  color: #999;
+}
+
+.should{
+  text-align: right;
+  padding: 0 20rpx 20rpx;
+  font-size: 28rpx;
+  color: #888;
+}
+.should text{
+  font-size: 40rpx;
+  color: #222;
+  font-weight: bold;
+}
+
+.pay_method{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin: 20rpx;
+  padding: 30rpx;
+}
+.pay_method:active{
+  background-color: #fafafa;
+}
+.pay_method image{
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.pay_method text{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10rpx;
+}
+.pay_method_item{
+  flex: 1;
+}
+.pay_method_right{
+  text-align: right;
+}
+.pay_method_radio{
+  flex: 2;
+}
+.pay_method_radio label{
+  margin-left: 20rpx;
+}
+.weui-cell__hd,.weui-cell__bd{
+  display: inline-block;
+  vertical-align: middle;
+}
+.weui-cell__bd{
+  font-size: 26rpx;
+}
+.pay_method_right input{
+  border: 1px solid #eee;
+  padding: 10rpx 0;
+}
+.footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #fff;
+  box-shadow: 0 0 20rpx rgba(0,0,0,0.1);
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.f_price{
+  font-size: 26rpx;
+}
+.f_price text{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.f_youhui{
+  color: #e76f4a;
+  font-size: 24rpx;
+  margin: 10rpx 0;
+}
+.footer .f_item{
+  flex: 1;
+}
+.footer .f_item button{
+  background-color: #f95731;
+  color: #fff;
+  border-radius: 200rpx;
+}
+.footer .f_item button:active{
+  opacity: 0.85;
+}
+.modal-title{
+  border-bottom: 1px solid #eee;
+  padding: 30rpx 0;
+}
+.modal-content{
+  padding: 10rpx 20rpx;
+}
+.pay_modal_item{
+  padding: 20rpx 0;
+}
+.pay_modal_item image{
+  width: 70rpx;
+  height: 70rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.pay_modal_item .text{
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+}
+.pay_modal_item .text .tags{
+  background-color: #e76f4a;
+  color: #fff;
+  padding: 5rpx 20rpx;
+  font-size: 26rpx;
+}
+
+
+

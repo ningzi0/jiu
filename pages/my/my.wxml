@@ -1,0 +1,55 @@
+<view class="head">
+    <view class="headerName">
+        <navigator hover-class="none" url="/pages/setting/setting">
+            <view class="header_img">
+                <image src="/images/headimg.jpg" mode="aspectFit"></image>
+            </view>
+            <view class="header_name">一弹倒</view>
+            <image src="/images/right_arr.png" class="right_arr"></image>
+        </navigator>
+    </view>
+</view>
+<!-- 等级卡片 -->
+<view class="Grade">
+    <view class="grade_title">LV.0 小酒蒙子</view>
+    <view class="grade_con">
+        <view class="num">0</view>
+        <view class="span">
+            <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">去喝一杯 → </navigator>
+        </view> 
+    </view>
+    <view class="progress"></view>
+</view>
+
+<!-- 卡片按钮 -->
+<view class="carBtn">
+    <view class="ul">
+        <block wx:for="{{carBtnList}}">
+            <view class="li">
+                <navigator hover-class="none"  open-type="{{item.type}}" url="{{item.url}}">
+                    <view class="carBtnImg">
+                        <image src="{{item.imgSrc}}" mode="aspectFit"></image>
+                    </view>
+                    <text>{{item.textName}}</text>
+                </navigator>
+            </view>
+        </block>
+    </view>
+</view>
+
+<!-- 广告位 -->
+<view class="myadv">
+    <navigator hover-class="none">
+        <image src="/images/myadv.jpg" mode="aspectFit"></image>
+    </navigator>
+</view>
+
+
+
+
+
+
+
+
+
+

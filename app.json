@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/order/order",
+    "pages/my/my",
+    "pages/pro/pro",
+    "pages/Distribution/Distribution",
+    "pages/Newaddress/Newaddress",
+    "pages/complete/complete",
+    "pages/wallet/wallet",
+    "pages/balance/balance",
+    "pages/detailed/detailed",
+    "pages/WelfareCenter/WelfareCenter",
+    "pages/newpeople/newpeople",
+    "pages/feedback/feedback",
+    "pages/Joinin/Joinin",
+    "pages/Spell/Spell",
+    "pages/payment/payment",
+    "pages/login/login",
+    "pages/setting/setting",
+    "pages/add/add",
+    "pages/logs/logs"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2d3037",
+    "navigationBarTitleText": "酒",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7e7e7e",
+    "selectedColor": "#002dbb",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/tabar1.png",
+      "selectedIconPath": "/images/tabar1_active.png"
+    },
+    {
+      "pagePath": "pages/menu/menu",
+      "text": "菜单",
+      "iconPath": "/images/tabar2.png",
+      "selectedIconPath": "/images/tabar2_active.png"
+    },
+    {
+      "pagePath": "pages/order/order",
+      "text": "订单",
+      "iconPath": "/images/tabar3.png",
+      "selectedIconPath": "/images/tabar3_active.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "/images/tabar4.png",
+      "selectedIconPath": "/images/tabar4_active.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

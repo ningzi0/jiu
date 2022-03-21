@@ -1,0 +1,75 @@
+<view class="newpeople">
+    <view class="newpeopleWrap">
+        <view class="n_title">必喝爆款</view>
+        <view class="recommend_con">
+            <view class="ul">
+                <view class="li boxshadow">
+                    <navigator hover-class="none"  url="/pages/pro/pro">
+                        <view class="re_img">
+                            <image src="/images/re_proimg.png" mode="aspectFit"></image>
+                        </view>
+                        <view class="re_info">
+                            <view class="re_title">14度法国进口AOP红酒整箱</view>
+                            <view class="re_price">
+                                <text class="now">￥99</text><text class="old">￥129</text>
+                            </view>
+                            <view class="re_buyNum">已售卖24700+件</view>
+                        </view>
+                        <view hover-class="none" class="add_shopCart">+</view>
+                    </navigator>
+                </view>
+                <view class="li">
+                    <navigator hover-class="none" url="/pages/pro/pro">
+                        <view class="re_img">
+                            <image src="/images/re_proimg.png" mode="aspectFit"></image>
+                        </view>
+                        <view class="re_info">
+                            <view class="re_title">14度法国进口AOP红酒整箱</view>
+                            <view class="re_price">
+                                <text class="now">￥99</text><text class="old">￥129</text>
+                            </view>
+                            <view class="re_buyNum">已售卖24700+件</view>
+                        </view>
+                        <view hover-class="none" class="add_shopCart">+</view>
+                    </navigator>
+                </view>
+                <view class="li boxshadow">
+                    <navigator hover-class="none"  url="/pages/pro/pro">
+                        <view class="re_img">
+                            <image src="/images/re_proimg.png" mode="aspectFit"></image>
+                        </view>
+                        <view class="re_info">
+                            <view class="re_title">14度法国进口AOP红酒整箱</view>
+                            <view class="re_price">
+                                <text class="now">￥99</text><text class="old">￥129</text>
+                            </view>
+                            <view class="re_buyNum">已售卖24700+件</view>
+                        </view>
+                        <view hover-class="none" class="add_shopCart">+</view>
+                    </navigator>
+                </view>
+                <view class="li">
+                    <navigator hover-class="none" url="/pages/pro/pro">
+                        <view class="re_img">
+                            <image src="/images/re_proimg.png" mode="aspectFit"></image>
+                        </view>
+                        <view class="re_info">
+                            <view class="re_title">14度法国进口AOP红酒整箱</view>
+                            <view class="re_price">
+                                <text class="now">￥99</text><text class="old">￥129</text>
+                            </view>
+                            <view class="re_buyNum">已售卖24700+件</view>
+                        </view>
+                        <view hover-class="none" class="add_shopCart">+</view>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+
+
+
+
+

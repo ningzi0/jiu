@@ -1,0 +1,118 @@
+.head{
+  background: linear-gradient(#35557f , #2dc388);
+  min-height: 500rpx;
+  position: relative;
+}
+.header_img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+.header_name{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 36rpx;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 0 0 20rpx;
+}
+.headerName{
+  position: absolute;
+  bottom: 100rpx;
+  width: 100%;
+  left: 30rpx;
+}
+.header_img image{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* 等级卡片 */
+.Grade{
+  background: #fff;
+  width: 95%;
+  margin: -80rpx auto 0;
+  position: relative;
+  z-index: 2;
+  border-radius: 15rpx;
+  padding: 35rpx;
+  box-sizing: border-box;
+}
+.grade_title{
+  font-weight: bold;
+  font-size: 36rpx;
+  color: #333;
+}
+.grade_con{
+  display: flex;
+  margin: 25rpx 0 0;
+}
+.grade_con .num,.grade_con .span{
+  flex: 1;
+}
+.grade_con .span{
+  text-align: right;
+  font-size: 24rpx;
+  color: #888;
+  position: relative;
+  top: 34rpx;
+}
+.grade_con .num{
+  font-size: 56rpx;
+  font-weight: bold;
+  color: #363636;
+}
+.progress{
+  width: 100%;
+  height: 10rpx;
+  background: #e9e7e8;
+  border-radius: 50rpx;
+  position: relative;
+}
+.progress::before{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 10rpx;
+  border-radius: 50rpx;
+  background: linear-gradient(to bottom right ,#35557f , #2dc388);
+  width: 20%;
+  z-index: 3;
+  content: "";
+  display: block;
+}
+
+/* 卡片按钮 */
+.carBtn .ul{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 20rpx;
+}
+.carBtn .ul .li{
+  width: 25%;
+  text-align: center;
+  padding: 30rpx 0;
+}
+.carBtn .ul .li .carBtnImg image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.carBtn .ul .li text{
+  font-size: 28rpx;
+  color: #535353;
+}
+.headerName .right_arr{
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+

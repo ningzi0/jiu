@@ -1,0 +1,166 @@
+<view class="spell">
+    <view class="spellTop">
+        <!-- 取消拼单按钮 -->
+        <view class="cancel">
+            <view class="cancelBtn">取消拼单</view>
+        </view>
+
+        <view class="process">
+            <view class="ul">
+                <view class="li active">
+                    <view class="bgcolor">
+                        <view class="num">1</view>
+                    </view>
+                    <view class="text">发起拼单</view>
+                </view>
+                <view class="li">
+                    <view class="bgcolor">
+                        <view class="num">2</view>
+                    </view>
+                    <view class="text">邀请好友</view>
+                </view>
+                <view class="li">
+                    <view class="bgcolor">
+                        <view class="num">3</view>
+                    </view>
+                    <view class="text">提交订单</view>
+                </view>
+                <view class="li">
+                    <view class="bgcolor">
+                        <view class="num">4</view>
+                    </view>
+                    <view class="text">完成订单</view>
+                </view>
+            </view>
+        </view>
+
+        <button class="invitation">邀请好友</button>
+        <view class="invitationText">
+            <view class="text">邀请中，待好友加入</view>
+            <view class="guize" bindtap="showDialogBtn">规则 !</view>
+        </view>
+    </view>
+
+    <view class="menuAddress">
+        <view class="m_add">
+            <view class="h3">首开紫郡店</view>
+            <view class="span">南明区机场路8号首开紫郡紫香堤14栋2单元</view>
+        </view>
+        <view class="m_switch">
+            <view class="ICONBOX {{viewId == 0 ? 'selected':''}} " bindtap="select" data-index= '0'>
+                <view class="iconfont icon-haoping ic" ></view>自提
+            </view>
+            <view class="ICONBOX {{viewId == 1 ? 'selected':''}}" bindtap="select" data-index = '1'> 
+                <navigator hover-class="none" url="/pages/Distribution/Distribution"><view class="iconfont icon-zhongping ic"></view>外卖</navigator>
+            </view>
+        </view>
+    </view>
+
+    <!-- 满减信息 -->
+    <view class="manjian">再买23元，可减8元</view>
+
+    <view class="spellContent">
+        <!-- 我的点单 -->
+        <view class="s_C_itemWrap">
+            <view class="s_C_item">
+                <view class="left">
+                    <image src="/images/headimg.jpg"></image>
+                    <text class="name">一弹倒</text>
+                    <text class="tag">我</text>
+                </view>
+                <view class="right">
+                    <text>还未点单</text>
+                </view>
+            </view>
+            <view class="gobuy" style="display: none;">
+              <navigator>立即点单</navigator>
+            </view>
+            <view class="ul">
+                <view class="li">
+                    <image src="/images/pro.jpg"></image>
+                    <view class="tit">
+                        <view class="h3">Jack Daniel傑克丹尼威士忌</view>
+                        <view class="span">700ml单瓶装规格</view>
+                    </view>
+                    <view class="num">x 1</view>
+                    <view class="price">
+                        <text class="now">￥16</text>
+                        <text class="old">￥29</text>
+                    </view>
+                </view>
+            </view>
+            <view class="btn">
+                <button class="empty">清空</button>
+                <button class="modify">修改</button>
+            </view>
+        </view>
+
+        <!-- 好友点单 -->
+        <view class="s_C_itemWrap">
+            <view class="s_C_item">
+                <view class="left">
+                    <image src="/images/headimg.jpg"></image>
+                    <text class="name">二杯蒙</text>
+                    <text class="tag">好友</text>
+                </view>
+                <view class="right">
+                    <text>还未点单</text>
+                </view>
+            </view>
+            <view class="gobuy" style="display: none;">
+              <navigator>立即点单</navigator>
+            </view>
+            <view class="ul">
+                <view class="li">
+                    <image src="/images/pro.jpg"></image>
+                    <view class="tit">
+                        <view class="h3">Jack Daniel傑克丹尼威士忌</view>
+                        <view class="span">700ml单瓶装规格</view>
+                    </view>
+                    <view class="num">x 1</view>
+                    <view class="price">
+                        <text class="now">￥16</text>
+                        <text class="old">￥29</text>
+                    </view>
+                </view>
+            </view>
+            <view class="btn">
+                <button class="modify">和ta一样</button>
+            </view>
+        </view>
+    </view>
+</view>
+
+
+
+<!-- 底部结算 -->
+<view class="footer">
+    <view class="footer_item">
+        <text class="total">合计￥32</text>
+        <text class="old">￥58</text>
+        <text class="myorder">我点￥16</text>
+    </view>
+    <view class="footer_item footer_btn">
+        <navigator url="/pages/payment/payment">去结算</navigator>
+    </view>
+</view>
+
+
+
+<!-- 模态框 规则 -->
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modal-dialog" wx:if="{{showModal}}">
+  <view class="modal-title">拼单规则说明</view>
+  <view class="modal-content">
+      <view class="p">1.拼单活动仅门店现制酒类参与，门店其他产品不参与活动</view>
+      <view class="p">2.拼单享受的满减/满赠活动，以订单商品应付价格为计算基数</view>
+      <view class="p">3.拼单活动不可与其他优惠活动同享（特别声明可同享的除外），拼单活动不可使用优惠券、抵用券、酒类兑换券、会员权益登</view>
+      <view class="p">4.配送费不参与活动</view>
+      <view class="p">5.拼单订单可享优惠，以拼单发起人可享优惠为准。参与人的账户优惠无法在拼单订单中使用</view>
+      <view class="p">6.可咨询在线客服或拨打客服热线（8888-888-888）了解更多活动详情</view>
+  </view>
+  <view class="modal-footer">
+    <!-- <view class="btn-cancel" bindtap="onCancel" data-status="cancel">取消</view> -->
+    <view class="btn-confirm" bindtap="onConfirm" data-status="confirm">确定</view>
+  </view>
+</view>

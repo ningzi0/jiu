@@ -1,0 +1,55 @@
+<view class="wallet">
+    <view class="walletTit">! 购买以下商品券享<text>充4赠3</text>，不同商品券可组合购买。</view>
+    <view class="walletContent">
+        <block wx:for="{{wallet}}">
+            <view class="li">
+                <view class="walletItem walletPrice">
+                    <text class="smallIco">￥</text>
+                    <text class="bigPrice">{{item.bigPrice}}</text>
+                </view>
+                <view class="walletItem walletInfo">{{item.walletInfo}}</view>
+                <view class="walletItem walletNum">
+                  <view class="p_price_num_r_con">
+                      <view class='row item-center'>
+                      <view class="buy-num-btn btn-minus" disabled="{{minusStatus}}" plain='ture' bindtap='minusNum'>-</view><input class='buy-num-txt' disabled type='number' value='{{courseCount}}'></input><view class="buy-num-btn btn-add" plain='ture' bindtap='addNum'>+</view>
+                      </view>
+                  </view>
+                </view>
+            </view>
+        </block>
+        <view class="tips">温馨提示：仅支持开具电子发票，订单完成后可前往发票管理中开具根据国家税务总局2016年第53号《关于营改增试点若干征管问题的公告》，向购卡人、充值人开具”预付卡销售“增值税普通发票。</view>
+    </view>
+
+
+
+
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
