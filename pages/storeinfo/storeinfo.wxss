@@ -1,0 +1,65 @@
+/* pages/storeinfo/storeinfo.wxss */
+.storeImg{
+  margin: 15rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+  position: relative;
+}
+.storeImg .swiper{
+  height: 400rpx;
+}
+
+.storeImg image{
+  display: block;
+  height: 100%;
+}
+.storeImg .img-ico{
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  z-index: 55;
+  color: #fff;
+  padding: 5rpx 15rpx;
+  border-radius: 100rpx;
+  bottom: 2%;
+  right: 2%; 
+}
+.storeImg .img-ico image{
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.storeImg .img-ico text{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 26rpx;
+}
+.storeContent{
+  background-color: #fff;
+  margin: 15rpx;
+  padding: 20rpx;
+  border-radius: 15rpx;
+}
+.storeTitle{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.storeContent .ul .li{
+  margin: 20rpx 0;
+}
+.storeContent .ul .li image{
+  width: 40rpx;
+  height: 40rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15rpx;
+}
+.storeContent .ul .li text{
+  display: inline-block;
+  vertical-align: middle;
+  width: 90%;
+  font-size: 28rpx;
+}
+
+
+

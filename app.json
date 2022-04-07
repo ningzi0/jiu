@@ -20,6 +20,8 @@
     "pages/login/login",
     "pages/setting/setting",
     "pages/add/add",
+    "pages/refund/refund",
+    "pages/storeinfo/storeinfo",
     "pages/logs/logs"
   ],
   "permission": {

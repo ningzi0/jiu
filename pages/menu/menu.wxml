@@ -3,6 +3,7 @@
         <view class="m_add">
             <view class="h3">首开紫郡店</view>
             <view class="span">南明区机场路8号首开紫郡紫香堤14栋2单元</view>
+            <navigator class="store" hover-class="none">商家信息 →</navigator>
         </view>
         <view class="m_switch">
             <view class="ICONBOX {{viewId == 0 ? 'selected':''}} " bindtap="select" data-index= '0'>

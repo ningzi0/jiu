@@ -144,6 +144,20 @@
           "name": "收货地址",
           "pathName": "pages/add/add",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "申请退款",
+          "pathName": "pages/refund/refund",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "商家信息",
+          "pathName": "pages/storeinfo/storeinfo",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }

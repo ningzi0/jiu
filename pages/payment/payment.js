@@ -5,13 +5,20 @@ Page({
    * 页面的初始数据
    */
   data: {
+    time: '12:01',
     items: [
-      {value: '1', name: '店内用餐'},
-      {value: '1', name: '自提带走', checked: 'true'},
+      {value: '1', name: '外卖送酒'},
+      {value: '1', name: '自提自取', checked: 'true'},
     ],
     viewId : 0,
     currentId: '1',
     showModal: false,
+  },
+  bindTimeChange: function(e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      time: e.detail.value
+    })
   },
 /**
    * 弹窗

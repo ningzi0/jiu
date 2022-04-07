@@ -1,0 +1,35 @@
+<!--pages/storeinfo/storeinfo.wxml-->
+<view class="storeInfo">
+    <view class="storeImg">
+      <navigator class="img-ico" hover-class="none">
+          <image src="/images/img-ico.png"></image>
+          <text>200</text>
+      </navigator>
+      <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" mode="aspectFill" bindtap="preview"/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+    <view class="storeContent">
+        <view class="storeTitle">贵州午后凌风酒业有限公司</view>
+        <view class="ul">
+            <view class="li">
+              <image src="/images/shijian.png"></image>
+              <text>营业时间 早上09:00 至 下午18:00</text>
+            </view>
+            <view class="li">
+              <image src="/images/didiandingwei_o.png"></image>
+              <text>贵州省贵阳市南明区机场路首开紫郡14栋2单元601</text>
+            </view>
+            <view class="li">
+              <image src="/images/dianhua.png"></image>
+              <text>0851-57894658</text>
+            </view>
+        </view>
+    </view>
+
+</view>

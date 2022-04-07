@@ -103,4 +103,13 @@
 
 
 
+/* 退款按钮 */
+.wait .again navigator.refund{
+  background-color: #fafafa;
+  color: #000;
+  border: 1px solid #eee;
+  margin-right: 20rpx;
+}
+
+
 

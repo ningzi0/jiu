@@ -22,6 +22,14 @@
 
 
 
+<view class="gopayment">
+    <view class="gopaymentText">
+        应付合计 <text>￥0</text>
+    </view>
+    <view class="gopaymentBtn">
+        <navigator>去支付</navigator>
+    </view>
+</view>
 
 
 </view>

@@ -91,6 +91,7 @@
                         </view>
                     </view>
                     <view class="again">
+                        <navigator hover-class="none" url="" class="refund">申请退款</navigator>
                         <navigator hover-class="none" url="/pages/complete/complete">确认收货</navigator>
                     </view>
                 </view>

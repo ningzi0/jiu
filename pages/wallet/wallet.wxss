@@ -46,3 +46,27 @@
 }
 
 
+.gopayment{
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.gopaymentText{
+  flex: 2;
+  padding: 0 30rpx;
+}
+.gopaymentBtn {
+  flex: 1;
+  text-align: center;
+}
+.gopaymentBtn navigator{
+  background-color: #0724ae;
+  color: #fff;
+  display: block;
+  padding: 30rpx 0;
+}
