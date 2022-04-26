@@ -22,6 +22,7 @@
     "pages/add/add",
     "pages/refund/refund",
     "pages/storeinfo/storeinfo",
+    "pages/Collection/Collection",
     "pages/logs/logs"
   ],
   "permission": {

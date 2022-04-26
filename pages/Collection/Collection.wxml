@@ -1,0 +1,93 @@
+<view class="collection">
+    <view class="table">
+        <view class="tablie-item">
+          <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+              <view class="picker">
+                收藏时间：{{array[index]}}
+              </view>
+          </picker>
+        </view>
+    </view>
+
+    <view class="collectionContent">
+        <view class="c_c_item">
+          <navigator hover-class="none">
+              <view class="pic">
+                  <image src="/images/pro1.jpg"></image>
+              </view>
+              <view class="c_c_right">
+                  <view class="name">Asahi/朝日啤酒超爽系列生啤酒瓶装鲜啤酒</view>
+                  <view class="p">5万+人收藏</view>
+                  <view class="price">
+                      ￥<text>115</text>
+                  </view>
+              </view>
+            </navigator>
+            <view class="closeBtn">
+                <text>取消收藏</text>
+            </view>
+        </view>
+        <view class="c_c_item">
+          <navigator hover-class="none">
+              <view class="pic">
+                  <image src="/images/pro1.jpg"></image>
+              </view>
+              <view class="c_c_right">
+                  <view class="name">Asahi/朝日啤酒超爽系列生啤酒瓶装鲜啤酒</view>
+                  <view class="p">5万+人收藏</view>
+                  <view class="price">
+                      ￥<text>115</text>
+                  </view>
+              </view>
+            </navigator>
+            <view class="closeBtn">
+                <text>取消收藏</text>
+            </view>
+        </view>
+        <view class="c_c_item">
+          <navigator hover-class="none">
+              <view class="pic">
+                  <image src="/images/pro1.jpg"></image>
+              </view>
+              <view class="c_c_right">
+                  <view class="name">Asahi/朝日啤酒超爽系列生啤酒瓶装鲜啤酒</view>
+                  <view class="p">5万+人收藏</view>
+                  <view class="price">
+                      ￥<text>115</text>
+                  </view>
+              </view>
+            </navigator>
+            <view class="closeBtn">
+                <text>取消收藏</text>
+            </view>
+        </view>
+    </view>
+
+
+
+
+
+
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

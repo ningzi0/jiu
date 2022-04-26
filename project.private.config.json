@@ -158,6 +158,13 @@
           "name": "商家信息",
           "pathName": "pages/storeinfo/storeinfo",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "我的收藏",
+          "pathName": "pages/Collection/Collection",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }
