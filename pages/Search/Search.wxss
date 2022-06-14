@@ -1,0 +1,4 @@
+/* pages/Search/Search.wxss */
+.recommend{
+  margin-top: 120rpx;
+}

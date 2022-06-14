@@ -1,6 +1,6 @@
-<view class="return" bindtap="return">
+<!-- <view class="return" bindtap="return">
     <image mode="aspectFill" src="/images/return.png"></image>
-</view>
+</view> -->
 <view class="pro" >
   <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
       <block wx:for="{{imgUrls}}">
@@ -14,12 +14,12 @@
       <view class="p_title">朝日啤酒</view>
       <view class="p_info">
           <view class="specs">
-              选择规格：
+              <!-- 选择规格： -->
               <view class="ICONBOX {{viewId == 0 ? 'selected':''}} " bindtap="select" data-index= '0'>
-                  <view class="iconfont icon-haoping ic" ></view>单瓶750ml
+                  <view class="iconfont icon-haoping ic" ></view><image src="/images/pijiu.jpg"></image> 单瓶750ml
               </view>
               <view class="ICONBOX {{viewId == 1 ? 'selected':''}}" bindtap="select" data-index = '1'> 
-                  <view class="iconfont icon-zhongping ic"></view>整箱6瓶装（750ml*6）
+                  <view class="iconfont icon-zhongping ic"></view><image src="/images/pijiu.jpg"></image> 整箱6瓶装（750ml*6）
               </view>
           </view>
           <view class="specs2">
@@ -37,14 +37,17 @@
 
   <!-- 产品信息 -->
   <view class="proinfo">
+    <view class="proinfoCon">
         <view class="ul">
             <block wx:for="{{proinfo}}">
                 <view class="li">
                     <view class="h3">{{item.p_infoTit}}</view>
                     <view class="span">{{item.p_infoSpan}}</view>
+                    <image src="{{item.image}}" mode="aspectFill"></image>
                 </view>
             </block>
         </view>
+    </view>
   </view>
 
 
@@ -63,6 +66,10 @@
       <view class="proTitle">商品详情</view>
       <view class="proimg">
           <image src="/images/pro.jpg" mode="aspectFill"></image>
+      </view>
+      <view class="liquorBox">
+            <view class="p">LIQUOR BOX</view>
+            <view class="tips">未满18周岁未成年人请勿饮酒</view>
       </view>
   </view>
 

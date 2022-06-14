@@ -20,8 +20,8 @@
   vertical-align: middle;
 }
 .headText{
-  font-size: 24rpx;
-  color: #bf9f61;
+  font-size: 28rpx;
+  color: #fff;
   padding: 0 20rpx;
 }
 .headImg{
@@ -151,7 +151,7 @@
 .new_c_p_Content{
   background-color: #f4f4f4;
   margin: 15rpx;
-  padding:10rpx 25rpx;
+  padding:35rpx 25rpx;
   border-radius: 15rpx;
 }
 .new_c_p_c_title{
@@ -341,4 +341,100 @@
   display: inline-block;
   vertical-align: middle;
   line-height: 100rpx;
+}
+
+
+
+
+.recommend_con{
+  display: flex;
+}
+.recommend_con .ul {
+  display: block;
+  padding: 0;
+  margin: 0 10rpx;
+  flex: 1;
+}
+.recommend_con .ul .li{
+  width: auto;
+  margin: 0 auto 20rpx;
+}
+.recommend_con .ul .li .re_img image {
+  height:330rpx;
+}
+.re_title {
+  text-overflow: initial;
+  white-space:normal
+}
+.footer{
+  text-align: center;
+  font-size: 26rpx;
+  color: rgb(173, 173, 173);
+  padding-bottom: 40rpx;
+}
+
+.indexdian{
+  font-size: 28rpx;
+  border-radius: 50rpx;
+  position: absolute;
+  line-height: 1.75;
+  top: 50%;
+  transform: translate(0,-50%);
+  right: 15px;
+  color: #fff;
+}
+
+
+
+/* 新人专享价 */
+.newpeo{
+  width: 95%;
+  margin: 30rpx auto 0;
+  background-color: #fff;
+  border-radius: 15rpx;
+}
+.newpeopro .newpeoproContent{
+  overflow-x: scroll;
+}
+.newpeopro .newpeoproContent .ul{
+  display: flex;
+  width: 200%;
+  padding:0 30rpx 30rpx;
+}
+.newpeopro .newpeoproContent .ul .li{
+  flex: 1;
+  margin-right: 15rpx;
+  box-shadow: 0 2rpx 30rpx rgba(0,0,0,0.1);
+}
+.newpeopro .newpeoproContent .ul .li image{
+  width: 100%;
+  height: 195rpx;
+  display: block;
+  border-radius: 15rpx;
+}
+
+.info{
+  padding:20rpx 10rpx;
+  font-size: 28rpx;
+  display: flex;
+}
+.price{
+  flex: 2;
+}
+
+.goBtn{
+  background-color: #ff4800;
+  color: #fff;
+  font-size: 26rpx;
+  font-weight: bold;
+  border-radius: 5rpx;
+  padding: 0 10rpx;
+}
+
+
+.advSwiper .swiper{
+  height: 550rpx;
+}
+.advSwiper .swiper image{
+  height: 100%;
 }

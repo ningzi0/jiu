@@ -1,0 +1,55 @@
+/* pages/cancelorder/cancelorder.wxss */
+page{
+  background: #fff;
+}
+.cancelorder{
+  margin: 20rpx;
+}
+.cancelTitle{
+  margin: 0 0 20rpx;
+}
+
+.oil_s{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 29rpx;
+}
+.oil_s view{
+  background: #f2f2f2;
+  padding: 10rpx;
+  margin: 10rpx 0;
+  padding: 20rpx;
+  border-radius: 5rpx;
+}
+
+.oil_s view.active{
+  color: #fff;
+  background: #fe5b50;
+}
+.cancelorder textarea{
+  background: #f3f3f3;
+  padding: 20rpx;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5rpx;
+  font-size: 29rpx;
+  margin: 15rpx 0;
+}
+
+.submit{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.submit navigator{
+  display: block;
+  padding: 20rpx 0;
+  background: #fe5b50;
+  color: #fff;
+}
+

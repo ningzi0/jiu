@@ -170,4 +170,26 @@
   padding: 0 50rpx;
 }
 
+.youhuiInfo{
+  display: flex;
+  padding: 20rpx;
+  font-size: 29rpx;
+  border-bottom: 1px dashed #eee;
+}
+.youhuiInfo .y_item{
+  flex: 1;
+}
+.youhuiInfo .y_right{
+  text-align: right;
+}
+.youhuiInfo .y_right navigator{
+  color: #f95731;
+}
+
+
+
+
+
+
+
 

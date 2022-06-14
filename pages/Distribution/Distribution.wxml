@@ -31,7 +31,7 @@
         <view class="DeliveryCon">
             <view class="addTit">收货地址</view>
             <view class="ul">
-                <view class="li">
+                <view class="li ">
                     <view class="Delivery_content">
                         <view class="de_con_add">首开紫郡紫香堤 三岔河路30号(14栋2单元601)</view>
                         <view class="de_con_tags">

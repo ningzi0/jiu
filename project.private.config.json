@@ -165,6 +165,34 @@
           "name": "我的收藏",
           "pathName": "pages/Collection/Collection",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "取消订单",
+          "pathName": "pages/cancel/cancel",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "取消订单2",
+          "pathName": "pages/cancelorder/cancelorder",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "使用优惠券",
+          "pathName": "pages/Clipcoupons/Clipcoupons",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "搜索页",
+          "pathName": "pages/Search/Search",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }

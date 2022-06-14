@@ -1,0 +1,23 @@
+<view class="cancelorder">
+    <view class="cancelTitle">请选择取消原因</view>
+    <view class='oil_s' >
+      <view class='{{num==1?"active":""}}' data-num='1' catchtap='changeOil'>订单错误/重复</view>
+      <view class='{{num==2?"active":""}}' data-num='2' catchtap='changeOil'>忘记使用优惠券/积分</view>
+      <view class='{{num==3?"active":""}}' data-num='3' catchtap='changeOil'>无法支付</view>
+      <view class='{{num==4?"active":""}}' data-num='4' catchtap='changeOil'>选错支付方式</view>
+      <view class='{{num==5?"active":""}}' data-num='5' catchtap='changeOil'>发票信息有误</view>
+      <view class='{{num==6?"active":""}}' data-num='6' catchtap='changeOil'>不想要了</view>
+      <view class='{{num==7?"active":""}}' data-num='7' catchtap='changeOil'>其他</view>
+    </view>
+    <textarea name="" id="" placeholder="手动输入取消原因"></textarea>
+</view>
+
+
+<view class="submit">
+    <navigator>提交</navigator>
+</view>
+
+
+
+
+

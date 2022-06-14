@@ -3,6 +3,8 @@
   padding: 0 20rpx;
   background-color: #fff;
   position: relative;
+  margin: 15rpx;
+  border-radius: 15rpx;
 }
 .headerInfo .p_title{
   padding: 20rpx 0;
@@ -23,6 +25,7 @@
   padding: 15rpx 12rpx;
   text-align: center;
   transition: 0.4s;
+  margin-right: 10rpx;
  }
 .ic{
   margin-right: 5rpx;
@@ -45,7 +48,8 @@
 /* 优惠信息 */
 .Discount{
   height: 80rpx;
-  margin: 15rpx 0;
+  margin: 15rpx;
+  border-radius: 15rpx;
   background-color: #fff;
   display: flex;
   line-height: 80rpx;
@@ -73,7 +77,8 @@
   background-color: #fff;
   padding: 20rpx;
   box-sizing: border-box;
-  margin-bottom: 240rpx;
+  margin: 15rpx 15rpx 240rpx;
+  border-radius: 15rpx;
 }
 .proTitle{
   font-size: 26rpx;
@@ -87,12 +92,17 @@
 /* 产品信息 */
 .proinfo {
   background-color: #fff;
-  margin: 15rpx 0;
+  margin: 15rpx;
   padding: 20rpx 0;
+  border-radius: 15rpx;
+}
+.proinfoCon{
+  overflow-x: scroll;
 }
 .proinfo .ul{
   display: flex;
   text-align: center;
+  width: 150%;
 }
 .proinfo .ul .li{
   flex: 1;
@@ -107,6 +117,12 @@
   margin-bottom: 10rpx;
   color: #333;
 }
+.proinfo .ul .li image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+
 
 /* 收藏 */
 .Collection{
@@ -208,9 +224,26 @@
   height: 100%;
 }
 
+.specs image{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
 
 
 
 
-
-
+.liquorBox{
+  text-align: center;
+  padding: 30rpx 0;
+}
+.liquorBox .p{
+  font-size: 50rpx;
+  font-weight: bold;
+  color: rgb(194, 194, 194);
+  letter-spacing: -3rpx;
+}
+.liquorBox .tips{
+  font-size: 28rpx;
+  color: rgb(173, 173, 173);
+}

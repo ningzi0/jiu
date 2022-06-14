@@ -19,19 +19,32 @@ Page({
     duration: 1000,
     proinfo:[{
       p_infoTit:'类型',
-      p_infoSpan:'干型'
+      p_infoSpan:'干型',
+      image:'https://images.liquorbox.cn/2022-06-10/images/leixing.png'
     },{
       p_infoTit:'规格',
-      p_infoSpan:'750ml'
+      p_infoSpan:'750ml',
+      image:'https://images.liquorbox.cn/2022-06-10/images/guigeguanli.png'
     },{
       p_infoTit:'配料',
-      p_infoSpan:'赤霞珠葡萄'
+      p_infoSpan:'赤霞珠葡萄',
+      image:'https://images.liquorbox.cn/2022-06-10/images/leixiaoshipeiliaox.png'
     },{
       p_infoTit:'酒精含量',
-      p_infoSpan:'13%'
+      p_infoSpan:'13%',
+      image:'https://images.liquorbox.cn/2022-06-10/images/shiqihanliang-02.png'
     },{
       p_infoTit:'原产地',
-      p_infoSpan:'阿根廷'
+      p_infoSpan:'阿根廷',
+      image:'https://images.liquorbox.cn/2022-06-10/images/chandiguanli_icox.png'
+    },{
+      p_infoTit:'酒精含量',
+      p_infoSpan:'13%',
+      image:'https://images.liquorbox.cn/2022-06-10/images/shiqihanliang-02.png'
+    },{
+      p_infoTit:'原产地',
+      p_infoSpan:'阿根廷',
+      image:'https://images.liquorbox.cn/2022-06-10/images/chandiguanli_icox.png'
     }]
   },
   select:function(e){

@@ -19,9 +19,14 @@ Page({
       typeId: '4'
     }],
     imgUrls: [
-      '/images/banner.jpg',
-      '/images/banner.jpg',
-      '/images/banner.jpg'
+      'https://images.liquorbox.cn/2022-06-10/images/banner.gif',
+      'https://images.liquorbox.cn/2022-06-10/images/banner.gif',
+      'https://images.liquorbox.cn/2022-06-10/images/banner.gif'
+    ],
+    advImgUrls:[
+      'https://images.liquorbox.cn/2022-06-10/images/adv1.png',
+      'https://images.liquorbox.cn/2022-06-10/images/adv2.jpg',
+      'https://images.liquorbox.cn/2022-06-10/images/adv3.png'
     ],
     indicatorDots: true,
     autoplay: true,

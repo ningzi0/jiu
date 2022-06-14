@@ -1,0 +1,131 @@
+<view class="complete">
+    <view class="c_header">
+       <view class="Tobepaid">
+          <view class="tobepaidItem">
+              <view class="h3">待支付</view>
+          </view>
+          <view class="tobepaidItem">
+              <view class="tobepaidText">下单成功，请尽快支付</view>
+              <view class="tobepaidTime">
+                <view class="countdown-item">
+                  <view class="countdown-title">
+                    <block>
+                      <text class='tui-conutdown-box'>{{days}}</text>
+                      <text class="countdown-text">天</text>
+                      <text class='tui-conutdown-box'>{{hours}}</text>
+                      <text class="countdown-text">时</text>
+                      <text class='tui-conutdown-box'>{{minutes}}</text>
+                      <text class="countdown-text">分</text>
+                      <text class='tui-conutdown-box'>{{seconds}}</text>
+                      <text class="countdown-text">秒</text>
+                      <text>后未支付，订单将自动取消</text>
+                    </block>
+                  </view>
+                </view>
+              </view>
+          </view>
+       </view>
+    </view>
+
+    <!-- 支付按钮取消按钮 -->
+    <view class="BtnCon">
+      <view class="BtnItem">
+        <navigator url="/pages/cancelorder/cancelorder">取消订单</navigator>
+      </view>
+      <view class="BtnItem">
+        <navigator url="/pages/payment/payment">立即支付</navigator>
+      </view>
+    </view>
+
+
+
+
+    <!-- 广告位 -->
+    <view class="adv">
+        <navigator hover-class="none">
+            <image src="/images/adv2.png" mode="aspectFill"></image>
+        </navigator>
+    </view>
+
+    <!-- 收货地址 -->
+    <view class="c_add">
+        <view class="c_h3">首开紫郡紫香堤14栋2单元601</view>
+        <view class="c_span">张丰文先生 15185070538</view>
+    </view>
+
+    <!-- 订单信息 -->
+    <view class="c_orderInfo">
+        <view class="c_o_tit">外卖订单：00012022030443371220</view>
+        <view class="c_o_con">
+            <view class="ul">
+              <block wx:for="{{orderInfo}}">
+                  <view class="li">
+                      <navigator hover-class="none" url="/pages/pro/pro">
+                          <view class="img">
+                              <image src="{{item.img}}"></image>
+                          </view>
+                          <view class="c_o_info">
+                              <view class="h3">{{item.infoH3}}</view>
+                              <view class="span">{{item.infoSpan}}</view>
+                          </view>
+                          <view class="c_o_num">
+                              <view class="c_o_price">￥{{item.infoPrice}}</view>
+                              <view class="c_o_num">x{{item.infoNum}}</view>
+                          </view>
+                      </navigator>
+                  </view>
+              </block>
+              <!-- 价格信息 -->
+              <view class="priceInfo">
+                  <view class="priceInfoItem">
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">打包费</text>
+                          <text class="priceInfoprice">￥0</text>
+                      </view>
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">配送费</text>
+                          <text class="priceInfoprice">￥3</text>
+                      </view>
+                  </view>
+                  <view class="priceInfoItem">
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">优惠减免合计</text>
+                          <text class="priceInfoprice">-￥63</text>
+                      </view>
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">优惠券</text>
+                          <text class="priceInfoprice">-￥13</text>
+                      </view>
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">商品直减</text>
+                          <text class="priceInfoprice">-￥49</text>
+                      </view>
+                  </view>
+                  <view class="priceInfoItem">
+                      <view class="priceInfoItemLi">
+                          <text class="priceInfoName">共5件商品</text>
+                          <text class="priceInfoprice">待支付 <text class="completePrice">￥98</text></text>
+                      </view>
+                  </view>
+              </view>
+            </view>
+        </view>
+    </view>
+
+    <!-- 送达时间 -->
+    <view class="time">
+      <view class="priceInfoItem">
+          <view class="priceInfoItemLi">
+              <text class="priceInfoName">预计送达时间</text>
+              <text class="priceInfoprice">2021-06-18 17:09</text>
+          </view>
+      </view>
+    </view>
+
+
+
+
+</view>
+
+
+

@@ -11,6 +11,7 @@
   width: 95%;
   padding: 20rpx;
   box-sizing: border-box;
+  border-radius: 15rpx;
 }
 .orderlist .ul .li .adress{
   display: flex;

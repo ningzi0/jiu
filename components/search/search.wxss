@@ -1,0 +1,38 @@
+/* components/search/search.wxss */
+.searchInput{
+  background-color: #fff;
+  padding: 15rpx;
+  margin: 5rpx 0;
+  position: relative;
+}
+.searchInput image{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+.searchInputContent{
+  background-color: rgb(247, 247, 247);
+  padding: 15rpx 20rpx;
+  border-radius: 100rpx;
+  width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.searchInputContent input{
+  padding-left: 70rpx;
+  font-size: 28rpx;
+}
+
+
+
+
+/* 模态框  */
+.show-btn {
+  margin-top: 100rpx;
+  color: #22cc22;
+}
+
+
+

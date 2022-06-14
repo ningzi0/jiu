@@ -23,6 +23,10 @@
     "pages/refund/refund",
     "pages/storeinfo/storeinfo",
     "pages/Collection/Collection",
+    "pages/cancel/cancel",
+    "pages/cancelorder/cancelorder",
+    "pages/Clipcoupons/Clipcoupons",
+    "pages/Search/Search",
     "pages/logs/logs"
   ],
   "permission": {

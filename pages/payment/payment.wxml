@@ -47,6 +47,16 @@
         </view>
         <!-- tips -->
         <view class="tips">拼单不支持使用优惠券</view>
+
+        <!-- 优惠信息 -->
+        <view class="youhuiInfo">
+                <view class="y_left y_item">优惠券</view>
+                <view class="y_right y_item">
+                        <text>-￥15</text>
+                        <navigator hover-class="none">更改优惠</navigator>
+                </view>
+        </view> 
+
         <!-- 应付金额 -->
         <view class="should">
             应付 <text>￥32</text>

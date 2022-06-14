@@ -1,0 +1,67 @@
+<view class="welfare">
+    <block wx:for="{{welfare}}" wx:key="unique">
+        <view class="welfareItem">
+                <view class="h3">{{item.h3}}</view>
+                <view class="welfareCon">
+                        <view class="welfareLeft">{{item.welfareLeft}}</view>
+                        <view class="welfareRight">{{item.welfareRight}}<text>{{item.welfareRightText}}</text></view>
+                </view>
+                <view class="welfareBtn">
+                        <view class="guize" bindtap="guize" data-index="{{index}}">使用规则 ↓</view>
+                        <view class="Btn">
+                            <navigator>立即使用</navigator>
+                        </view>
+                </view>
+                <view class="guizeContent" hidden="{{item.hidden}}">
+                        <view class="p">1、本券可用于门店部分酒水，享面价5折优惠</view>
+                        <view class="p">2、本券一次使用1张限1件商品，不可抵扣配送费及另行选配的辅料等附加费用。本券自领取日起有效期5天。</view>
+                        <view class="p">3、本券不与其他优惠同享。</view>
+                </view>
+        </view>
+    </block>
+    
+
+    <!-- <view class="Coupons">
+        <view class="Coupons-item">
+            <view class="item">
+                <view class="left">
+                    <view class="left_bg">5元</view>
+                </view>
+                <view class="right">
+                    <view class="h3">满30可用</view>
+                    <view class="p">有效期至2022-05-12</view>
+                </view>
+                <view class="btn" style="display: none;">
+                    <button>使用</button>
+                </view>
+                <view class="Used">已使用</view>
+            </view>
+            <view class="item">
+                <view class="left">
+                    <view class="left_bg">5.5折</view>
+                </view>
+                <view class="right">
+                    <view class="h3">双杯快乐</view>
+                    <view class="p">满两杯可用，有效期至2022-05-12</view>
+                </view>
+                <view class="btn">
+                    <button>使用</button>
+                </view>
+            </view>
+            <navigator class="godrink" open-type="switchTab" url="/pages/menu/menu">去喝一杯</navigator>
+        </view>
+
+    </view> -->
+
+    <!-- 广告位 -->
+    <view class="myadv">
+        <navigator hover-class="none">
+            <image src="https://images.liquorbox.cn/2022-06-10/images/adv1.jpg" mode="aspectFit"></image>
+        </navigator>
+    </view>
+</view>
+
+
+
+
+

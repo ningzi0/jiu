@@ -1,17 +1,27 @@
 <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
-      <image src="{{item}}" class="slide-image" mode="aspectFit"/>
+        <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+      <!-- <cover-image src="{{item}}" class="slide-image" mode="aspectFill"></cover-image> -->
     </swiper-item>
   </block>
 </swiper>
+
+<!-- 配送地址： -->
+
+
+
+
 
 <!-- 头像 -->
 <view class="head">
     <view class="headImg headItem" >
         <image src="/images/headimg.jpg" mode="aspectFill"></image>
     </view>
-    <view class="headText headItem">Lucky you 跟幸运打个招呼！！！</view>
+    <view class="headText headItem">午后凌风</view>
+    <view class="indexdian headItem">
+        <text>首开紫郡店: 自提</text>
+    </view>
     <view class="btn headItem" style="display: none;">
         <navigator>登录/注册</navigator>
     </view>
@@ -76,11 +86,11 @@
 </view>
 
 <!-- 广告位 -->
-<view class="ad">
+<!-- <view class="ad">
     <navigator hover-class="none">
         <image src="/images/ad.png" mode="aspectFit"></image>
     </navigator>
-</view>
+</view> -->
 
 
 <!-- 新人专区 -->
@@ -104,7 +114,16 @@
     <!-- 新人福利产品 -->
     <view class="new_coupons_pro">
         <view class="new_c_p_item new_c_p_Left">
-            <view class="new_c_p_Content">
+            <view class="advSwiper">
+                <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+                    <block wx:for="{{advImgUrls}}">
+                        <swiper-item>
+                        <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+                        </swiper-item>
+                    </block>
+                </swiper>
+            </view>
+            <!-- <view class="new_c_p_Content">
                 <navigator hover-class="none" url="/pages/pro/pro">
                     <view class="new_c_p_c_info">
                         <view class="new_c_p_c_title">朝日啤酒</view>
@@ -119,7 +138,7 @@
                         <image src="/images/new_pro1.png" mode="aspectFit"></image>
                     </view>
                 </navigator>
-            </view>
+            </view> -->
         </view>
         <view class="new_c_p_item new_C_p_Right">
             <view class="new_c_p_Content">
@@ -160,15 +179,13 @@
 </view>
 
 <!-- 福利中心 -->
-<view class="welfare boxshadow">
-    <!-- 标题 -->
+<!-- <view class="welfare boxshadow">
     <view class="title">
         <view class="h3 tit_flex">福利中心</view>
         <view class="tit_flex tit_navigator">
             <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">查看全部</navigator>
         </view>
     </view>
-    <!-- 福利券 -->
     <view class="welfare_Coupons">
         <view class="welfare_con">
             <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">
@@ -185,10 +202,114 @@
             </navigator>
         </view>
     </view>
+</view> -->
+
+<view class="newpeo">
+    <!-- 标题 -->
+    <view class="title">
+        <view class="h3 tit_flex">五月热榜</view>
+        <view class="tit_flex tit_navigator">
+            <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">查看全部</navigator>
+        </view>
+    </view>
+
+    <view class="newpeopro">
+        <view class="newpeoproContent">
+                <view class="ul">
+                        <view class="li">
+                                <navigator>
+                                    <image src="/images/1.jpg" mode="aspectFill"></image>
+                                    <view class="info">
+                                        <view class="price">
+                                                <text>￥</text>
+                                                <text>49</text>
+                                        </view>
+                                        <view class="goBtn">抢购</view>
+                                    </view>
+                                </navigator>
+                        </view>
+                        <view class="li">
+                                <navigator>
+                                    <image src="/images/2.jpg" mode="aspectFill"></image>
+                                    <view class="info">
+                                        <view class="price">
+                                                <text>￥</text>
+                                                <text>49</text>
+                                        </view>
+                                        <view class="goBtn">抢购</view>
+                                    </view>
+                                </navigator>
+                        </view>
+                        <view class="li">
+                                <navigator>
+                                    <image src="/images/3.jpg" mode="aspectFill"></image>
+                                    <view class="info">
+                                        <view class="price">
+                                                <text>￥</text>
+                                                <text>49</text>
+                                        </view>
+                                        <view class="goBtn">抢购</view>
+                                    </view>
+                                </navigator>
+                        </view>
+                        <view class="li">
+                                <navigator>
+                                    <image src="/images/4.jpg" mode="aspectFill"></image>
+                                    <view class="info">
+                                        <view class="price">
+                                                <text>￥</text>
+                                                <text>49</text>
+                                        </view>
+                                        <view class="goBtn">抢购</view>
+                                    </view>
+                                </navigator>
+                        </view>
+                        <view class="li">
+                                <navigator>
+                                    <image src="/images/5.jpg" mode="aspectFill"></image>
+                                    <view class="info">
+                                        <view class="price">
+                                                <text>￥</text>
+                                                <text>49</text>
+                                        </view>
+                                        <view class="goBtn">抢购</view>
+                                    </view>
+                                </navigator>
+                        </view>
+                        <view class="li">
+                                <navigator>
+                                    <image src="/images/6.jpg" mode="aspectFill"></image>
+                                    <view class="info">
+                                        <view class="price">
+                                                <text>￥</text>
+                                                <text>49</text>
+                                        </view>
+                                        <view class="goBtn">抢购</view>
+                                    </view>
+                                </navigator>
+                        </view>
+                        <view class="li">
+                                <navigator>
+                                    <image src="/images/7.jpg" mode="aspectFill"></image>
+                                    <view class="info">
+                                        <view class="price">
+                                                <text>￥</text>
+                                                <text>49</text>
+                                        </view>
+                                        <view class="goBtn">抢购</view>
+                                    </view>
+                                </navigator>
+                        </view>
+                </view>
+        </view>
+    </view>
 </view>
 
+
+
+
 <!-- 本月销售榜 -->
-<view class="list">
+<!-- <view class="list">
     <image class="listbg" src="/images/listbg.png" mode="aspectFit"></image>
     <view class="listContent">
         <view class="listTitle">
@@ -245,7 +366,7 @@
             </view>
         </view>
     </view>
-</view>
+</view> -->
 
 <!-- 今日推荐 -->
 <view class="recommend">
@@ -268,7 +389,51 @@
             <view class="li boxshadow">
                 <navigator hover-class="none"  url="/pages/pro/pro">
                     <view class="re_img">
-                        <image src="/images/re_proimg.png" mode="aspectFit"></image>
+                        <image src="/images/1.jpg" mode="aspectFill"></image>
+                    </view>
+                    <view class="re_info">
+                        <view class="re_title">14度法国进口AOP红酒整箱国进口AOP红酒整箱</view>
+                        <view class="re_price">
+                            <text class="now">￥99</text><text class="old">￥129</text>
+                        </view>
+                        <view class="re_tags">
+                            <text>满减</text>
+                            <text>赠品</text>
+                        </view>
+                        <view class="re_buyNum">已售卖24700+件</view>
+                    </view>
+                     <view hover-class="none" class="add_shopCart">+</view>
+                </navigator>
+            </view>
+            <view class="li boxshadow">
+                <navigator hover-class="none"  url="/pages/pro/pro">
+                    <view class="re_img">
+                        <image src="/images/2.jpg" mode="aspectFill"></image>
+                    </view>
+                    <view class="re_info">
+                        <view class="re_title">14度法国进口AOP红酒整箱国进口AOP红酒整箱</view>
+                        <view class="re_price">
+                            <text class="now">￥99</text><text class="old">￥129</text>
+                        </view>
+                        <view class="re_tags">
+                            <text>满减</text>
+                            <text>赠品</text>
+                        </view>
+                        <view class="re_buyNum">已售卖24700+件</view>
+                    </view>
+                     <view hover-class="none" class="add_shopCart">+</view>
+                </navigator>
+            </view>
+            <view class="li boxshadow gomenu">
+                <view class="p">去酒单探索更多美酒</view>
+                <navigator url="/pages/menu/menu">立即前往</navigator>
+            </view>
+        </view>
+        <view class="ul">
+            <view class="li boxshadow">
+                <navigator hover-class="none"  url="/pages/pro/pro">
+                    <view class="re_img">
+                        <image src="/images/3.jpg" mode="aspectFill"></image>
                     </view>
                     <view class="re_info">
                         <view class="re_title">14度法国进口AOP红酒整箱</view>
@@ -284,13 +449,13 @@
                      <view hover-class="none" class="add_shopCart">+</view>
                 </navigator>
             </view>
-            <view class="li">
-                <navigator hover-class="none" url="/pages/pro/pro">
+            <view class="li boxshadow">
+                <navigator hover-class="none"  url="/pages/pro/pro">
                     <view class="re_img">
-                        <image src="/images/re_proimg.png" mode="aspectFit"></image>
+                        <image src="/images/4.jpg" mode="aspectFill"></image>
                     </view>
                     <view class="re_info">
-                        <view class="re_title">14度法国进口AOP红酒整箱</view>
+                        <view class="re_title">14度法国进口AOP红酒整箱国进口AOP红酒整箱</view>
                         <view class="re_price">
                             <text class="now">￥99</text><text class="old">￥129</text>
                         </view>
@@ -300,7 +465,26 @@
                         </view>
                         <view class="re_buyNum">已售卖24700+件</view>
                     </view>
-                    <view hover-class="none" class="add_shopCart">+</view>
+                     <view hover-class="none" class="add_shopCart">+</view>
+                </navigator>
+            </view>
+            <view class="li boxshadow">
+                <navigator hover-class="none"  url="/pages/pro/pro">
+                    <view class="re_img">
+                        <image src="/images/4.jpg" mode="aspectFill"></image>
+                    </view>
+                    <view class="re_info">
+                        <view class="re_title">14度法国进口AOP红酒整箱国进口AOP红酒整箱</view>
+                        <view class="re_price">
+                            <text class="now">￥99</text><text class="old">￥129</text>
+                        </view>
+                        <view class="re_tags">
+                            <text>满减</text>
+                            <text>赠品</text>
+                        </view>
+                        <view class="re_buyNum">已售卖24700+件</view>
+                    </view>
+                     <view hover-class="none" class="add_shopCart">+</view>
                 </navigator>
             </view>
         </view>
@@ -308,4 +492,10 @@
 </view>
 
 
+
+<!-- 底部 -->
+<view class="footer">
+        <view class="f_tips">未满18岁未成年人请勿饮酒</view>
+        <view class="f_tips">客服电话：400-8888-888</view>
+</view>
 

@@ -8,6 +8,9 @@ Page({
    * 页面的初始数据
    */
   data: {
+    showModal1: false,
+
+
     minusStatus: true,
     courseCount: 1,   
     viewId : 0,
@@ -132,16 +135,47 @@ Page({
     viewId : 0,
     currentId: '1',
     section: [{
+      imgUrl:'/images/pijiu.jpg',
       name: '啤酒系列',
       typeId: '1'
     }, {
+      imgUrl:'/images/hongjiu.jpg',
       name: '红酒系列',
       typeId: '2'
     }, {
+      imgUrl:'/images/yangjiu.jpg',
       name: '洋酒系列 ',
       typeId: '3'
     }],
   },
+
+/**
+   * 弹窗
+   */
+  showDialogBtn1: function () {
+    this.setData({
+      showModal1: true
+    })
+  },
+  /**
+   * 弹出框蒙层截断touchmove事件
+   */
+  preventTouchMove: function () {
+  },
+  /**
+   * 隐藏模态对话框
+   */
+  hideModal1: function () {
+    this.setData({
+      showModal1: false
+    });
+  },
+  onConfirm1: function () {
+    this.hideModal1();
+  },
+
+
+
   //数字加1
   addNum: function() {
     var courseCount = this.data.courseCount;

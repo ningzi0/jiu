@@ -1,0 +1,23 @@
+<view class="searchInput">
+  <view class="searchInputContent">
+    <image src="/images/search.png"></image>
+    <input type="text" placeholder="哈尔滨啤酒" placeholder-style="color:#ddd"/>
+  </view>
+</view>
+ 
+
+
+
+<!-- 模态框 规则 -->
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modal-dialog" wx:if="{{showModal}}">
+  <view class="modal-title">领取优惠券</view>
+  <view class="modal-content">
+      <view class="p">1.拼单活动仅门店现制酒类参与，门店其他产品不参与活动</view>
+      
+  </view>
+  <view class="modal-footer">
+    <!-- <view class="btn-cancel" bindtap="onCancel" data-status="cancel">取消</view> -->
+    <view class="btn-confirm" bindtap="onConfirm" data-status="confirm">确定</view>
+  </view>
+</view>
