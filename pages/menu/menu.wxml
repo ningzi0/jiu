@@ -193,7 +193,7 @@
     <view class="buycarContent">
         <view class="buyCarLeft" bindtap="showDialogBtn">
             <view class="img">
-                <image src="/images/buycaricon.png"></image>
+                <image src="https://images.liquorbox.cn/2022-06-14%20business/images/buycaricon.png"></image>
                 <text>2</text>
             </view>
             <view class="text">
