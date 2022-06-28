@@ -442,3 +442,57 @@
 .advSwiper .swiper image{
   height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 新人抵用金 */
+.couponsItem{
+  border: 1px solid #f5e8e1;
+  background-color: #fffaf6;
+  color: #f86743;
+  display: flex;
+  padding: 40rpx 10rpx;
+  position: relative;
+  border-radius: 15rpx;
+}
+.cou_title{
+  font-size: 29rpx;
+  font-weight: bold;
+}
+.cou_p{
+  font-size: 20rpx;
+  margin-top: 5rpx;
+}
+
+.couponsIleft{
+  font-size: 50rpx;
+  font-weight: bold;
+  letter-spacing: -7rpx;
+  margin-right:28rpx;
+}
+.couponsIleft text{
+  font-size: 24rpx;
+  font-weight: 500;
+}
+.posi{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20rpx;
+  background-color: #f86743;
+  color: #fff;
+  padding: 0 20rpx;
+  border-radius: 0 15rpx 0 15rpx;
+}

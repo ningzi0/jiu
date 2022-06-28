@@ -105,10 +105,29 @@
     <!-- 新人福利券 -->
     <view class="Coupons">
         <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">
-            <image src="/images/new_Coupons.png" mode="aspectFit"></image>
+            <view class="couponsItem">
+                    <view class="couponsIleft">
+                        17<text>元</text>
+                    </view>
+                    <view class="couponsIright">
+                        <view class="cou_title">新人酒品抵用金</view>
+                        <view class="cou_p">有效期至2022-07-28</view>
+                    </view>
+                    <view class="posi">满35元可用</view>
+            </view>
+
         </navigator>
         <navigator hover-class="none" url="/pages/WelfareCenter/WelfareCenter">
-            <image src="/images/new_Coupons2.png" mode="aspectFit"></image>
+            <view class="couponsItem">
+                    <view class="couponsIleft">
+                        17<text>元</text>
+                    </view>
+                    <view class="couponsIright">
+                        <view class="cou_title">新人酒品抵用金</view>
+                        <view class="cou_p">有效期至2022-07-28</view>
+                    </view>
+                    <view class="posi">满35元可用</view>
+            </view>
         </navigator>
     </view>
     <!-- 新人福利产品 -->
