@@ -1,0 +1,46 @@
+
+<view class="searchView">
+    <view class="searchInput">
+        <input type="text" confirm-type="search" placeholder="大家都在搜..."/>
+        <button>搜索</button>
+    </view>
+
+
+    <view class="hot">
+        <view class="hoth3">热门推荐</view>
+        <view class="hotCon">
+            <navigator class="hotNav">当季新品</navigator>
+            <navigator class="hotNav">德式哈啤</navigator>
+            <navigator>意式牧红</navigator>
+            <navigator>中式劲爽</navigator>
+            <navigator>大白熊猫</navigator>
+            <navigator>纯酿白啤</navigator>
+        </view>
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

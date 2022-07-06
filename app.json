@@ -27,6 +27,7 @@
     "pages/cancelorder/cancelorder",
     "pages/Clipcoupons/Clipcoupons",
     "pages/Search/Search",
+    "pages/SearchView/SearchView",
     "pages/logs/logs"
   ],
   "permission": {

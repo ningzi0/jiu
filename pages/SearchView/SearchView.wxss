@@ -1,0 +1,43 @@
+/* pages/SearchView/SearchView.wxss */
+.searchInput{
+  background-color: #fff;
+  padding: 20rpx;
+}
+.searchInput input{
+  background-color: #f6f6f6;
+  padding: 15rpx 30rpx;
+  font-size: 29rpx;
+  border-radius: 200rpx;
+  width: 75%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.searchInput button{
+  padding: 0;
+  width: 15%;
+  display: inline-block;
+  vertical-align: middle;
+  background: none;
+}
+
+.hot{
+  padding: 20rpx;
+}
+.hoth3{
+  font-weight: bold;
+  font-size: 34rpx;
+  margin: 20rpx 0;
+}
+.hotCon navigator{
+  background-color: #fff;
+  display: inline-block;
+  padding: 10rpx 29rpx;
+  border-radius: 100rpx;
+  margin-right: 8rpx ;
+  margin-bottom: 15rpx;
+  font-size: 29rpx;
+}
+.hotCon navigator.hotNav{
+  background-color: #fdeee9;
+  color: #e34e2d;
+}
