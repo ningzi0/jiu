@@ -200,6 +200,13 @@
           "name": "搜索页面",
           "pathName": "pages/SearchView/SearchView",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "积分商城",
+          "pathName": "pages/integral/integral",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }

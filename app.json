@@ -28,6 +28,7 @@
     "pages/Clipcoupons/Clipcoupons",
     "pages/Search/Search",
     "pages/SearchView/SearchView",
+    "pages/integral/integral",
     "pages/logs/logs"
   ],
   "permission": {

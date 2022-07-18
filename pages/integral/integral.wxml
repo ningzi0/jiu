@@ -1,0 +1,167 @@
+<swiper class="swiper" indicator-dots="{{true}}" autoplay  interval="{{3000}}" duration="{{500}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+        <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+      <!-- <cover-image src="{{item}}" class="slide-image" mode="aspectFill"></cover-image> -->
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 配送地址： -->
+
+
+
+
+
+<!-- 头像 -->
+<view class="head">
+    <view class="headImg headItem" >
+        <image src="/images/headimg.jpg" mode="aspectFill"></image>
+    </view>
+    <view class="headText headItem">午后凌风</view>
+    <view class="indexdian headItem">
+        <text>可用积分：5000</text>
+    </view>
+</view>
+
+
+<!-- 今日推荐 -->
+<view class="recommend">
+    <!-- 标题 -->
+    <view class="title">
+        <view class="h3">
+            <!-- <view class="h3 tit_flex">今日推荐</view> -->
+            <view class="nav-name {{item.typeId == currentId ? 'nav-hover':''}}" wx:for="{{section}}" wx:key="id" id='{{item.typeId}}' catchtap='handleTap'>
+                <text>{{item.name}}</text>
+            </view>
+        </view>
+
+        <view class="tit_navigator">
+            <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">更多</navigator>
+        </view>
+    </view>
+
+    <!-- 积分区间 -->
+    <view class="integralBtn">
+        <view class="integralBtnCon">
+            <view class="item">分值浏览</view>
+            <view class="item">1000-2000</view>
+            <view class="item">2000-3000</view>
+            <view class="item">3000-4000</view>
+            <view class="item">4000-5000</view>
+            <view class="item">5000以上</view>
+        </view>
+    </view>
+
+
+
+    <view class="recommend_con">
+        <view class="ul">
+            <view class="li boxshadow">
+                <navigator hover-class="none"  url="/pages/pro/pro">
+                    <view class="re_img">
+                        <image src="/images/1.jpg" mode="aspectFill"></image>
+                    </view>
+                    <view class="re_info">
+                        <view class="re_title">14度法国进口AOP红酒整箱国进口AOP红酒整箱</view>
+                        <view class="re_price">
+                            <text class="now">1050</text><text class="text">积分</text>
+                        </view>
+                        <view class="re_tags">
+                            <text>积分兑换</text>
+                        </view>
+                        <view class="re_buyNum">已兑换24700+件</view>
+                    </view>
+                     <view hover-class="none" class="add_shopCart">+</view>
+                </navigator>
+            </view>
+            <view class="li boxshadow">
+                <navigator hover-class="none"  url="/pages/pro/pro">
+                    <view class="re_img">
+                        <image src="/images/2.jpg" mode="aspectFill"></image>
+                    </view>
+                    <view class="re_info">
+                        <view class="re_title">14度法国进口AOP红酒整箱国进口AOP红酒整箱</view>
+                        <view class="re_price">
+                            <text class="now">1050</text><text class="text">积分</text>
+                        </view>
+                        <view class="re_tags">
+                            <text>积分兑换</text>
+                        </view>
+                        <view class="re_buyNum">已兑换24700+件</view>
+                    </view>
+                     <view hover-class="none" class="add_shopCart">+</view>
+                </navigator>
+            </view>
+            <view class="li boxshadow gomenu">
+                <view class="p">去酒单探索更多美酒</view>
+                <navigator url="/pages/menu/menu">立即前往</navigator>
+            </view>
+        </view>
+        <view class="ul">
+            <view class="li boxshadow">
+                <navigator hover-class="none"  url="/pages/pro/pro">
+                    <view class="re_img">
+                        <image src="/images/3.jpg" mode="aspectFill"></image>
+                    </view>
+                    <view class="re_info">
+                        <view class="re_title">14度法国进口AOP红酒整箱</view>
+                        <view class="re_price">
+                            <text class="now">1050</text><text class="text">积分</text>
+                        </view>
+                        <view class="re_tags">
+                            <text>积分兑换</text>
+                        </view>
+                        <view class="re_buyNum">已兑换24700+件</view>
+                    </view>
+                     <view hover-class="none" class="add_shopCart">+</view>
+                </navigator>
+            </view>
+            <view class="li boxshadow">
+                <navigator hover-class="none"  url="/pages/pro/pro">
+                    <view class="re_img">
+                        <image src="/images/4.jpg" mode="aspectFill"></image>
+                    </view>
+                    <view class="re_info">
+                        <view class="re_title">14度法国进口AOP红酒整箱国进口AOP红酒整箱</view>
+                        <view class="re_price">
+                            <text class="now">1050</text><text class="text">积分</text>
+                        </view>
+                        <view class="re_tags">
+                            <text>积分兑换</text>
+                        </view>
+                        <view class="re_buyNum">已兑换24700+件</view>
+                    </view>
+                     <view hover-class="none" class="add_shopCart">+</view>
+                </navigator>
+            </view>
+            <view class="li boxshadow">
+                <navigator hover-class="none"  url="/pages/pro/pro">
+                    <view class="re_img">
+                        <image src="/images/4.jpg" mode="aspectFill"></image>
+                    </view>
+                    <view class="re_info">
+                        <view class="re_title">14度法国进口AOP红酒整箱国进口AOP红酒整箱</view>
+                        <view class="re_price">
+                            <text class="now">1050</text><text class="text">积分</text>
+                        </view>
+                        <view class="re_tags">
+                            <text>积分兑换</text>
+                        </view>
+                        <view class="re_buyNum">已兑换24700+件</view>
+                    </view>
+                     <view hover-class="none" class="add_shopCart">+</view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
+
+
+
+<!-- 底部 -->
+<view class="footer">
+        <view class="f_tips">未满18岁未成年人请勿饮酒</view>
+        <view class="f_tips">客服电话：400-8888-888</view>
+</view>
+
