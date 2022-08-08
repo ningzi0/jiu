@@ -1,0 +1,83 @@
+<!--pages/share/share.wxml-->
+<view class="share">
+    <view class="erweima">
+        <image src="/images/erweima.png"></image>
+    </view>
+    <button>保存二维码并分享</button>
+
+    <view class="content">
+        <view class="p">分享二维码给好友，并注册登录在该平台下单消费的下线资源，即可获得对应的返点金额。</view>
+    </view>
+
+    <view class="list">
+        <view class="list-item">
+            <text>账号</text>
+            <text>提成</text>
+            <text>时间</text>
+            <text>订单</text>
+        </view>
+        <view class="list-item">
+            <text>LIGHTBOX01</text>
+            <text>1元</text>
+            <text>2022-08-08</text>
+            <text>查看订单</text>
+        </view>
+        <view class="list-item">
+            <text>LIGHTBOX01</text>
+            <text>1元</text>
+            <text>2022-08-08</text>
+            <text>查看订单</text>
+        </view>
+        <view class="list-item">
+            <text>LIGHTBOX01</text>
+            <text>1元</text>
+            <text>2022-08-08</text>
+            <text>查看订单</text>
+        </view>
+        <view class="list-item">
+            <text>LIGHTBOX01</text>
+            <text>1元</text>
+            <text>2022-08-08</text>
+            <text>查看订单</text>
+        </view>
+        <view class="list-item">
+            <text>LIGHTBOX01</text>
+            <text>1元</text>
+            <text>2022-08-08</text>
+            <text>查看订单</text>
+        </view>
+        <view class="list-item">
+            <text>LIGHTBOX01</text>
+            <text>1元</text>
+            <text>2022-08-08</text>
+            <text>查看订单</text>
+        </view>
+        <view class="list-item">
+            <text>LIGHTBOX01</text>
+            <text>1元</text>
+            <text>2022-08-08</text>
+            <text>查看订单</text>
+        </view>
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -29,6 +29,8 @@
     "pages/Search/Search",
     "pages/SearchView/SearchView",
     "pages/integral/integral",
+    "pages/test/test",
+    "pages/share/share",
     "pages/logs/logs"
   ],
   "permission": {

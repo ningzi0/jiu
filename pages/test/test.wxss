@@ -21,7 +21,7 @@ background-color:#f5f5f5;top: 0rpx;left: 0;}
 box-sizing: border-box;z-index: 10;text-align: center;}
 .menu-active{border-left:10rpx solid #5196ff;background-color:#e5e5e5;font-weight: bold;}
 .content{padding:0 20rpx;position: absolute;top: 0;right: 0;width:570rpx;height: 99%;box-sizing: border-box;background: #fff;}
-.tui-city-scroll-y{height: 100%;box-sizing: border-box;margin-bottom: 170rpx;}
+.tui-city-scroll-y{height: 100%;box-sizing: border-box;}
 .tui-list-head{font-size: 28rpx;font-weight: 700;padding: 20rpx 0;}
 .tui-list-li{background:#fff;overflow: hidden;color: #fff;font-size: 50rpx;box-sizing: border-box;}
 .goods-box{float:left;overflow: hidden;position: relative;width: 100%;    margin: 0 10rpx 30rpx 0;}
@@ -153,9 +153,18 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
   background-color: #051d97;
   color: #fff;
   text-align: center;
-  padding: 45.5rpx 0;
+  /* padding: 45.5rpx 0; */
   border-radius: 0 200rpx 200rpx 0;
-  float: right;
+  /* float: right; */
+  position: absolute;
+  height: 100%;
+  right: 0;
+}
+.buycarRight navigator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .modal-dialog{
@@ -200,8 +209,8 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
   color: #a4a4a4;
 }
 .buycarPro image{
-  width: 135rpx;
-  height: 135rpx;
+  width: 150rpx;
+  height: 150rpx;
   border-radius: 50%;
 }
 .buycarPro .img {
@@ -217,24 +226,16 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
 .buycarPro{
   display: inline-block;
   vertical-align: middle;
-  width: 72%;
+  width: 64%;
 }
 .buycarCon{
   display: inline-block;
   vertical-align: middle;
   padding: 0 20rpx;
-  width:65%;
-}
-.buycarCon .explain{
-  font-size: 28rpx;
-  color: #929292;
+  width: 50%;
 }
 .buycarTit{
-  font-size: 33rpx;
-  font-weight: bold;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+  font-size: 36rpx;
 }
 .buycarText{
   margin: 15rpx 0;
@@ -247,7 +248,6 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
   font-size: 40rpx;
   font-weight: bold;
   color: #ee5837;
-  letter-spacing: -3rpx;
 }
 .buycarText .del{
   text-decoration: line-through;
@@ -255,22 +255,17 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
   color: #a1a5a8;
 }
 .buycarItem{
-  padding: 15rpx 0;
-  border-bottom: 1px solid #eee;
+  margin-bottom: 40rpx;
 }
 .buycarItem .item-center{
   display: inline-block;
-  width: 185rpx;
+  width: 200rpx;
 }
 .buycarItem .item-center .buy-num-txt{
   display: inline-block;
   vertical-align: middle;
 }
 
-
-.modal-content{
-  padding: 20rpx;
-}
 
 
 
@@ -299,7 +294,7 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
   height: 100rpx;
   background-color: #eee;
   display: block;
-  margin: 0 auto;
+  margin: 30rpx auto 0;
 }
 .nav-name text{
   padding: 10rpx;
@@ -397,3 +392,58 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
 }
 
 
+
+
+
+
+
+
+
+
+
+.content2{
+  height: 500rpx;
+  background-color: #051d97;
+  top:515rpx;
+  position: relative;
+}
+
+
+
+
+.menuAdd{
+  height: 200rpx;
+  background-color: #fff;
+  padding: 20rpx;
+  box-sizing: border-box;
+  margin: 10rpx 0 0;
+  border-bottom: 1px solid #eee;
+}
+
+.top_nav{
+  height: 190rpx;
+}
+.menuAddLeft{
+  width: 70%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.menuAddRight{
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+.menuAddLeft .m_h3{
+  font-size: 32rpx;
+}
+.menuAddLeft .m_p{
+  font-size: 30rpx;
+  margin: 15rpx 0;
+  color: #686868;
+}
+
+
+
+.buycarContent{
+  position: relative;
+}

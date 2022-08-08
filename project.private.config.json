@@ -207,6 +207,20 @@
           "name": "积分商城",
           "pathName": "pages/integral/integral",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "分享",
+          "pathName": "pages/share/share",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }

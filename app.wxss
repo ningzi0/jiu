@@ -80,17 +80,19 @@ radio .wx-radio-input.wx-radio-input-checked::before {
   display: flex;
   width: 100%;
 }
-.buy-num-btn{
-  width: 60rpx;
-  height: 60rpx;
+button.buy-num-btn{
+  width: 60rpx !important;
+  height: 60rpx !important;
   background: #0724ae;
   color: #fff;
   text-align: center;
-  line-height: 54rpx;
+  line-height: 51rpx;
   border-radius: 50%;
   font-size: 40rpx;
   display: inline-block;
   vertical-align: middle;
+  font-weight: bold;
+  padding: 0;
 }
 .btn-minus{
   background: none;
@@ -261,14 +263,13 @@ border-bottom: 7rpx solid #051d97;
   
 }
  .ICONBOX{
-  display: flex;
+  flex: 1;
   justify-content: space-around;
-  /* flex-direction: */
   align-items: center;
   color: #9b9b9b;
   font-size: 28rpx;
   background-color: #f7f7f7;
-  padding: 15rpx 12rpx;
+  padding: 15rpx 17rpx;
   text-align: center;
   transition: 0.4s;
  }
@@ -276,8 +277,8 @@ border-bottom: 7rpx solid #051d97;
   margin-right: 5rpx;
 }
 .selected{
-  color: #fff;
-  background: #0623ad;
+  color: #000;
+  background: #fae325;
 }
 
 .top_nav{

@@ -1,0 +1,20 @@
+<view class="p_price_num_item p_price_num_r">
+    <view class="p_price_num_r_con">
+        <view class='row item-center'>
+            <view class="buy-num-btn btn-minus" disabled="{{minusStatus}}" plain='ture' bindtap='minusNum'>-</view>
+            <input class='buy-num-txt' disabled type='number' value='{{courseCount}}'></input>
+            <view class="buy-num-btn btn-add" plain='ture' bindtap='addNum'>+</view>
+        </view>
+    </view>
+</view>
+
+
+<view class="p_price_num_item p_price_num_r">
+    <view class="p_price_num_r_con">
+        <view class='row item-center'>
+            <button class="buy-num-btn btn-minus" disabled="{{minusStatus}}" plain='ture' bindtap='minusNum'>-</button>
+            <input class='buy-num-txt' disabled type='number' value='{{courseCount}}'></input>
+            <button class="buy-num-btn btn-add" plain='ture' bindtap='addNum'>+</button>
+        </view>
+    </view>
+</view>

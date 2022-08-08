@@ -213,7 +213,6 @@
 <view class="modal-dialog" wx:if="{{showModal}}">
   <view class="modal-tit">
         <label>
-            <checkbox></checkbox>
             <view class="Selected">已选购商品（2件）</view>
         </label>
         <view class="delcar">
@@ -223,14 +222,13 @@
   </view>
   <view class="modal-content">
       <view class="buycarItem">
-            <checkbox></checkbox>
             <view class="buycarPro">
                 <view class="img">
                     <image src="/images/pro1.jpg"></image>
-                    <text class="explain">仅限门店自提</text>
                 </view>
                 <view class="buycarCon">
-                    <view class="buycarTit">朝日啤酒</view>
+                    <view class="buycarTit">深汐花葬原麦汁浓度19°P</view>
+                    <text class="explain">仅限门店自提</text>
                     <view class="buycarText">
                         <text class="small">￥</text>
                         <text class="big">19</text>
@@ -243,14 +241,13 @@
             </view>
       </view>
       <view class="buycarItem">
-            <checkbox></checkbox>
             <view class="buycarPro">
                 <view class="img">
                     <image src="/images/pro1.jpg"></image>
-                    <text class="explain">仅限门店自提</text>
                 </view>
                 <view class="buycarCon">
                     <view class="buycarTit">朝日啤酒</view>
+                    <text class="explain">仅限门店自提</text>
                     <view class="buycarText">
                         <text class="small">￥</text>
                         <text class="big">19</text>

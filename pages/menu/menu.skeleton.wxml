@@ -1,0 +1,154 @@
+<!--
+此文件为开发者工具生成，生成时间: 2022/8/5 下午4:15:42
+使用方法：
+在 F:\2022\李宁\web\app\酒\project\pages\menu\menu.wxml 引入模板
+
+```
+<import src="menu.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+```
+
+在 F:\2022\李宁\web\app\酒\project\pages\menu\menu.wxss 中引入样式
+```
+@import "./menu.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="fixed">
+      <view is="components/search/search">
+        <view class="search--searchInput">
+          <view class="search--searchInputContent">
+            <image class="sk-image"></image>
+            <view placeholder="哈尔滨啤酒" placeholder-style="color:#ddd" type="text" class="sk-image"></view>
+          </view>
+        </view>
+      </view>
+      <view class="quan">
+        <text class="sk-transparent sk-text-14-2857-296 sk-text" style="background-position-x: 50%;">领券</text>
+      </view>
+      <view class="menuAddress">
+        <view class="m_add">
+          <view class="h3 sk-transparent sk-text-14-2857-507 sk-text">首开紫郡店</view>
+          <view class="span sk-transparent sk-text-14-2857-681 sk-text">南明区机场路8号首开紫郡紫香堤14栋2单元</view>
+          <navigator class="store sk-transparent sk-text-14-2857-193 sk-text" hover-class="none">商家信息 →</navigator>
+        </view>
+        <view class="m_switch">
+          <view class="ICONBOX selected sk-transparent" data-index="0">
+            <view class="iconfont icon-haoping ic"></view>自提
+          </view>
+          <view class="ICONBOX" data-index="1">
+            <navigator hover-class="none" class="sk-transparent">
+              <view class="iconfont icon-zhongping ic"></view>外卖</navigator>
+          </view>
+        </view>
+      </view>
+      <view class="top_nav">
+        <view class="nav-name nav-hover" id="1">
+          <image class="sk-image"></image>
+          <text class="sk-transparent sk-text-14-2857-85 sk-text" style="border: none; background-position-x: 50%;">啤酒系列</text>
+        </view>
+        <view class="nav-name" id="2">
+          <image class="sk-image"></image>
+          <text class="sk-transparent sk-text-14-2857-281 sk-text" style="background-position-x: 50%;">红酒系列</text>
+        </view>
+        <view class="nav-name" id="3">
+          <image class="sk-image"></image>
+          <text class="sk-transparent sk-text-14-2857-959 sk-text" style="background-position-x: 50%;">洋酒系列 </text>
+        </view>
+      </view>
+    </view>
+    <view class="menuContent">
+      <view style="height: 100%;">
+        <view class="tui-fixed-left" style="border: none;">
+          <scroll-view class="tui-city-scroll" scroll-top="30" scroll-with-animation="true" scroll-x="true" scroll-y="true" style="height:99%;">
+            <text class="menu-item menu-active sk-transparent sk-text-35-7143-273 sk-text" data-index="0" id="0" style="border: none; background-position-x: 50%;">人气TOP</text>
+            <text class="menu-item sk-transparent sk-text-35-7143-895 sk-text" data-index="1" id="1" style="background-position-x: 50%;">爆款推荐</text>
+            <text class="menu-item sk-transparent sk-text-35-7143-335 sk-text" data-index="2" id="2" style="background-position-x: 50%;">福佳啤酒</text>
+            <text class="menu-item sk-transparent sk-text-35-7143-592 sk-text" data-index="3" id="3" style="background-position-x: 50%;">哈尔滨啤酒</text>
+            <text class="menu-item sk-transparent sk-text-35-7143-904 sk-text" data-index="4" id="4" style="background-position-x: 50%;">朝日啤酒</text>
+            <text class="menu-item sk-transparent sk-text-35-7143-736 sk-text" data-index="5" id="5" style="background-position-x: 50%;">烏蘇啤酒</text>
+            <text class="menu-item sk-transparent sk-text-35-7143-634 sk-text" data-index="6" id="6" style="background-position-x: 50%;">麒麟一番榨</text>
+          </scroll-view>
+        </view>
+        <view class="content">
+          <scroll-view class="tui-city-scroll-y" scroll-top="0" scroll-with-animation="true" scroll-y="true" style="height:99%;">
+            <view class="adv">
+              <navigator>
+                <image mode="aspectFill" class="sk-image"></image>
+              </navigator>
+            </view>
+            <view class="pro-item">
+              <view class="tui-list-head sk-transparent" id="NAV0">人气TOP
+                <text class="sk-transparent sk-text-14-2857-496 sk-text">必喝啤酒爆款，无限回购</text>
+              </view>
+              <view class="tui-list-li">
+                <view class="goods-box">
+                  <navigator hover-class="none">
+                    <image class="goodsImg sk-image" mode="aspectFill"></image>
+                    <view class="goodContent">
+                      <view class="goodC_tit sk-transparent">朝日啤酒
+                        <text class="sk-transparent sk-text-14-2857-394 sk-text">人气</text>
+                      </view>
+                      <view class="tags">
+                        <text class="sk-transparent sk-text-0-0000-713 sk-text" style="border: none;">首杯价</text>
+                      </view>
+                      <view class="price">
+                        <text class="now sk-transparent sk-text-14-2857-414 sk-text">￥14</text>
+                        <text class="old sk-transparent sk-text-14-2857-69 sk-text" style="text-decoration-color: transparent;">￥29</text>
+                      </view>
+                    </view>
+                    <view class="add_shopCart sk-transparent" hover-class="none">+
+                      <text class="sk-transparent sk-text-15-7895-425 sk-text" style="background-position-x: 50%;">1</text>
+                    </view>
+                  </navigator>
+                </view>
+                <view class="goods-box">
+                  <navigator hover-class="none">
+                    <image class="goodsImg sk-image" mode="aspectFill"></image>
+                    <view class="goodContent">
+                      <view class="goodC_tit sk-transparent">朝日啤酒
+                        <text class="sk-transparent sk-text-14-2857-906 sk-text">人气</text>
+                      </view>
+                      <view class="tags">
+                        <text class="sk-transparent sk-text-0-0000-125 sk-text" style="border: none;">首杯价</text>
+                      </view>
+                      <view class="price">
+                        <text class="now sk-transparent sk-text-14-2857-914 sk-text">￥14</text>
+                        <text class="old sk-transparent sk-text-14-2857-548 sk-text" style="text-decoration-color: transparent;">￥29</text>
+                      </view>
+                    </view>
+                    <view class="add_shopCart sk-transparent" hover-class="none">+
+                      <text class="sk-transparent sk-text-15-7895-320 sk-text" style="background-position-x: 50%;">1</text>
+                    </view>
+                  </navigator>
+                </view>
+              </view>
+            </view>
+          </scroll-view>
+        </view>
+      </view>
+    </view>
+    <view class="buycar">
+      <view class="buycarContent">
+        <view class="buyCarLeft">
+          <view class="img">
+            <image class="sk-image"></image>
+            <text class="sk-transparent sk-text-13-6364-511 sk-text" style="border: none; background-position-x: 50%;">2</text>
+          </view>
+          <view class="text">
+            <view class="h3 sk-transparent">预计到手
+              <text class="sk-transparent sk-text-14-2857-191 sk-text">￥31.36</text>
+            </view>
+            <view class="span sk-transparent sk-text-14-2857-42 sk-text">已享受更低优惠，共减免￥29.64</view>
+          </view>
+        </view>
+        <view class="buycarRight">
+          <navigator hover-class="none" class="sk-transparent sk-text-14-2857-390 sk-text" style="background-position-x: 50%;">去结算</navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

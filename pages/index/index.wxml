@@ -81,6 +81,13 @@
                   <view class="span">一起点更划算</view>
               </navigator>
           </view>
+          <view class="smallcardItem card_shareItem">
+            <navigator hover-class="none" url="/pages/share/share">
+                  <image src="/images/share.png" ></image>
+                  <view class="h3">我要分享</view>
+                  <view class="span">分享下单就有钱</view>
+              </navigator>
+          </view>
       </view>
     </view>
 </view>
