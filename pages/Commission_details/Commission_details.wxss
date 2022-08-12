@@ -1,0 +1,104 @@
+/* pages/Commission_details/Commission_details.wxss */
+page{
+  font-weight: 400;
+}
+.c_d_header{
+  background-color: #fff;
+  margin: 20rpx;
+  border-radius: 20rpx;
+}
+.c_d_content{
+  padding: 100rpx 70rpx;
+  display: flex;
+  align-items: center;
+}
+.c_d_money_item{
+  flex: 1;
+}
+.c_d_money_item navigator {
+  display: inline-block; 
+  padding: 20rpx 70rpx;
+  background-color:#ffe726;
+  border-radius: 20rpx;
+  font-size: 29rpx;
+}
+.WithdrawalBtn{
+  text-align: right;
+}
+.c_d_money_item .h3{
+  font-weight: bold;
+  font-size: 60rpx;
+  letter-spacing: -3rpx;
+}
+.c_d_money_item .span{
+  font-size: 29rpx;
+  color: #666;
+}
+
+.c_d_wrap{
+  margin:20rpx
+}
+.c_d_w_title{
+  margin: 20rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.c_d_header_img{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.c_d_item{
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+}
+.c_d_item navigator{
+  padding:40rpx 30rpx;
+  border-radius: 20rpx;
+}
+.inline{
+  display: inline-block;
+  vertical-align: middle;
+}
+.c_d_info{
+  padding: 0 20rpx;
+  width: 65%;
+}
+.c_d_info .h3{
+  font-weight: bold;
+}
+.money{
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.c_d_info .text{
+  font-size: 27rpx;
+  color: #999;
+  font-weight: 400;
+}
+
+.c_d_w_date{
+  padding: 0 20rpx 20rpx;
+  font-size: 30rpx;
+}
+.c_d_w_date .date{
+  display: inline-block;
+  vertical-align: middle;
+}
+.c_d_w_date image{
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer{
+  font-size: 28rpx;
+  color: rgb(184, 184, 184);
+  text-align: center;
+  padding: 20rpx 0;
+  border-top: 1px solid rgb(228, 228, 228);
+  margin-top: 40rpx;
+  font-weight: 300;
+}

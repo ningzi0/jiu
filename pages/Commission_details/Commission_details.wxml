@@ -1,0 +1,89 @@
+<view class="c_d_header">
+    <view class="c_d_content">
+        <view class="c_d_money_item">
+            <view class="h3">0.00</view>
+            <view class="span">提成金额</view>
+        </view>
+        <view class="c_d_money_item WithdrawalBtn">
+            <navigator>提现</navigator>
+        </view>
+    </view>
+</view>
+
+<view class="c_d_wrap">
+    <view class="c_d_w_title">提现明细</view>
+    <view class="c_d_w_date">
+        <picker mode="date" header-text="选择时间" fields="month" value="{{indexTime}}" start="{{startTime}}" end="{{endTime}}" bindchange="selectDataTime">
+            <view class="date">{{time}}</view> <image src="/images/down_arr.png"></image>
+        </picker>
+    </view>
+    <view class="c_d_item">
+        <navigator>
+            <image class="c_d_header_img inline" src="/images/headimg.jpg"></image>
+            <view class="c_d_info inline">
+                <view class="h3">提成-来自午后凌风</view>
+                <view class="text">订单：2022081200123</view>
+                <view class="text">时间：2022-08-12 16:14</view>
+            </view>
+            <view class="money inline">+2</view>
+        </navigator>
+    </view>
+    <view class="c_d_item">
+        <navigator>
+            <image class="c_d_header_img inline" src="/images/headimg.jpg"></image>
+            <view class="c_d_info inline">
+                <view class="h3">提成-来自午后凌风</view>
+                <view class="text">订单：2022081200123</view>
+                <view class="text">时间：2022-08-12 16:14</view>
+            </view>
+            <view class="money inline">+2</view>
+        </navigator>
+    </view>
+    <view class="c_d_item">
+        <navigator>
+            <image class="c_d_header_img inline" src="/images/headimg.jpg"></image>
+            <view class="c_d_info inline">
+                <view class="h3">提成-来自午后凌风</view>
+                <view class="text">订单：2022081200123</view>
+                <view class="text">时间：2022-08-12 16:14</view>
+            </view>
+            <view class="money inline">+2</view>
+        </navigator>
+    </view>
+    <view class="c_d_item">
+        <navigator>
+            <image class="c_d_header_img inline" src="/images/headimg.jpg"></image>
+            <view class="c_d_info inline">
+                <view class="h3">提成-来自午后凌风</view>
+                <view class="text">订单：2022081200123</view>
+                <view class="text">时间：2022-08-12 16:14</view>
+            </view>
+            <view class="money inline">+2</view>
+        </navigator>
+    </view>
+</view>
+
+
+
+<view class="footer">
+        <text>底线在此，就此停止</text>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

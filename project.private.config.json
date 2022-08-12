@@ -221,6 +221,13 @@
           "name": "分享",
           "pathName": "pages/share/share",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "提成明细",
+          "pathName": "pages/Commission_details/Commission_details",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }
