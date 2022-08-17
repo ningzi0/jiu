@@ -228,6 +228,13 @@
           "name": "提成明细",
           "pathName": "pages/Commission_details/Commission_details",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "积分明细",
+          "pathName": "pages/integralDel/integralDel",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }

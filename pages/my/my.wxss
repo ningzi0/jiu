@@ -87,13 +87,23 @@
 }
 
 /* 卡片按钮 */
+.carBtn{
+  background: #fff;
+  margin: 20rpx 20rpx 10rpx;
+  border-radius: 15rpx;
+  padding: 20rpx 0;
+}
 .carBtn .ul{
   display: flex;
   display: -webkit-flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0 20rpx;
+}
+.carBtnTitle{
+  margin: 15rpx 30rpx;
+  font-weight: bold;
+  font-size: 35rpx;
 }
 .carBtn .ul .li{
   width: 25%;

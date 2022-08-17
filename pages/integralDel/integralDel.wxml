@@ -1,0 +1,88 @@
+<!--pages/integralDel/integralDel.wxml-->
+<view class="integraCard">
+    <view class="integraC_left">
+        <view class="Text">可用积分余额</view>
+        <view class="Number">6648</view>
+        <view class="Text">积分合计：6648积分</view>
+    </view>
+    <view class="integraC_right">
+        <navigator>我能兑换</navigator>
+    </view>
+</view>
+
+
+<view class="integraContent">
+  
+  <!-- 导航 -->
+  <view class='top_nav'>
+    <view class="nav-name {{item.typeId == currentId ? 'nav-hover':''}}" wx:for="{{section}}" wx:key="id" id='{{item.typeId}}' catchtap='handleTap'>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+
+
+<view class="integraContent_c">
+
+    <view hidden='{{currentId!=1}}'>
+        <view class="tips">为您展示近一年的积分明细</view>
+        <view class="item">
+            <view class="date">2022年8月</view>
+            <view class="jifen">
+                <text>积分</text>
+                <text>+141</text>
+            </view>
+            <view class="starttime time">
+                发放时间：<text>2022-08-08 12:12:35</text>
+            </view>
+            <view class="endtime time">
+                到期时间：<text>2022-08-08 12:12:35</text>
+            </view>
+        </view>
+        <view class="item">
+            <view class="date">2022年7月</view>
+            <view class="jifen">
+                <text>积分</text>
+                <text>+141</text>
+            </view>
+            <view class="starttime time">
+                发放时间：<text>2022-08-08 12:12:35</text>
+            </view>
+            <view class="endtime time">
+                到期时间：<text>2022-08-08 12:12:35</text>
+            </view>
+        </view>
+    </view>
+
+  <view hidden='{{currentId!=2}}'>
+    <view class="tips">为您展示近一年的积分明细</view>
+      <view class="item">
+          <view class="date">2022年8月</view>
+          <view class="jifen">
+              <text>积分</text>
+              <text>-141</text>
+          </view>
+          <view class="starttime time">
+              发放时间：<text>2022-08-08 12:12:35</text>
+          </view>
+          <view class="endtime time">
+              到期时间：<text>2022-08-08 12:12:35</text>
+          </view>
+          <view class="endtime time">
+              使用时间：<text>2022-08-08 12:12:35</text>
+          </view>
+      </view>
+  </view>
+</view>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+

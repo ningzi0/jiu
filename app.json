@@ -32,6 +32,7 @@
     "pages/test/test",
     "pages/share/share",
     "pages/Commission_details/Commission_details",
+    "pages/integralDel/integralDel",
     "pages/logs/logs"
   ],
   "permission": {

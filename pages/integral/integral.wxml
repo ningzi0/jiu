@@ -20,7 +20,9 @@
     </view>
     <view class="headText headItem">午后凌风</view>
     <view class="indexdian headItem">
-        <text>可用积分：5000</text>
+        <navigator hover-class="none" url="/pages/integralDel/integralDel">
+            <text>可用积分：5000</text>
+        </navigator>
     </view>
 </view>
 

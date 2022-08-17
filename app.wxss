@@ -133,7 +133,7 @@ color: #000000;
 font-weight: bold;
 }
 .nav-hover text{
-border-bottom: 7rpx solid #051d97;
+border-bottom: 10rpx solid #ffe726;
 }
 /* 无订单状态 */
 .nothing{
