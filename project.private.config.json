@@ -235,6 +235,13 @@
           "name": "积分明细",
           "pathName": "pages/integralDel/integralDel",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "首页2",
+          "pathName": "pages/index2/index2",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }

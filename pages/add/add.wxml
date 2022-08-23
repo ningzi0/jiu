@@ -15,6 +15,11 @@
                     <image src="/images/bianji.png" mode="aspectFill"></image>
                 </navigator>
             </view>
+            <view class="bianji">
+                <navigator hover-class="none" url="">
+                    <image src="/images/del.png" mode="aspectFill"></image>
+                </navigator>
+            </view>
         </view>
     </view>
 

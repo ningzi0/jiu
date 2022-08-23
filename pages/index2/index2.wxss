@@ -1,0 +1,507 @@
+
+
+.swiper {
+  margin: 20rpx;
+  width: auto;
+  height:490rpx ;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.swiper image{
+  height: 100%;
+}
+.card{
+  background-color: #fff;
+  width: 95%;
+  min-height: 200rpx;
+  margin: 0 auto 25rpx;
+  border-radius:0 0 15rpx 15rpx;
+}
+.head{
+  background-color: #2d3037;
+  min-height: 55px;
+  line-height: 55px;
+  position: relative;
+  padding: 0 15px;
+  width: 95%;
+  box-sizing: border-box;
+  margin: 20rpx auto 0;
+  border-radius:15rpx 15rpx 0 0 ;
+}
+.head .headItem{
+  display: inline-block;
+  vertical-align: middle;
+}
+.headText{
+  font-size: 28rpx;
+  color: #fff;
+  padding: 0 20rpx;
+}
+.headImg{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.headImg image{
+  width: 100%;
+  height: 100%;
+}
+.head .btn{
+  background-color: #bf9f61;
+  color: #2c2515;
+  font-size: 24rpx;
+  border-radius: 50rpx;
+  position: absolute;
+  line-height: 1.75;
+  top: 50%;
+  transform: translate(0,-50%);
+  right: 15px;
+}
+.head .btn navigator{
+  padding: 5rpx 20rpx;
+}
+.bigCard{
+  padding: 35rpx 0;
+}
+.card_share{
+  display: flex;
+}
+.card_shareItem{
+  flex: 1;
+  text-align: center;
+}
+.bigCard .bigcardItem image{
+  width: 50px;
+  height: 50px;
+}
+.bigCard .bigcardItem .h3{
+  font-weight: bold;
+  font-size: 18px;
+}
+.bigCard .bigcardItem .span{
+  font-size: 12px;
+  color: #a8a8a8;
+  line-height: 1.75;
+}
+
+.smallCard {
+  padding-bottom: 15px;
+}
+.smallcardItem image{
+  width: 45px;
+  height: 45px;
+}
+.smallcardItem .h3{
+  font-size: 15px;
+  font-weight: bold;
+  color: #474747;
+}
+.smallcardItem .span{
+  font-size: 12px;
+  color: #a8a8a8;
+  line-height: 1.75;
+}
+
+.ad{
+  width: 100%;
+}
+.ad image{
+  width: 95%;
+  height: 194rpx;
+  margin: 0 auto;
+  display: block;
+}
+
+/* 新人专区 */
+.newpeople{
+  background-color: #fff;
+  width: 95%;
+  margin: 15px auto;
+  border-radius: 15rpx;
+}
+
+
+
+/* 标题 */
+.title{
+  display: flex;
+  padding: 30rpx;
+}
+.title .tit_flex{
+  flex: 1;
+}
+.tit_navigator{
+  text-align: right;
+  font-size: 26rpx;
+}
+.title .h3{
+  font-weight: bold;
+  font-size: 36rpx;
+}
+/* 新人券 */
+.Coupons{
+  display: flex;
+  padding: 0 20rpx;
+}
+.Coupons navigator{
+  flex: 1;
+  margin: 0 10rpx;
+}
+.Coupons navigator image{
+  width: 100%;
+  height: 118rpx;
+}
+
+/* 新人福利产品 */
+.new_coupons_pro{
+  display: flex;
+  padding: 15rpx;
+}
+.new_c_p_item{
+  flex: 1;
+}
+.new_c_p_Content{
+  background-color: #f4f4f4;
+  margin: 15rpx;
+  padding:35rpx 25rpx;
+  border-radius: 15rpx;
+}
+.new_c_p_c_title{
+  font-size: 26rpx;
+  font-weight: bold;
+  margin-bottom: 15rpx;
+}
+.new_c_p_c_price{
+  background-color: #e5c880;
+  display: inline-block;
+  border-radius: 8rpx;
+  text-align: center;
+  
+}
+.new_c_p_c_price_text{
+  background-color: #0022a8;
+  color: #fff;
+  font-weight: bold;
+  padding: 7rpx 30rpx;
+  border-radius: 8rpx;
+  font-size: 22rpx;
+}
+.new_c_p_c_price_text2{
+  padding: 15rpx;
+  color: #fff;
+}
+.new_c_p_c_price_text2 .Now{
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.new_c_p_c_price_text2 .Now text{
+  font-size: 24rpx;
+}
+.new_c_p_c_price_text2 .old{
+  font-size: 24rpx;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.new_c_p_c_img,.new_c_p_c_info{
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+.new_c_p_c_img{
+  padding: 0 15rpx;
+  box-sizing: border-box;
+}
+.new_c_p_c_img image{
+  width: 100%;
+  height: 400rpx;
+  margin-left: 25rpx;
+}
+.new_C_p_Right .new_c_p_c_img image{
+  height: 180rpx;
+  margin-left: 35rpx;
+}
+/* 福利中心 */
+.welfare{
+  width: 95%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 15rpx;
+}
+.welfare_Coupons{
+  width: 100%;
+  overflow-x: scroll;
+}
+.welfare_con {
+  display: flex;
+  width: 130%;
+  padding:0 15rpx ;
+  margin-bottom: 30rpx;
+}
+.welfare_Coupons navigator{
+  background-color: #ffede9;
+  flex: 1;
+  margin-left:15rpx ;
+  padding: 25rpx 30rpx;
+  border-radius: 15rpx;
+}
+.welfare_Coupons .h3{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.welfare_Coupons .span{
+  color:#ed7e63;
+  font-size: 24rpx;
+}
+
+/* 本月销售榜单 */
+.listContent{
+  position: relative;
+  z-index: 2;
+}
+.list{
+  min-height: 200px;
+  background: #b71f2c;
+  width: 95%;
+  margin: 30rpx auto;
+  border-radius: 15rpx;
+  position: relative;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.list image.listbg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 270rpx;
+}
+.listTitle{
+  color: #fff;
+}
+.listTitle .h3{
+  font-size: 38rpx;
+  font-weight: bold;
+}
+.listTitle .text{
+  font-size: 26rpx;
+  line-height: 1.75;
+}
+
+
+.listCon{
+  background-color: rgba(255,255,255,0.7);
+  min-height: 100px;
+  margin-top: 15rpx;
+  border-radius: 15rpx;
+  padding: 20rpx;
+}
+.listCon .ul .li {
+  position: relative;
+  margin: 20rpx 0;
+}
+.listCon .ul .li .img,.list_info{
+  display: inline-block;
+  vertical-align: middle;
+}
+.listCon .ul .li .img{
+  position: relative;
+}
+.listCon .ul .li .img .tags{
+  position: absolute;
+  top: 0;
+  background-color: #c6a174;
+  color: #fff;
+  font-size: 18rpx;
+  padding: 5rpx 10rpx;
+  font-weight: bold;
+  border-radius: 8rpx 0 8rpx 0;
+}
+.listCon .ul .li .img image{
+  width: 80px;
+  height: 80px;
+}
+.list_info{
+  line-height: 2;
+  padding: 0 15rpx;
+  box-sizing: border-box;
+  width: 440rpx;
+}
+.list_pro_tit{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: boldv;
+}
+.list_pro_price .old{
+  opacity: 0.5;
+  text-decoration:  line-through;
+  margin-left: 15rpx;
+}
+
+.recommend .title .h3{
+  width: 90%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.recommend .title .nav-name {
+  background: none;
+  display: inline-block;
+  padding: 0 20rpx;
+}
+.recommend .title .tit_navigator{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 100rpx;
+}
+
+
+
+
+.recommend_con{
+  display: flex;
+}
+.recommend_con .ul {
+  display: block;
+  padding: 0;
+  margin: 0 10rpx;
+  flex: 1;
+}
+.recommend_con .ul .li{
+  width: auto;
+  margin: 0 auto 20rpx;
+}
+.recommend_con .ul .li .re_img image {
+  height:330rpx;
+}
+.re_title {
+  text-overflow: initial;
+  white-space:normal
+}
+.footer{
+  text-align: center;
+  font-size: 26rpx;
+  color: rgb(173, 173, 173);
+  padding-bottom: 40rpx;
+}
+
+.indexdian{
+  font-size: 28rpx;
+  border-radius: 50rpx;
+  position: absolute;
+  line-height: 1.75;
+  top: 50%;
+  transform: translate(0,-50%);
+  right: 15px;
+  color: #fff;
+}
+
+
+
+/* 新人专享价 */
+.newpeo{
+  width: 95%;
+  margin: 30rpx auto 0;
+  background-color: #fff;
+  border-radius: 15rpx;
+}
+.newpeopro .newpeoproContent{
+  overflow-x: scroll;
+}
+.newpeopro .newpeoproContent .ul{
+  display: flex;
+  width: 200%;
+  padding:0 30rpx 30rpx;
+}
+.newpeopro .newpeoproContent .ul .li{
+  flex: 1;
+  margin-right: 15rpx;
+  box-shadow: 0 2rpx 30rpx rgba(0,0,0,0.1);
+}
+.newpeopro .newpeoproContent .ul .li image{
+  width: 100%;
+  height: 195rpx;
+  display: block;
+  border-radius: 15rpx;
+}
+
+.info{
+  padding:20rpx 10rpx;
+  font-size: 28rpx;
+  display: flex;
+}
+.price{
+  flex: 2;
+}
+
+.goBtn{
+  background-color: #ff4800;
+  color: #fff;
+  font-size: 26rpx;
+  font-weight: bold;
+  border-radius: 5rpx;
+  padding: 0 10rpx;
+}
+
+
+.advSwiper .swiper{
+  height: 550rpx;
+}
+.advSwiper .swiper image{
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 新人抵用金 */
+.couponsItem{
+  border: 1px solid #f5e8e1;
+  background-color: #fffaf6;
+  color: #f86743;
+  display: flex;
+  padding: 40rpx 10rpx;
+  position: relative;
+  border-radius: 15rpx;
+}
+.cou_title{
+  font-size: 29rpx;
+  font-weight: bold;
+}
+.cou_p{
+  font-size: 20rpx;
+  margin-top: 5rpx;
+}
+
+.couponsIleft{
+  font-size: 50rpx;
+  font-weight: bold;
+  letter-spacing: -7rpx;
+  margin-right:28rpx;
+}
+.couponsIleft text{
+  font-size: 24rpx;
+  font-weight: 500;
+}
+.posi{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20rpx;
+  background-color: #f86743;
+  color: #fff;
+  padding: 0 20rpx;
+  border-radius: 0 15rpx 0 15rpx;
+}

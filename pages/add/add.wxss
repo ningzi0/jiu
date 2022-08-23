@@ -6,3 +6,11 @@
   background-color: #fff;
   padding: 20rpx;
 }
+.bianji{
+  margin: 0 5rpx;
+  border:1px solid #eee;
+  padding: 5rpx;
+}
+.bianji image{
+  display: inline-block;
+}
