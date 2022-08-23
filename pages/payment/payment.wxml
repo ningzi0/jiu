@@ -8,6 +8,9 @@
     <view class="p_top">
         <view class="h3">首开紫郡店</view>
         <view class="span">距您730m</view>
+        <view class="modify">
+                <image src="/images/modify.png"></image>
+        </view>
     </view>
 
 
