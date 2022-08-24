@@ -14,3 +14,21 @@
 .bianji image{
   display: inline-block;
 }
+
+
+
+.DeliveryCon .ul{
+  margin-bottom: 20rpx;
+}
+.DeliveryCon .Not{
+  color: #999;
+}
+.DeliveryCon .Not .li:first-child{
+  padding-top: 0;
+}
+.DeliveryCon .Not .li{
+  padding: 20rpx 0;
+}
+.DeliveryCon .Not .tags2{
+  background-color: rgb(226, 226, 226);
+}
