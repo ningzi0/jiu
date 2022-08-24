@@ -1,3 +1,150 @@
+<view class="address">
+        <view class="available">
+                <view class="title">可用地址</view>
+                <view class="ul">
+                        <view class="li">
+                                <view class="left">
+                                        <view class="tags">家</view>
+                                        <view class="addName">贵州省贵阳市乌当区新添大道北段幸福里2期 9栋1单元601</view>
+                                        <view class="info">李宁 18798829360</view>
+                                </view>
+                                <view class="button">
+                                        <button>
+                                            <image src="/images/shuru.png"></image>
+                                        </button>
+                                        <button>
+                                            <image src="/images/shanchu.png"></image>
+                                        </button>
+                                </view>
+                        </view>
+                        <view class="li">
+                                <view class="left">
+                                        <view class="tags">家</view>
+                                        <view class="addName">贵州省贵阳市乌当区新添大道北段幸福里2期 9栋1单元601</view>
+                                        <view class="info">李宁 18798829360</view>
+                                </view>
+                                <view class="button">
+                                        <button>
+                                            <image src="/images/shuru.png"></image>
+                                        </button>
+                                        <button>
+                                            <image src="/images/shanchu.png"></image>
+                                        </button>
+                                </view>
+                        </view>
+                </view>
+        </view>
+
+        <view class="available notavailable">
+                <view class="title">不可用地址</view>
+                <view class="ul">
+                        <view class="li">
+                                <view class="left">
+                                        <view class="tags">家</view>
+                                        <view class="addName">贵州省贵阳市乌当区新添大道北段幸福里2期 9栋1单元601</view>
+                                        <view class="info">李宁 18798829360</view>
+                                </view>
+                                <view class="button">
+                                        <button>
+                                            <image src="/images/shuru.png"></image>
+                                        </button>
+                                        <button>
+                                            <image src="/images/shanchu.png"></image>
+                                        </button>
+                                </view>
+                        </view>
+                        <view class="li">
+                                <view class="left">
+                                        <view class="tags">家</view>
+                                        <view class="addName">贵州省贵阳市乌当区新添大道北段幸福里2期 9栋1单元601</view>
+                                        <view class="info">李宁 18798829360</view>
+                                </view>
+                                <view class="button">
+                                        <button>
+                                            <image src="/images/shuru.png"></image>
+                                        </button>
+                                        <button>
+                                            <image src="/images/shanchu.png"></image>
+                                        </button>
+                                </view>
+                        </view>
+                        <view class="li">
+                                <view class="left">
+                                        <view class="tags">家</view>
+                                        <view class="addName">贵州省贵阳市乌当区新添大道北段幸福里2期 9栋1单元601</view>
+                                        <view class="info">李宁 18798829360</view>
+                                </view>
+                                <view class="button">
+                                        <button>
+                                            <image src="/images/shuru.png"></image>
+                                        </button>
+                                        <button>
+                                            <image src="/images/shanchu.png"></image>
+                                        </button>
+                                </view>
+                        </view>
+                        <view class="li">
+                                <view class="left">
+                                        <view class="tags">家</view>
+                                        <view class="addName">贵州省贵阳市乌当区新添大道北段幸福里2期 9栋1单元601</view>
+                                        <view class="info">李宁 18798829360</view>
+                                </view>
+                                <view class="button">
+                                        <button>
+                                            <image src="/images/shuru.png"></image>
+                                        </button>
+                                        <button>
+                                            <image src="/images/shanchu.png"></image>
+                                        </button>
+                                </view>
+                        </view>
+                        <view class="li">
+                                <view class="left">
+                                        <view class="tags">家</view>
+                                        <view class="addName">贵州省贵阳市乌当区新添大道北段幸福里2期 9栋1单元601</view>
+                                        <view class="info">李宁 18798829360</view>
+                                </view>
+                                <view class="button">
+                                        <button>
+                                            <image src="/images/shuru.png"></image>
+                                        </button>
+                                        <button>
+                                            <image src="/images/shanchu.png"></image>
+                                        </button>
+                                </view>
+                        </view>
+                        <view class="li">
+                                <view class="left">
+                                        <view class="tags">家</view>
+                                        <view class="addName">贵州省贵阳市乌当区新添大道北段幸福里2期 9栋1单元601</view>
+                                        <view class="info">李宁 18798829360</view>
+                                </view>
+                                <view class="button">
+                                        <button>
+                                            <image src="/images/shuru.png"></image>
+                                        </button>
+                                        <button>
+                                            <image src="/images/shanchu.png"></image>
+                                        </button>
+                                </view>
+                        </view>
+                </view>
+        </view>
+</view>
+
+
+
+
+<view class="newadd">
+        <navigator hover-class="none" url="/pages/Newaddress/Newaddress">新增地址</navigator>
+    </view>
+
+
+
+
+
+
+<!--
 <view class="DeliveryCon">
     
     <view class="ul">
@@ -23,7 +170,9 @@
             </view>
         </view>
     </view>
-    <!-- 不可用地址 -->
+    
+
+
     <view class="ul Not">
         <view class="li">
             <view class="Delivery_content">
@@ -71,3 +220,4 @@
         <navigator hover-class="none" url="/pages/Newaddress/Newaddress">新增地址</navigator>
     </view>
 </view>
+-->

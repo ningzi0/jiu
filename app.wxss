@@ -446,12 +446,13 @@ border-bottom: 10rpx solid #ffe726;
   left: 50%;
   bottom: 20rpx;
   transform: translate(-50%,0);
-  background-color: #051d97;
-  color: #fff;
+  background-color: #fae325;
+  color: #000;
   text-align: center;
   padding: 25rpx 0;
   font-size: 30rpx;
   border-radius: 100rpx;
+  font-weight: normal;
 }
 
 

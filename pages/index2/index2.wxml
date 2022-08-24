@@ -15,14 +15,14 @@
 
 <!-- 头像 -->
 <view class="head">
-    <view class="headImg headItem" >
+    <view class="headImg headItem"  style="display: none;">
         <image src="/images/headimg.jpg" mode="aspectFill"></image>
     </view>
-    <view class="headText headItem">午后凌风</view>
-    <view class="indexdian headItem">
+    <view class="headText headItem"  style="display: none;">午后凌风</view>
+    <view class="indexdian headItem" style="display: none;">
         <text>首开紫郡店: 自提</text>
     </view>
-    <view class="btn headItem" style="display: none;">
+    <view class="btn headItem">
         <navigator>登录/注册</navigator>
     </view>
 </view>
