@@ -4,7 +4,7 @@
                 <view class="ul">
                         <view class="li">
                                 <view class="left">
-                                        <view class="tags">家</view>
+                                        <view class="tags"></view>
                                         <view class="addName">贵州省贵阳市乌当区新添大道北段幸福里2期 9栋1单元601</view>
                                         <view class="info">李宁 18798829360</view>
                                 </view>
@@ -19,7 +19,7 @@
                         </view>
                         <view class="li">
                                 <view class="left">
-                                        <view class="tags">家</view>
+                                        <view class="tags"></view>
                                         <view class="addName">贵州省贵阳市乌当区新添大道北段幸福里2期 9栋1单元601</view>
                                         <view class="info">李宁 18798829360</view>
                                 </view>

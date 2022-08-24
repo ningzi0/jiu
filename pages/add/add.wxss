@@ -84,10 +84,9 @@ page{
 }
 .available .ul .li .addName{
   display: inline-block;
-  font-weight: bold;
   margin-left: 20rpx;
-  font-size: 34rpx;
-  text-indent: -204rpx;
+  font-size: 29rpx;
+  text-indent: -168rpx;
   overflow: hidden;
   /* white-space: nowrap;
   text-overflow: ellipsis; */
