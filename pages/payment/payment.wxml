@@ -50,6 +50,91 @@
         </view>
         <!-- tips -->
         <view class="tips">拼单不支持使用优惠券</view>
+        
+        <!-- 超值换购 -->
+        <view class="Exchange">
+            <view class="exchangeTitle">
+                    <view class="h3">超值换购</view>
+                    <text>近期有218人换购</text>
+            </view>
+
+            <view class="exchangeContent">
+                <view class="ul">
+                    <view class="li">
+                            <image src="https://images.liquorbox.cn/2022-06-10/images/%E7%99%BD%E7%86%8A%E6%B5%B7%E7%9B%90%E5%A5%87%E5%BC%82%E6%9E%9C%E5%95%A4%E9%85%92.JPG" mode="aspectFill"></image>
+                            <view class="h3">白熊海盐奇异果啤酒</view>
+                            <view class="number">已有52人换购</view>
+                            <view class="price">
+                                <view class="now">￥8.9</view>
+                                <view class="del">￥15</view>
+                            </view>
+                            <view class="p_price_num_item p_price_num_r">
+                                <view class="p_price_num_r_con">
+                                    <view class='row item-center'>
+                                        <button class="buy-num-btn btn-minus" disabled="{{minusStatus}}" plain='ture' bindtap='minusNum'>-</button>
+                                        <input class='buy-num-txt' disabled type='number' value='{{courseCount}}'></input>
+                                        <button class="buy-num-btn btn-add" plain='ture' bindtap='addNum'>+</button>
+                                    </view>
+                                </view>
+                            </view>
+                    </view>
+                    <view class="li">
+                            <image src="https://images.liquorbox.cn/2022-06-10/images/%E7%99%BD%E7%86%8A%E6%B5%B7%E7%9B%90%E5%A5%87%E5%BC%82%E6%9E%9C%E5%95%A4%E9%85%92.JPG" mode="aspectFill"></image>
+                            <view class="h3">白熊海盐奇异果啤酒</view>
+                            <view class="number">已有52人换购</view>
+                            <view class="price">
+                                <view class="now">￥8.9</view>
+                                <view class="del">￥15</view>
+                            </view>
+                            <view class="p_price_num_item p_price_num_r">
+                                <view class="p_price_num_r_con">
+                                    <view class='row item-center'>
+                                        <button class="buy-num-btn btn-minus" disabled="{{minusStatus}}" plain='ture' bindtap='minusNum'>-</button>
+                                        <input class='buy-num-txt' disabled type='number' value='{{courseCount}}'></input>
+                                        <button class="buy-num-btn btn-add" plain='ture' bindtap='addNum'>+</button>
+                                    </view>
+                                </view>
+                            </view>
+                    </view>
+                    <view class="li">
+                            <image src="https://images.liquorbox.cn/2022-06-10/images/%E7%99%BD%E7%86%8A%E6%B5%B7%E7%9B%90%E5%A5%87%E5%BC%82%E6%9E%9C%E5%95%A4%E9%85%92.JPG" mode="aspectFill"></image>
+                            <view class="h3">白熊海盐奇异果啤酒</view>
+                            <view class="number">已有52人换购</view>
+                            <view class="price">
+                                <view class="now">￥8.9</view>
+                                <view class="del">￥15</view>
+                            </view>
+                            <view class="p_price_num_item p_price_num_r">
+                                <view class="p_price_num_r_con">
+                                    <view class='row item-center'>
+                                        <button class="buy-num-btn btn-minus" disabled="{{minusStatus}}" plain='ture' bindtap='minusNum'>-</button>
+                                        <input class='buy-num-txt' disabled type='number' value='{{courseCount}}'></input>
+                                        <button class="buy-num-btn btn-add" plain='ture' bindtap='addNum'>+</button>
+                                    </view>
+                                </view>
+                            </view>
+                    </view>
+                    <view class="li">
+                            <image src="https://images.liquorbox.cn/2022-06-10/images/%E7%99%BD%E7%86%8A%E6%B5%B7%E7%9B%90%E5%A5%87%E5%BC%82%E6%9E%9C%E5%95%A4%E9%85%92.JPG" mode="aspectFill"></image>
+                            <view class="h3">白熊海盐奇异果啤酒</view>
+                            <view class="number">已有52人换购</view>
+                            <view class="price">
+                                <view class="now">￥8.9</view>
+                                <view class="del">￥15</view>
+                            </view>
+                            <view class="p_price_num_item p_price_num_r">
+                                <view class="p_price_num_r_con">
+                                    <view class='row item-center'>
+                                        <button class="buy-num-btn btn-minus" disabled="{{minusStatus}}" plain='ture' bindtap='minusNum'>-</button>
+                                        <input class='buy-num-txt' disabled type='number' value='{{courseCount}}'></input>
+                                        <button class="buy-num-btn btn-add" plain='ture' bindtap='addNum'>+</button>
+                                    </view>
+                                </view>
+                            </view>
+                    </view>
+                </view>
+            </view>
+        </view>
 
         <!-- 优惠信息 -->
         <view class="youhuiInfo">
@@ -65,6 +150,13 @@
             应付 <text>￥32</text>
         </view>
     </view>
+
+    
+
+
+
+
+
     <!-- 支付方式 -->
     <view class="pay_method"  bindtap="showDialogBtn">
         <view class="pay_method_item">支付方式</view>

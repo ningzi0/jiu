@@ -5,6 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
+    minusStatus: true,
+    courseCount: 1,   
     time: '12:01',
     items: [
       {value: '1', name: '外卖送酒'},
@@ -39,6 +41,28 @@ Page({
   hideModal: function () {
     this.setData({
       showModal: false
+    });
+  },
+   //数字加1
+   addNum: function() {
+    var courseCount = this.data.courseCount;
+    courseCount++;
+    this.setData({
+      courseCount: courseCount,
+      minusStatus: false
+    })
+  },
+  //数字减1
+  minusNum: function() {
+    var courseCount = this.data.courseCount;
+    if (courseCount > 1) {
+      courseCount--;
+    }
+    //数字<=1时，开启 - 按钮的disable状态
+    var minusStatus = courseCount <= 1 ? true : false; 
+    this.setData({
+      courseCount: courseCount,
+      minusStatus: minusStatus
     });
   },
   /**

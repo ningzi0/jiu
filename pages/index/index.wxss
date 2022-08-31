@@ -27,6 +27,10 @@
   font-size: 28rpx;
   color: #fff;
   padding: 0 20rpx;
+  width: 48%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .headImg{
   width: 70rpx;

@@ -1,4 +1,7 @@
 /* pages/payment/payment.wxss */
+page{
+  font-weight: normal;
+}
 .payment{
   margin-bottom: 170rpx;
 }
@@ -201,8 +204,80 @@
 }
 
 
+/* 超值换购 */
 
+.exchangeTitle{
+  font-size: 30rpx;
+  padding: 20rpx;
+}
+.exchangeTitle .h3{
+  display: inline-block;
+}
+.exchangeTitle text{
+  color: #e76f4a;
+  font-size: 27rpx;
+  margin-left: 15rpx;
+}
+.Exchange{
+  border-bottom: 1px dashed #eee;
+  border-top: 1px dashed #eee;
+}
+.exchangeContent{
+  width: 100%;
+  overflow-x: auto;
+}
+.exchangeContent .ul{
+  display: flex;
+  padding:0 20rpx 20rpx;
+  border: 0;
+}
+.exchangeContent .ul .li {
+  border: 1px solid #eee;
+  flex: 1;
+  display: block;
+  margin: 5rpx;
+}
 
+.exchangeContent .ul .li image{
+  width: 100%;
+  display: block;
+  height: 200rpx;
+  border-radius: 0;
+}
+.exchangeContent .ul .li .h3{
+  display: block;
+  width: 98%;
+  font-size: 28rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 15rpx 0;
+  color: #686d73;
+  font-weight: bold;
+}
+.exchangeContent .ul .li .number{
+  font-size: 22rpx;
+  color: #e76f4a;
+}
+.exchangeContent .ul .li .price{
+  display: flex;
+  font-size: 29rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+  letter-spacing: -2.5rpx;
+}
+.exchangeContent .ul .li .price .now{
+  font-size: 29rpx;
+}
+.exchangeContent .ul .li .price .del{
+  color: #999;
+  text-decoration: line-through;
+}
 
-
+.p_price_num_item{
+  margin:15rpx 0;
+}
+.p_price_num_item button.buy-num-btn{
+  border: 0;
+}
 
