@@ -7,9 +7,9 @@
         <view class="c_aglin">
             <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">再来一单</navigator>
         </view>
-        <view class="btn">
+        <!-- <view class="btn">
             <button>联系商家</button>
-        </view>
+        </view> -->
     </view>
 
     <!-- 广告位 -->
@@ -27,6 +27,9 @@
 
     <!-- 订单信息 -->
     <view class="c_orderInfo">
+        <view class="c_o_tit c_o_titName">
+            <navigator hover-class="none" url="/pages/storeinfo/storeinfo"><text>佰群如生酒吧</text> <image src="/images/right_arr.png" mode="aspectFill"></image></navigator>
+        </view>
         <view class="c_o_tit">外卖订单：00012022030443371220</view>
         <view class="c_o_con">
             <view class="ul">

@@ -58,11 +58,28 @@
   padding: 20rpx;
   box-sizing: border-box;
 }
+
+
 .c_o_tit{
   font-size: 24rpx;
   color: #9fa3a6;
   border-left: 10rpx solid #062578;
   padding-left: 13rpx;
+  margin-bottom: 15rpx;
+}
+.c_o_titName{
+  border: 0;
+  font-size: 30rpx;
+}
+.c_o_titName image{
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.c_o_titName text{
+  display: inline-block;
+  vertical-align: middle;
 }
 .c_orderInfo .c_o_con .img image{
   width: 150rpx;
