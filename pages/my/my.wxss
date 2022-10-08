@@ -126,3 +126,24 @@
 }
 
 
+
+.share{
+  display: flex;
+  background-color: #fff;
+  border-radius: 15rpx;
+  padding: 20rpx 30rpx;
+  margin: 20rpx;
+  align-items: center;
+}
+.share text,.share .img{
+  flex: 1;
+}
+.share .img{
+  text-align: right;
+  position: relative;
+  top: 5rpx;
+}
+.share .img image{
+  width: 60rpx;
+  height: 60rpx;
+}

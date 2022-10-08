@@ -20,6 +20,13 @@
     </view>
     <view class="progress"></view>
 </view>
+<!-- 我要分享 -->
+<view class="share">
+        <text>我要分享</text>
+        <view class="img">
+            <image src="/images/share.png"></image>
+        </view>
+</view>
 
 <!-- 卡片按钮 -->
 <view class="carBtn">
