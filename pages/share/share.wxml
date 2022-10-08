@@ -10,6 +10,7 @@
     </view>
 
 
+    <view class="num">已邀请人数：<text>2</text>人</view>
     <navigator class="Commission_details">提成明细</navigator>
     
 </view>
