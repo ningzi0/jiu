@@ -1,0 +1,69 @@
+<!--pages/return/return.wxml-->
+<view class="return">
+    <view class="returnTop">
+        <view class="returnT_Con">
+            <view class="returnT_Title">退货申请中</view>
+            <view class="returnT_Time">2022年11月10日 14:35</view>
+        </view>
+    </view>
+
+    <view class="return_money">
+      <view class="return_m_left">
+        <image src="/images/return-ico.png"></image>
+        <text>退款总金额</text>
+      </view>
+      <view class="return_m_right">
+          <text>￥408.00</text>
+      </view>
+    </view>
+
+
+    <view class="return_info">
+        <view class="return_info_title">退款信息</view>
+        <view class="return_info_pro">
+              <view class="img">
+                  <image src="/images/1.jpg"></image>
+              </view>
+              <view class="return_info_proText">
+                  <view class="return_info_proT_title">14度法国进口AOP红酒整箱进口红酒</view>
+                  <view class="price-num return_item">价格:408.00    数量:1</view>
+                  <view class="return_item">规格：整件装(6瓶)</view>
+              </view>
+              <view class="return_info_item">
+                  <text class="left">退款原因</text>
+                  <text class="right">7天无理由退货</text>
+              </view>
+              <view class="return_info_item">
+                  <text class="left">退款金额</text>
+                  <text class="right">￥408.00</text>
+              </view>
+              <view class="return_info_item">
+                  <text class="left">申请件数</text>
+                  <text class="right">1</text>
+              </view>
+              <view class="return_info_item">
+                  <text class="left">申请时间</text>
+                  <text class="right">2022-11-10 14:35</text>
+              </view>
+              <view class="return_info_item">
+                  <text class="left">退款编号</text>
+                  <text class="right">00001202211101435</text>
+              </view>
+        </view>
+    </view>
+    <view class="tel">
+        <navigator hover-class="none">
+            <image src="/images/tel.png"></image> 
+            <text>联系商家</text>
+        </navigator>
+    </view>
+</view>
+
+
+
+
+
+
+
+
+

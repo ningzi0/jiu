@@ -242,6 +242,13 @@
           "name": "首页2",
           "pathName": "pages/index2/index2",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "退货退款",
+          "pathName": "pages/return/return",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }

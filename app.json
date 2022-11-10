@@ -34,6 +34,7 @@
     "pages/Commission_details/Commission_details",
     "pages/integralDel/integralDel",
     "pages/index2/index2",
+    "pages/return/return",
     "pages/logs/logs"
   ],
   "permission": {
