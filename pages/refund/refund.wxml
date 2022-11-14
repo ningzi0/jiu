@@ -31,6 +31,7 @@
         </view>
     </view>
     <view class="file">
+        <text class="tit">上传图片(最多3张)</text>
         <view class="file-btn">
           <view class='pic' wx:for="{{imgs}}" wx:for-item="item" wx:key="*this">
               <image class='weui-uploader__img ' src="{{item}}" data-index="{{index}}" mode="aspectFill" bindtap="previewImg"></image>
@@ -39,7 +40,8 @@
               </view>
           </view>
           <view class="upload-img-btn fileBtn" bindtap="chooseImg" >
-              <text>上传图片 + </text>
+              <image src="/images/upload.png"></image>
+              
           </view>
           
         </view>

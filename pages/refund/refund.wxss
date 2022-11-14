@@ -43,12 +43,12 @@
 }
 .file{
   margin-bottom: 20rpx;
+  background-color: #fff;
+  padding: 15rpx;
 }
 .fileBtn{
   background-color: #fff;
-  text-align: center;
-  padding: 20rpx;
-  margin: 0 20rpx;
+  padding: 10rpx;
 }
 .file-btn .pic{
   display: inline-block;
@@ -69,7 +69,7 @@
   border: 1px solid #eee;
   background: #fff;
   border-radius: 50%;
-  padding: 5rpx;
+  padding: 10rpx;
   box-sizing: border-box;
   position: absolute;
   right: 0;
@@ -102,3 +102,58 @@
 
 
 
+/*上传图片*/
+.uploadImgBox {
+  margin: 30rpx 0;
+}
+ 
+.logoinfo {
+  height: 180rpx;
+  width: 180rpx;
+  margin: 10rpx ;
+}
+ 
+.smallImgBox {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,180rpx);
+  grid-gap:20rpx 10rpx;
+}
+ 
+.moreImg {
+  border-radius: 10rpx;
+  height: 180rpx;
+  width: 180rpx;
+  margin: 20rpx ;
+}.button{  
+ height: 90rpx;  
+ width: 270rpx;  
+ font-size: 38rpx;  
+ background-color: rgba(146, 163, 45, 0.288);  
+ font-weight: 600;  
+ color: white;
+ } 
+ button::after {
+  border: none;
+} 
+
+.fileBtn text{
+  display: block;
+  margin-bottom: 10rpx;
+  font-size: 26rpx;
+}
+
+.file-btn{
+  margin-top: 10rpx;
+}
+.fileBtn image{
+  width: 145rpx;
+  height: 145rpx;
+  display: inline-block;
+  border: 1px solid #eee;
+  padding: 15rpx;
+}
+.fileBtn{
+  display: inline-block;
+  vertical-align: middle;
+}

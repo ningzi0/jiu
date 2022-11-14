@@ -105,3 +105,14 @@
   font-size: 30rpx;
 }
 
+.return_info_item .pic{
+  display: inline-block;
+  vertical-align: middle;
+}
+.return_info_item image{
+  width: 140rpx;
+  height: 140rpx;
+  border: 1px solid #eee;
+  margin-right: 10rpx;
+  padding: 10rpx;
+}

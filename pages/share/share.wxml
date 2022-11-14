@@ -11,6 +11,38 @@
 
 
     <view class="num">已邀请人数：<text>2</text>人</view>
+
+    <view class="share_list">
+        <view class="share-item">
+            <view class="text">
+                头像
+            </view>
+            <text>用户名</text>
+        </view>
+        <view class="share-item">
+            <view class="text">
+                <image src="/images/headimg.jpg"></image>
+            </view>
+            <text>午后凌风不凌乱</text>
+        </view>
+        <view class="share-item">
+            <view class="text">
+                <image src="/images/headimg.jpg"></image>
+            </view>
+            <text>午后凌风不凌乱</text>
+        </view>
+        <view class="share-item">
+            <view class="text">
+                <image src="/images/headimg.jpg"></image>
+            </view>
+            <text>午后凌风不凌乱</text>
+        </view>
+    </view>
+
+
+
+
+
     <navigator class="Commission_details">提成明细</navigator>
     
 </view>

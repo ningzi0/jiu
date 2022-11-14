@@ -49,6 +49,13 @@
                   <text class="left">退款编号</text>
                   <text class="right">00001202211101435</text>
               </view>
+              <view class="return_info_item">
+                  <text class="left">相关图片</text>
+                  <view class='pic' wx:for="{{imgs}}" wx:for-item="item" wx:key="*this">
+                        <image class='weui-uploader__img ' src="{{item}}" data-index="{{index}}" mode="aspectFill" bindtap="previewImg"></image>
+                     
+                  </view>
+              </view>
         </view>
     </view>
     <view class="tel">
