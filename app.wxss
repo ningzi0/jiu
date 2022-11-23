@@ -467,8 +467,8 @@ checkbox .wx-checkbox-input {
 }
 /*checkbox选中后样式  */
 checkbox .wx-checkbox-input.wx-checkbox-input-checked {
-  background: #0029a7;
-  border-color:#0029a7;
+  background: #fae325;
+  border-color:#fae325;
 }
 /*checkbox选中后图标样式  */
 checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
