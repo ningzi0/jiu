@@ -171,18 +171,24 @@
 
 .orderCiTtile{
   font-size: 29rpx;
-  padding-bottom:20rpx ;
+  padding-bottom: 20rpx;
   border-bottom: 1px solid #eee;
   margin-bottom: 10rpx;
+  width: 92%;
+  display: inline-block;
 }
 .orderCiTtile text{
   display: inline-block;
   margin-right: 30rpx;
+  vertical-align: top;
 }
 .orderCiTtile text:nth-child(1){
   padding: 5rpx 15rpx;
   background-color: #fae325;
   border-radius: 10rpx;
+}
+.orderCiTtile text:nth-child(2){
+  width: 55%;
 }
 .orderCiTtile text:nth-child(3){
   float: right;

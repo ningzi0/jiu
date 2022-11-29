@@ -33,9 +33,11 @@
     <view class="orderlist">
         <view class="orderCon">
             <view class="orderCitem">
+                  <checkbox></checkbox>
                 <view class="orderCiTtile">
+                
                     <text>外卖</text>
-                    <text>首开紫郡 紫香堤 14栋2单元</text>
+                    <text>首开紫郡 紫香堤 14栋2单元首开紫郡 紫香堤 14栋2单元首开紫郡 紫香堤 14栋2单元</text>
                     <text>待收货</text>
                 </view>
                 <view class="orderCiCon">
