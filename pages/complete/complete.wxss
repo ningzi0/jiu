@@ -82,8 +82,8 @@
   vertical-align: middle;
 }
 .c_orderInfo .c_o_con .img image{
-  width: 150rpx;
-  height: 150rpx;
+  width: 140rpx;
+  height: 140rpx;
   border-radius: 50%;
 }
 .c_orderInfo .c_o_con .ul .li{
@@ -174,3 +174,103 @@
     height: 300rpx;
 }
 
+
+
+
+
+
+.logistics{
+  background: #fff;
+  margin: 20rpx;
+  font-size: 26rpx;
+  padding: 20rpx;
+  border-radius: 10rpx;
+}
+.logisticsName{
+  padding: 15rpx 0;
+  display: flex;
+  align-items: center;
+}
+.logisticsName image{
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  margin-right: 15rpx;
+}
+.logisticsCon .li{
+  padding: 15rpx 0;
+}
+.logisticsCon .li.active .li_title{
+  color: rgb(255, 60, 0);
+}
+.logisticsCon .li.active .li-con{
+  color: rgb(2, 2, 2);
+}
+.li_title{
+  display: flex;
+  align-items: flex-end;
+  padding: 15rpx 0;
+  color: rgb(146, 146, 146);
+}
+.li-con{
+  color: rgb(146, 146, 146);
+}
+.li-title-font{
+  font-size: 34rpx;
+  font-weight: bold;
+  padding-right: 10rpx;
+}
+.li-title-date{
+  flex: 3;
+}
+
+
+
+
+
+/* 物流弹窗 */
+.arrow{
+  display:inline-block;
+  border:6px solid transparent;
+  border-top-color:#000;
+  margin-left:8px;
+  position:relative;
+  top:6rpx;
+ }
+ /* ---------------------------- */
+ /*模态框*/
+ .modal{position:fixed; top:0; right:0; bottom:0; left:0; z-index:1000;}
+ .modal-cancel{position:absolute; z-index:2000; top:0; right:0; bottom: 0; left:0; background:rgba(0,0,0,0.3);}
+ .bottom-dialog-body{width:100%; position:absolute; z-index:3000; bottom:0; left:0;background:#fff;}
+ /*动画前初始位置*/
+ .bottom-positon{-webkit-transform:translateY(100%);transform:translateY(100%);}
+   
+   
+ /* 底部弹出框 */
+
+
+ .li-con navigator{
+   display: inline;
+   color: rgb(255, 60, 0);
+ }
+ .Mcancel{
+  background: #fff;
+  padding: 26rpx 0;
+  text-align: center;
+  border-top: 1px solid #eee;
+ }
+ .li-con{
+   padding: 10rpx 0;
+ }
+ .Mselect .title{
+   font-size: 34rpx;
+   font-weight: bold;
+   text-align: center;
+   padding: 30rpx 0;
+   background: #eee;
+ }
+ .Mselect .logistics {
+   max-height: 1000rpx;
+   min-height: 600rpx;
+   overflow-y: scroll;
+ }

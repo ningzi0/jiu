@@ -183,6 +183,14 @@
             </view>
         </view>
 
+        <!-- 支付方式 -->
+        <view class="pay_method">
+            <view class="pay_method_item">物流费用</view>
+            <view class="pay_method_item pay_method_right">
+                <text>5元</text>
+            </view>
+        </view>
+
         <view class="take_item pay_method">
             <view class="pay_method_item">预约时间</view>
             <view class="pay_method_item pay_method_right pay_method_radio">

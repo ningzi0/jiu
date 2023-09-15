@@ -9,7 +9,7 @@ Page({
     courseCount: 1,   
     time: '12:01',
     items: [
-      {value: '1', name: '外卖送酒'},
+      {value: '1', name: '快递配送'},
       {value: '1', name: '自提自取', checked: 'true'},
     ],
     viewId : 0,

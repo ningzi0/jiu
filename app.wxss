@@ -10,7 +10,7 @@
 }  */
 page{
   background-color: #eee;
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 .boxshadow{
   box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.1);

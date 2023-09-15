@@ -1,23 +1,41 @@
 <view class="complete">
-    <view class="c_header">
+    <!-- <view class="c_header">
         <view class="erweima">
             <image src="/images/erweima.png"></image>
         </view>
         <view class="p">订单核销码：00154564538676435354</view>
         <view class="c_aglin">
             <navigator hover-class="none" url="/pages/menu/menu" open-type="switchTab">再来一单</navigator>
-        </view>
-        <!-- <view class="btn">
+        </view> 
+         <view class="btn">
             <button>联系商家</button>
-        </view> -->
-    </view>
+        </view>
+    </view> -->
 
     <!-- 广告位 -->
-    <view class="adv">
+    <!-- <view class="adv">
         <navigator hover-class="none">
             <image src="/images/adv2.png" mode="aspectFill"></image>
         </navigator>
+    </view> -->
+
+    <view class="logistics">
+        <view class="logisticsName">
+            <image src="https://img1.baidu.com/it/u=165513674,1563172447&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" mode="" /> 圆通速递YT7412356255094
+        </view>
+        <view class="logisticsCon">
+            <view class="li active">
+                <view class="li_title" bindtap="showModal">
+                    <view class="li-title-font">已签收</view>
+                    <view class="li-title-date">09-12 19:03</view>
+                    <view class="li-title-show">详情信息 →</view>
+                </view>
+                <view class="li-con">您已经贵阳市云岩区xx小区完成取件，感谢您使用菜鸟驿站，期待再次为您服务。</view>
+            </view>
+        </view>
     </view>
+
+
 
     <!-- 收货地址 -->
     <view class="c_add">
@@ -28,73 +46,75 @@
     <!-- 订单信息 -->
     <view class="c_orderInfo">
         <view class="c_o_tit c_o_titName">
-            <navigator hover-class="none" url="/pages/storeinfo/storeinfo"><text>佰群如生酒吧</text> <image src="/images/right_arr.png" mode="aspectFill"></image></navigator>
+            <navigator hover-class="none" url="/pages/storeinfo/storeinfo"><text>佰群如生酒吧</text>
+                <image src="/images/right_arr.png" mode="aspectFill"></image>
+            </navigator>
         </view>
         <view class="c_o_tit">外卖订单：00012022030443371220</view>
         <view class="c_o_con">
             <view class="ul">
-              <block wx:for="{{orderInfo}}">
-                  <view class="li">
-                      <navigator hover-class="none" url="/pages/pro/pro">
-                          <view class="img">
-                              <image src="{{item.img}}"></image>
-                          </view>
-                          <view class="c_o_info">
-                              <view class="h3">{{item.infoH3}}</view>
-                              <view class="span">{{item.infoSpan}}</view>
-                          </view>
-                          <view class="c_o_num">
-                              <view class="c_o_price">￥{{item.infoPrice}}</view>
-                              <view class="c_o_num">x{{item.infoNum}}</view>
-                          </view>
-                      </navigator>
-                  </view>
-              </block>
-              <!-- 价格信息 -->
-              <view class="priceInfo">
-                  <view class="priceInfoItem">
-                      <view class="priceInfoItemLi">
-                          <text class="priceInfoName">打包费</text>
-                          <text class="priceInfoprice">￥0</text>
-                      </view>
-                      <view class="priceInfoItemLi">
-                          <text class="priceInfoName">配送费</text>
-                          <text class="priceInfoprice">￥3</text>
-                      </view>
-                  </view>
-                  <view class="priceInfoItem">
-                      <view class="priceInfoItemLi">
-                          <text class="priceInfoName">优惠减免合计</text>
-                          <text class="priceInfoprice">-￥63</text>
-                      </view>
-                      <view class="priceInfoItemLi">
-                          <text class="priceInfoName">优惠券</text>
-                          <text class="priceInfoprice">-￥13</text>
-                      </view>
-                      <view class="priceInfoItemLi">
-                          <text class="priceInfoName">商品直减</text>
-                          <text class="priceInfoprice">-￥49</text>
-                      </view>
-                  </view>
-                  <view class="priceInfoItem">
-                      <view class="priceInfoItemLi">
-                          <text class="priceInfoName">共5件商品</text>
-                          <text class="priceInfoprice">实付 <text class="completePrice">￥98</text></text>
-                      </view>
-                  </view>
-              </view>
+                <block wx:for="{{orderInfo}}">
+                    <view class="li">
+                        <navigator hover-class="none" url="/pages/pro/pro">
+                            <view class="img">
+                                <image src="{{item.img}}"></image>
+                            </view>
+                            <view class="c_o_info">
+                                <view class="h3">{{item.infoH3}}</view>
+                                <view class="span">{{item.infoSpan}}</view>
+                            </view>
+                            <view class="c_o_num">
+                                <view class="c_o_price">￥{{item.infoPrice}}</view>
+                                <view class="c_o_num">x{{item.infoNum}}</view>
+                            </view>
+                        </navigator>
+                    </view>
+                </block>
+                <!-- 价格信息 -->
+                <view class="priceInfo">
+                    <view class="priceInfoItem">
+                        <view class="priceInfoItemLi">
+                            <text class="priceInfoName">打包费</text>
+                            <text class="priceInfoprice">￥0</text>
+                        </view>
+                        <view class="priceInfoItemLi">
+                            <text class="priceInfoName">配送费</text>
+                            <text class="priceInfoprice">￥3</text>
+                        </view>
+                    </view>
+                    <view class="priceInfoItem">
+                        <view class="priceInfoItemLi">
+                            <text class="priceInfoName">优惠减免合计</text>
+                            <text class="priceInfoprice">-￥63</text>
+                        </view>
+                        <view class="priceInfoItemLi">
+                            <text class="priceInfoName">优惠券</text>
+                            <text class="priceInfoprice">-￥13</text>
+                        </view>
+                        <view class="priceInfoItemLi">
+                            <text class="priceInfoName">商品直减</text>
+                            <text class="priceInfoprice">-￥49</text>
+                        </view>
+                    </view>
+                    <view class="priceInfoItem">
+                        <view class="priceInfoItemLi">
+                            <text class="priceInfoName">共5件商品</text>
+                            <text class="priceInfoprice">实付 <text class="completePrice">￥98</text></text>
+                        </view>
+                    </view>
+                </view>
             </view>
         </view>
     </view>
 
     <!-- 送达时间 -->
     <view class="time">
-      <view class="priceInfoItem">
-          <view class="priceInfoItemLi">
-              <text class="priceInfoName">送达时间</text>
-              <text class="priceInfoprice">2021-06-18 17:09</text>
-          </view>
-      </view>
+        <view class="priceInfoItem">
+            <view class="priceInfoItemLi">
+                <text class="priceInfoName">送达时间</text>
+                <text class="priceInfoprice">2021-06-18 17:09</text>
+            </view>
+        </view>
     </view>
 
 
@@ -104,3 +124,64 @@
 
 
 
+
+
+
+<!-- 物流弹窗 -->
+<view class="wrap">
+    <!-- modal -->
+    <view class="modal modal-bottom-dialog" hidden="{{hideFlag}}">
+        <view class="modal-cancel" bindtap="hideModal"></view>
+        <view class="bottom-dialog-body bottom-positon" animation="{{animationData}}">
+            <!-- -->
+            <view class="Mselect">
+
+                <view class="title">详情信息</view>
+                <view class="logistics">
+                    <view class="logisticsName">
+                        <image src="https://img1.baidu.com/it/u=165513674,1563172447&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" mode="" /> 圆通速递YT7412356255094
+                    </view>
+                    <view class="logisticsCon">
+                        <view class="li active">
+                            <view class="li_title">
+                                <view class="li-title-font">已签收</view>
+                                <view class="li-title-date">09-12 19:03</view>
+                            </view>
+                            <view class="li-con">您已经贵阳市云岩区xx小区完成取件，感谢您使用菜鸟驿站，期待再次为您服务。</view>
+                        </view>
+                        <view class="li">
+                            <view class="li_title">
+                                <view class="li-title-font">待取件</view>
+                                <view class="li-title-date">09-12 11:19</view>
+                            </view>
+                            <view class="li-con">您的快件已暂存至贵阳云岩区绿苑小区店菜鸟驿站，请凭取货码及时领取。如有疑问请联系<navigator>18788886666</navigator>
+                            </view>
+                        </view>
+                        <view class="li">
+                            <view class="li_title">
+                                <view class="li-title-font">派送中</view>
+                                <view class="li-title-date">09-12 11:19</view>
+                            </view>
+                            <view class="li-con">【贵州省贵阳市云岩区】的张某（<navigator>18788886666</navigator>）正在派件，请耐心等待！</view>
+                        </view>
+                        <view class="li">
+                            <view class="li_title">
+                                <view class="li-title-font">运输中</view>
+                                <view class="li-title-date">09-12 11:19</view>
+                            </view>
+                            <view class="li-con">贵州省贵阳市云岩区 已收入</view>
+                            <view class="li-con">您的快件已经到达【贵州省贵阳市云岩区】</view>
+                            <view class="li-con">您的快件离开【贵阳转运中心】</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view></view>
+            <view class="Mcancel" bindtap="mCancel">
+                <text>取消</text>
+            </view>
+
+        </view>
+    </view>
+
+</view>
