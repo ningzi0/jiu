@@ -92,16 +92,40 @@
 
 
 <view class="fixed">
-<search></search>
-<view class="quan"  bindtap="showDialogBtn1">
-    <text>领券</text>
-</view>
+    <view class="info">
+        <view class="info-flex">
+            <view class="logo">
+                <image src="https://images.liquorbox.cn/2022-06-14%20business/images/logo.png" mode="aspectFit"/>
+            </view>
+            <view class="info-text">
+                <view class="h3">酒盒便利店 <image src="https://images.liquorbox.cn/2022-06-14%20business/images/right.png" mode=""/></view>
+                <view class="p">公告：新店开业，欢迎您光临本店，本店服务至上，如果您在选购过程中，有任何意见或建议，均可联系我们，小店将竭诚为您服务！</view>
+                <view class="p">距离您4470m</view>
+            </view>
+        </view>
+        <view class="zt-btn">
+            <view class="zt-btnItem">
+                <view class="m_switch">
+                    <view class="ICONBOX {{viewId == 0 ? 'selected':''}} " bindtap="select" data-index= '0'>
+                        <view class="iconfont icon-haoping ic" ></view>自提
+                    </view>
+                    <view class="ICONBOX {{viewId == 1 ? 'selected':''}}" bindtap="select" data-index = '1'> 
+                        <navigator hover-class="none" url="/pages/Distribution/Distribution"><view class="iconfont icon-zhongping ic"></view>外卖</navigator>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
 
 
+    <view class="search">
+        <search></search>
+        <view class="quan"  bindtap="showDialogBtn1">
+            <image src="https://images.liquorbox.cn/2022-06-14%20business/images/quan.png" mode=""/>
+        </view>
+    </view>
 
-
-
-    <view class="menuAddress">
+    <!-- <view class="menuAddress">
         <view class="m_add">
             <view class="h3">首开紫郡店</view>
             <view class="span">南明区机场路8号首开紫郡紫香堤14栋2单元</view>
@@ -115,12 +139,14 @@
                 <navigator hover-class="none" url="/pages/Distribution/Distribution"><view class="iconfont icon-zhongping ic"></view>外卖</navigator>
             </view>
         </view>
-    </view>
+    </view> -->
 
     <!-- 导航 -->
-    <view class='top_nav'>
+    <view class='top_nav menuTopNav'>
     <view class="nav-name {{item.typeId == currentId ? 'nav-hover':''}}" wx:for="{{section}}" wx:key="id" id='{{item.typeId}}' catchtap='handleTap'>
-        <image src="{{item.imgUrl}}"></image>
+        <view class="borderBg">
+            <image src="{{item.imgUrl}}"></image>
+        </view>
         <text>{{item.name}}</text>
     </view>
     </view>
@@ -134,7 +160,7 @@
         <!-- 左侧导航 -->
         <view class='tui-fixed-left'>
             <scroll-view class='tui-city-scroll' scroll-x="true" scroll-y="true" style='height:99%;' scroll-with-animation="true" scroll-top="{{leftMenuTop}}">
-            <text class="menu-item {{index === currentActiveIndex ? 'menu-active' : ''}}" wx:for="{{navList}}" wx:key="unique" data-index="{{index}}" id='{{index}}' catchtap='changeMenu'>{{item.c_name}}</text>
+            <view class="menu-item {{index === currentActiveIndex ? 'menu-active' : ''}}" wx:for="{{navList}}" wx:key="unique" data-index="{{index}}" id='{{index}}' catchtap='changeMenu'>{{item.c_name}}</view>
             </scroll-view>
         </view>
 
@@ -142,11 +168,11 @@
         <view class='content'>
             <scroll-view class='tui-city-scroll-y' scroll-y="true" style='height:99%;' scroll-with-animation="true" scroll-top="{{rightProTop}}" bindscroll="scroll">
                 <!-- 广告位 -->
-                <view class="adv">
+                <!-- <view class="adv">
                     <navigator>
                         <image src="https://images.liquorbox.cn/2022-06-10/images/adv1.jpg" mode="aspectFill"></image>
                     </navigator>
-                </view>
+                </view> -->
 
                 <view class='pro-item' wx:for="{{navList}}" wx:key="unique">
                     <view class='tui-list-head' id='NAV{{index}}'>{{item.c_name}}<text>必喝啤酒爆款，无限回购</text></view>

@@ -21,7 +21,8 @@ Page({
     navList: [
       {
         c_id: "01",
-        c_name: '人气TOP',
+        c_icon:'',
+        c_name: '推荐',
         list: [
           {
             id: 1,
@@ -43,7 +44,8 @@ Page({
       },
       {
         c_id: "02",
-        c_name: '爆款推荐',
+        c_icon:'',
+        c_name: '活动',
         list: [
           {
             id: 1,
@@ -53,7 +55,7 @@ Page({
       },
       {
         c_id: "02",
-        c_name: '福佳啤酒',
+        c_name: '新店特惠',
         list: [
           {
             id: 1,
@@ -63,7 +65,7 @@ Page({
       },
       {
         c_id: "03",
-        c_name: '哈尔滨啤酒',
+        c_name: '黑啤',
         list: [
           {
             id: 1,
@@ -73,7 +75,7 @@ Page({
       },
       {
         c_id: "04",
-        c_name: '朝日啤酒',
+        c_name: '白啤',
         list: [
           {
             id: 1,
@@ -83,7 +85,7 @@ Page({
       },
       {
         c_id: "05",
-        c_name: '烏蘇啤酒',
+        c_name: '黄啤',
         list: [
           {
             id: 1,
@@ -93,7 +95,7 @@ Page({
       },
       {
         c_id: "06",
-        c_name: '麒麟一番榨',
+        c_name: '果味啤酒',
         list: [
           {
             id: 1,
@@ -103,7 +105,7 @@ Page({
       },
       {
         c_id: "07",
-        c_name: '珠江啤酒',
+        c_name: '红葡萄酒',
         list: [
           {
             id: 1,
@@ -113,7 +115,7 @@ Page({
       },
       {
         c_id: "08",
-        c_name: '百威啤酒',
+        c_name: '白葡萄酒',
         list: [
           {
             id: 1,
@@ -123,7 +125,27 @@ Page({
       },
       {
         c_id: "09",
-        c_name: '青岛啤酒',
+        c_name: '桃红葡萄酒',
+        list: [
+          {
+            id: 1,
+            url: '/images/pro1.jpg',
+          }
+        ]
+      },
+      {
+        c_id: "10",
+        c_name: '气泡酒',
+        list: [
+          {
+            id: 1,
+            url: '/images/pro1.jpg',
+          }
+        ]
+      },
+      {
+        c_id: "11",
+        c_name: '威士忌',
         list: [
           {
             id: 1,
@@ -135,17 +157,21 @@ Page({
     viewId : 0,
     currentId: '1',
     section: [{
-      imgUrl:'/images/pijiu.jpg',
-      name: '啤酒系列',
+      imgUrl:'https://images.liquorbox.cn/2022-06-14%20business/images/all.png',
+      name: '全部',
       typeId: '1'
     }, {
-      imgUrl:'/images/hongjiu.jpg',
-      name: '红酒系列',
+      imgUrl:'https://images.liquorbox.cn/2022-06-14%20business/images/pijiu.png',
+      name: '啤酒',
       typeId: '2'
     }, {
-      imgUrl:'/images/yangjiu.jpg',
-      name: '洋酒系列 ',
+      imgUrl:'https://images.liquorbox.cn/2022-06-14%20business/images/putaojiu.png',
+      name: '葡萄酒 ',
       typeId: '3'
+    }, {
+      imgUrl:'https://images.liquorbox.cn/2022-06-14%20business/images/whiskey.png',
+      name: '洋酒',
+      typeId: '4'
     }],
   },
 

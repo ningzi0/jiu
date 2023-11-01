@@ -1,7 +1,7 @@
 <view class="searchInput">
   <view class="searchInputContent">
-    <image src="/images/search.png"></image>
-    <input type="text" placeholder="哈尔滨啤酒" placeholder-style="color:#ddd"/>
+    <image src="https://images.liquorbox.cn/2022-06-14%20business/images/search.png"></image>
+    <input type="text" placeholder="搜索店内商品" placeholder-style="color:#9ea09d"/>
   </view>
 </view>
  

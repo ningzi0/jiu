@@ -7,19 +7,23 @@ page{
 
 /* menuContent */
 .menuContent{
-  height: 55vh;
+  height: 52vh;
   position: relative;
-  top: 474rpx;
+  top: 544rpx;
 }
 
 /* 左右侧导航 */
+.tui-city-scroll .menu-item:first-child{
+  margin-top: 0;
+}
+
 .tui-fixed-x{top: 0rpx;left: 0;}
 .tui-fixed-left{width: 180rpx;height: 100%;border-right: 1px solid #f6f6f6;
 background-color:#f5f5f5;top: 0rpx;left: 0;}
 .tui-city-scroll{width: 100%;}
 .menu-item{display: block;position: relative;width: 180rpx;height: 90rpx;line-height: 90rpx;font-size: 26rpx;margin: 30rpx 0;
-box-sizing: border-box;z-index: 10;text-align: center;}
-.menu-active{border-left:10rpx solid #5196ff;background-color:#e5e5e5;font-weight: bold;}
+box-sizing: border-box;z-index: 10;padding: 0 20rpx;}
+.menu-active{border-left:10rpx solid #fae325;background-color:#e5e5e5;font-weight: bold;}
 .content{padding:0 20rpx;position: absolute;top: 0;right: 0;width:570rpx;height: 99%;box-sizing: border-box;background: #fff;}
 .tui-city-scroll-y{height: 100%;box-sizing: border-box;margin-bottom: 170rpx;}
 .tui-list-head{font-size: 28rpx;font-weight: 700;padding: 20rpx 0;}
@@ -80,8 +84,8 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
   text-decoration: line-through;
 }
 .goods-box .add_shopCart{
-  background: #051d97;
-  color: #FFF;
+  background: #fae325;
+  color: #000;
   display: block;
 }
 
@@ -92,12 +96,11 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
   position: fixed;
   bottom: 20rpx;
   width: 95%;
-  background-color: #fff;
+  background-color: #2d3039fa;
   box-shadow: 0 0 20rpx rgba(0,0,0,0.1);
   z-index: 10000;
   left: 50%;
   border-radius: 300rpx;
-  overflow: hidden;
   transform: translate(-50%,0);
 }
 .buyCarLeft .img{
@@ -107,8 +110,7 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
   margin: 0 4rpx;
 }
 .buyCarLeft{
-  width: 60%;
-  background-color: #fff;
+  width: 64%;
   padding: 15rpx;
   display: inline-block;
   vertical-align: middle;
@@ -117,45 +119,50 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
   width: 74%;
   display: inline-block;
   vertical-align: middle;
+  padding-left: 15rpx;
 }
 .text .h3{
-  font-weight: bold;
+  font-weight: 500;
+  color: #fff;
+  font-size: 30rpx;
 }
 .text text{
-  color: #ef5426;
+  color: #fae325;
 }
 .buyCarLeft .img image{
-  width: 100rpx;
-  height: 100rpx;
+  width: 70rpx;
+  height: 70rpx;
   display: block;
 }
 .buyCarLeft .span{
   font-size: 20rpx;
+  color: #929292;
 }
 .buyCarLeft .img text{
   position: absolute;
-  top: -16rpx;
-  background-color: #c1a67b;
-  width: 40rpx;
-  height: 40rpx;
+  top: 0rpx;
+  background-color: #f00;
+  width: 30rpx;
+  height: 30rpx;
   text-align: center;
-  line-height: 40rpx;
+  line-height: 30rpx;
   border-radius: 50%;
   color: #fff;
-  font-weight: bold;
-  border: 5rpx solid #fff;
+  font-size: 24rpx;
+  border: 5rpx solid #2d3039fa;
   right: 0;
 }
 .buycarRight{
-  width: 35%;
+  width: 30%;
   display: inline-block;
   vertical-align: middle;
-  background-color: #051d97;
-  color: #fff;
+  background-color: #fae325;
+  color: #333;
   text-align: center;
-  padding: 45.5rpx 0;
+  padding: 32.5rpx 0;
   border-radius: 0 200rpx 200rpx 0;
-  float: right;
+  float: right;position: relative;
+  left: 2px;
 }
 
 .modal-dialog{
@@ -277,7 +284,7 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
 /* +号数字 */
 .add_shopCart text{
   position: absolute;
-  background-color: #c1a67b;
+  background-color: #f00;
   font-size: 24rpx;
   font-weight: 500;
   width: 35rpx;
@@ -286,6 +293,7 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
   border-radius: 50%;
   right: -10rpx;
   top: -15rpx;
+  color: #fff;
 }
 
 
@@ -310,16 +318,15 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
 
 
 .quan{
-  display: inline-block;
-  vertical-align: middle;
-  width: 13%;
-  text-align: center;
-  font-size: 28rpx;
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 15rpx;
-  margin: 25rpx 0;
+  width: 68rpx;
+  height:68rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 15rpx;
+}
+.quan image{
+  max-width: 100%;
+  height: 100%;
 }
 
 .modal-dialog{
@@ -397,3 +404,75 @@ text-align: center;font-size: 24rpx;text-overflow: ellipsis;white-space: nowrap;
 }
 
 
+
+
+/* /////////////////////////菜单顶部样式修改新增//////////////////////////////////////// */
+.info{
+  background: #2d3039;
+  padding: 20rpx;
+}
+.info-flex{
+  display: flex;
+}
+.logo{
+  width: 150rpx;
+  height: 100rpx;
+  background: #fff;
+  padding: 15rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+}
+.logo image{
+  max-width: 100%;
+  max-height: 100%;
+}
+.info-text{
+  padding: 0 20rpx;
+  width: 75%;
+}
+.info-text .h3{
+  color: #fff;
+}
+.info-text .h3 image{
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+.info-text .p{
+  font-size: 24rpx;
+  color: #bababa;
+  padding: 10rpx 0 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.zt-btn{
+  margin: 20rpx 0 0;
+  text-align: right;
+}
+.search{
+  position: relative;
+}
+.borderBg{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background: #eeeeee;
+  padding: 20rpx;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.borderBg image{
+  max-width: 100%;
+  max-height: 100%;
+}
+.menuTopNav{
+  padding: 15rpx 0;
+  background: #fff;
+}
+.m_switch {
+  width: 200rpx;
+}
+.zt-btnItem{
+  display: inline-block;
+}
